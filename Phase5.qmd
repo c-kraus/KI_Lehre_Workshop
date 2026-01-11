@@ -1,0 +1,183 @@
+# Phase 5: HeyGen – Vom Skript zum Lehrvideo
+
+> *„Ein gutes Video erklärt nicht mehr – es erklärt besser.“*  
+Und es weiß genau, **wann es aufhören muss**.
+
+Nach Recherche (Phase 1), Grounding (Phase 2), didaktischer Transformation (Phase 3) und Folienproduktion mit MARP (Phase 4) folgt eine Phase, die oft überschätzt und gleichzeitig falsch eingesetzt wird: **Video**.
+
+Videos sind kein Ersatz für Lehre.  
+Aber sie sind ein hervorragender **didaktischer Verstärker** – wenn man sie richtig einsetzt.
+
+## Warum überhaupt Videos? Der didaktische Nutzen jenseits von „Erklärfilm“
+
+In der Hochschullehre haben Videos drei legitime Rollen:
+
+1. **Orientierung** – Einstieg, Überblick, Erwartungsklärung  
+2. **Entlastung** – Auslagerung repetitiver Erklärungen (Formeln, Rechenwege, Definitionen)  
+3. **Asynchronität** – Lernen unabhängig von Zeit und Ort ermöglichen  
+
+Was Videos **nicht** gut können:
+- komplexe Argumentationsketten entwickeln
+- tiefes Lesen ersetzen
+- Diskussion simulieren
+
+> **Didaktischer Leitsatz:**  
+> Videos sind ideal für *Sprechen*.  
+> Denken passiert danach – im Text, in Aufgaben, im Seminar.
+
+::: {.quick-check}
+Wann sind Videos in der Lehre besonders sinnvoll?
+
+- Wenn Inhalte besonders komplex sind und möglichst lang erklärt werden müssen.
+- **Wenn kurze, klar umrissene Erklärungen oder Lösungen asynchron verfügbar sein sollen.**
+- Wenn Studierende lieber schauen als lesen.
+
+> Videos sind keine Bequemlichkeitslösung. Sie sind ein Präzisionswerkzeug.
+:::
+
+## HeyGen: Was das Tool leistet – und warum es passt
+
+**HeyGen** ist eine KI-basierte Video-Plattform zur Erstellung kurzer, professioneller Lehrvideos mit Avataren oder synthetischen Sprecherstimmen.  
+Didaktisch entscheidend ist nicht der Avatar, sondern der **Workflow**:
+
+> **Text → Stimme → Video**
+
+Lehrende liefern ein **Sprechskript**, HeyGen erzeugt daraus ein Video, das sich problemlos in Moodle, H5P, MARP-HTML oder Quarto-Seiten einbetten lässt.
+
+**Typische Einsatzszenarien:**
+- Einführung in ein Kapitel („Was erwartet Sie diese Woche?“)
+- Erklärung eines Rechenwegs oder einer Formel
+- Musterlösung zu einer Aufgabe
+- Zusammenfassung vor einer Prüfung
+
+> **Wichtig:**  
+> HeyGen ersetzt nicht die Lehrperson.  
+> Es skaliert ihre Stimme.
+
+::: {.flip-card}
+#### Der didaktische Sweet Spot von HeyGen
+Kurz, fokussiert, sprechbar.  
+1–3 Minuten sind kein technisches Limit, sondern ein pädagogisches.
+:::
+
+## Videos + MARP + H5P/Quarto: Das Zusammenspiel
+
+HeyGen entfaltet seine Wirkung nicht isoliert, sondern im **Verbund**:
+
+- **MARP** liefert die visuelle Struktur (Folie, Grafik, Formel)
+- **HeyGen** liefert die gesprochene Erklärung
+- **H5P oder Quarto** liefern Interaktion und Lernkontrolle
+
+Typischer Ablauf:
+1. MARP-Folien als HTML oder PDF exportieren
+2. Eine Folie oder ein Konzept auswählen („Das erkläre ich mündlich“)
+3. Sprechskript schreiben
+4. Video mit HeyGen erzeugen
+5. Video einbetten (Moodle, H5P, Quarto)
+
+Damit wird Video nicht zum Selbstzweck, sondern zu einem **Baustein im Lernprozess**.
+
+::: {.drag-exercise}
+Ein gutes Lehrvideo steht nie allein: Es ist eingebettet zwischen *Lesen*, *Nachdenken* und *Anwenden*.
+:::
+
+## D. Die Kunst des Sprechskripts: Schreiben für Ohren, nicht für Augen
+
+Der größte Fehler bei Lehrvideos ist trivial – und allgegenwärtig:  
+**Man liest einen Text vor, der für das Lesen geschrieben wurde.**
+
+Ein gutes Sprechskript folgt anderen Regeln.
+
+### Zentrale Regeln für Sprechtexte
+
+- **Kurze Sätze.** Ein Gedanke pro Satz.
+- **Zahlen ausschreiben.** „Zehn Prozent“, nicht „10 %“.
+- **Formeln übersetzen.**  
+  Nicht: „K0 mal eins plus i hoch n“.  
+  Sondern: „Ausgangskapital mal eins plus Zinssatz, potenziert mit der Laufzeit.“
+- **Pausen markieren.** Absätze, `-` oder `*` als Denkpausen.
+- **Direkte Ansprache.** „Schauen wir uns jetzt an …“
+
+> **Merksatz:**  
+> Ein gutes Sprechskript klingt nicht wie ein Buch.  
+> Es klingt wie ein kluger Mensch, der nachdenkt, während er spricht.
+
+::: {.flip-card}
+#### Schreiben ≠ Sprechen
+Was visuell klar ist, kann auditiv überfordern.  
+Sprechtexte müssen redundanter, rhythmischer und langsamer sein.
+:::
+
+### Typische Länge
+
+- 1 Minute ≈ 130–160 Wörter
+- Ideal: **1–3 Minuten pro Clip**
+- Lieber drei kurze Videos als ein „episches“ Erklärstück
+
+## E. Workflow: Von der Idee zum eingebetteten Video
+
+**Pragmatischer Standard-Workflow:**
+
+1. **Inhalt festlegen**  
+   *Was genau soll erklärt werden – und was bewusst nicht?*
+2. **Skript schreiben** (z. B. mit ChatGPT im „Sprechtext-Modus“)  
+3. **HeyGen öffnen**: https://www.heygen.com  
+4. **Avatar und Stimme wählen**  
+   Ruhiges Tempo, neutrale Betonung
+5. **Rendern und exportieren**  
+   MP4 oder Einbettungscode
+6. **Integration**  
+   Moodle, H5P, MARP-HTML oder Quarto
+
+Für die Hochschullehre genügt in der Regel der **Standard-Account**.
+
+::: {.drag-exercise}
+Ein Lehrvideo beginnt nicht mit Technik, sondern mit der Frage: *Was würde ich einer einzelnen Person jetzt mündlich erklären?*
+:::
+
+## Transparenz und Akzeptanz: Die KI-Stimme ist kein Makel
+
+Ein häufig geäußerter Vorbehalt betrifft die „künstliche Stimme“.  
+Didaktisch ist das Problem kleiner, als oft angenommen:
+
+- Studierende akzeptieren KI-Stimmen, wenn der Inhalt klar ist.
+- Transparenz ist entscheidend: *„Dieses Video wurde mit KI erstellt.“*
+- Authentizität entsteht durch **Klarheit**, nicht durch Perfektion.
+
+> **Realistische Einordnung:**  
+> Auch Vorlesungen sind Performances.  
+> HeyGen ist nur eine andere Bühne.
+
+## Wann man **kein** Video machen sollte
+
+- Wenn der Inhalt primär argumentativ ist → Text
+- Wenn Studierende selbst rechnen oder denken sollen → Aufgabe
+- Wenn Diskussion im Vordergrund steht → Präsenz oder Forum
+
+> **Didaktische Reife zeigt sich darin, auf Videos zu verzichten, wenn sie nichts gewinnen.**
+
+::: {.quick-check}
+Was ist die wichtigste didaktische Funktion von HeyGen?
+
+- Möglichst realistische Avatare zu erzeugen.
+- Lange Vorlesungen zu automatisieren.
+- **Kurze, präzise Erklärungen und Lösungen asynchron verfügbar zu machen.**
+
+> Videos sind keine Abkürzung zur Lehre.  
+> Sie sind ein Werkzeug für Klarheit.
+:::
+
+## Der erweiterte Gesamtworkflow (Phase 1–6)
+
+1. **Perplexity** – Recherche und Perspektiven  
+2. **NotebookLM** – Grounding und Wissensstabilisierung  
+3. **Gemini/ChatGPT** – Didaktische Transformation  
+4. **MARP** – Folien aus Markdown   
+5. **HeyGen** – Sprechen dort, wo Text allein nicht reicht  
+6. **H5P oder Quarto** – Interaktive Lernräume 
+
+Damit ist der Werkzeugkasten vollständig.  
+Nicht als Pflichtprogramm – sondern als **didaktische Architektur**.
+
+> *Gute Lehre entsteht nicht durch mehr Medien.  
+> Sie entsteht durch bessere Entscheidungen.*

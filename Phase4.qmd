@@ -1,0 +1,183 @@
+# Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline
+
+> *„PowerPoint ist ein Malprogramm. MARP ist eine Produktionsanlage.“*  
+Und wie jede Produktionsanlage zwingt es uns zu etwas, das in der Lehre selten, aber heilbringend ist: **Trennung von Inhalt und Form**.
+
+Nach Perplexity (Phase 1), NotebookLM (Phase 2) und der didaktischen Transformation mit Gemini/ChatGPT (Phase 3) folgt Phase 4: die mediale Ausspielung. Für viele heißt das reflexartig: *Folien*.  
+Aber eine reife Hochschuldidaktik stellt zuerst eine ketzerische Frage:
+
+**Brauchen wir überhaupt Folien?**
+
+Manchmal ja. Oft nein. Und gelegentlich sind Folien schlicht ein Ersatz für etwas, das wir nicht geliefert haben: einen klaren Reader.
+
+## Braucht man Folien wirklich? Reader, Flipped Classroom und das Ende der Folienpflicht
+
+Folien sind historisch ein „Live-Interface“: Sie helfen beim Präsentieren, beim Strukturieren, beim Taktgeben. Aber sie sind ein miserables Medium zum Lernen, wenn sie den Reader ersetzen sollen. Wer jemals eine Prüfungsvorbereitung mit 80 Slides erlebt hat, weiß: Das ist kein Lernmaterial, das ist ein optisches Sedativum.
+
+**Wenn Sie einen guten Reader haben, brauchen Sie oft weniger Folien.**  
+Und wenn Sie ein interaktives Buch haben – etwa als Quarto-generierte HTML-Seite mit Übungen, Checks und Deep Dives – dann kann das klassische Folienset im Sinne eines **Flipped Classroom** sogar *überflüssig* werden:
+
+- Studierende lesen und interagieren vorab im Quarto-Book.
+- Präsenzzeit wird zu Diskussion, Anwendung, Problemlösen.
+- Folien werden optional: als roter Faden, nicht als Wissenscontainer.
+
+> **Didaktischer Leitgedanke:**  
+> Folien sind kein Lernmedium. Sie sind ein *Synchronisationsmedium*.
+
+::: {.quick-check}
+Wann sind Folien in einem Flipped-Classroom-Setting am ehesten verzichtbar?
+
+- Wenn die Lehrperson besonders schön animieren kann.
+- **Wenn ein gut strukturierter Reader oder ein interaktives Quarto-Book die Inhalte inkl. Übungen und Checks bereits trägt.**
+- Wenn Studierende grundsätzlich lieber Folien als Texte mögen.
+
+> Gute Lehre ist keine Folienreligion. Sie ist Medienwahl nach Funktion.
+:::
+
+## Warum MARP? Separation of Concerns – Inhalt hier, Design dort
+
+MARP erzeugt Folien aus Markdown. Klingt technisch, ist aber pädagogisch klug:  
+Markdown zwingt Sie dazu, den **Inhalt** sauber zu formulieren, bevor Sie sich im Layout verlieren. Das ist die berühmte *Separation of Concerns*:
+
+- **Content**: Was soll gelernt werden? Was ist die Argumentation? Was ist das Beispiel?
+- **Form**: Wie sieht es aus? Welche Typografie, Farben, CI, Layout?
+
+PowerPoint vermischt beides in einem Dokument. Das fühlt sich bequem an, ist aber didaktisch gefährlich: Man optimiert Layout, bevor man Klarheit optimiert. MARP dreht das um. Erst Denken, dann Design.
+
+::: {.flip-card}
+#### Separation of Concerns (didaktisch übersetzt)
+Wenn Inhalt und Form getrennt sind, wird das Denken sauberer.  
+MARP verhindert, dass man „Designentscheidungen“ trifft, um „Inhaltsprobleme“ zu kaschieren.
+:::
+
+## Markdown-Grundlagen: Die minimalen Bausteine, die Sie brauchen
+
+Markdown ist eine einfache Auszeichnungssprache. Sie markieren Struktur, nicht Layout. Das ist keine Einschränkung – das ist Befreiung.
+
+**Die wichtigsten Elemente für Folien:**
+
+- Überschriften: `#`, `##`
+- Hervorhebung: `**fett**`, `*kursiv*`
+- Listen: `- Punkt`
+- Code: ``` … ```
+- Folientrenner in MARP: `---`
+
+> **Merksatz:**  
+> Markdown ist der Stoffwechsel zwischen Mensch und Maschine: klar genug für Menschen, strukturiert genug für Tools.
+
+::: {.drag-exercise}
+MARP-Folien werden in einer `.md`-Datei geschrieben. Neue Folien entstehen durch den Trenner `---`. Damit trennen wir *Inhalt* von *Layout* und bleiben versionierbar.
+:::
+
+## MARP in VS Code: Der „Editor als Folienfabrik“
+
+MARP funktioniert am angenehmsten in **Visual Studio Code** – über eine Extension, die Preview, Export und Theme-Handling integriert. Das ist didaktisch relevant, weil es den Workflow niedrigschwellig macht: Lehrende arbeiten im selben Dokument, das später exportiert wird. Keine Medienbrüche, keine Copy-Paste-Hölle.
+
+### Installation der MARP Extension
+
+1. VS Code öffnen  
+2. Extensions (Seitenleiste)  
+3. Nach **“Marp for VS Code”** suchen  
+4. Installieren und aktivieren  
+
+Danach können Sie Markdown-Dateien direkt als Folien previewen und exportieren.
+
+### Der YAML-Header: Das Steuerpult ganz oben
+
+Jede MARP-Datei beginnt mit einem Header, der Konfiguration und Theme setzt:
+
+```yaml
+---
+marp: true
+paginate: true
+theme: thws-pr
+---
+```
+
+<details><summary>Deep Dive: Warum der Header didaktisch wichtig ist</summary>
+
+Der Header ist die Stelle, an der Sie Regeln definieren, nicht Folien „malen“.
+Das fördert Konsistenz: gleiche Optik, gleiche Fußzeilen, gleiche Typografie – ohne dass jemand in der Lehrveranstaltung an Layout-Kleinigkeiten herumklickt.
+
+</details>
+
+## THWS-Templates: Corporate Design ohne Schmerzen
+
+Die THWS-Themes und Templates können aus dem GitHub-Repository heruntergeladen werden:
+
+https://github.com/c-kraus/thws
+
+Didaktisch ist das mehr als „CI-Politur“:
+Es reduziert die kognitive Last bei der Materialproduktion. Lehrende müssen nicht jedes Semester Folien „neu designen“. Sie schreiben Inhalte, das Template erledigt den Rest.
+
+Pro-Tipp:
+Legen Sie ein Kurs-Repository an (Git). Ihre Folien sind dann versioniert, nachvollziehbar, kollaborativ bearbeitbar – und damit akademisch „reproduzierbar“.
+
+::: {.flip-card}
+
+Warum Templates mehr sind als Kosmetik
+
+Ein Template ist eine didaktische Infrastruktur: Es standardisiert Form, damit Sie Zeit in Inhalt investieren können.
+Das ist keine Bürokratie – das ist Professionalität.
+:::
+
+## Export: HTML, PDF, (optional) PPTX – je nach Lehrszenario
+
+MARP kann aus VS Code heraus exportieren:
+
+HTML: Präsentation im Browser (ideal für Live und Moodle-Embedding)
+
+PDF: stabil, portabel, druckbar (Standard für Verteilung)
+
+PPTX (optional): wenn institutionelle Gewohnheiten es verlangen
+
+Wichtig ist die didaktische Entscheidung:
+PDF ist häufig genug – vor allem, wenn der Reader (Quarto) die eigentliche Lernarbeit trägt.
+
+G. Der End-to-End-Workflow: Von KI-Analyse zu CI-konformen Folien
+
+In der idealen Pipeline ist MARP nicht „ein Tool“, sondern der letzte Produktionsschritt:
+
+Perplexity liefert Quellen und Perspektiven (Recherche)
+
+NotebookLM stabilisiert Wissen (Grounding & Synthese)
+
+Gemini/ChatGPT transformiert in Lernziele, Dramaturgie, Aufgaben (Didaktik)
+
+MARP gießt das Ergebnis in ein reproduzierbares Folienset (Distribution)
+
+Damit wird Folienproduktion zu etwas, das sie immer hätte sein sollen: eine Ableitung, nicht ein Kunstprojekt.
+
+::: {.drag-exercise}
+MARP ist der letzte Schritt: Wenn Lernziele, Struktur und Aufgaben bereits stehen, werden Folien zur Ausspielung – nicht zur Denkkrücke.
+:::
+
+## Anhang: Bestehender THWS-MARP-Foliensatz (Referenz)
+
+Als Ausgangspunkt können Sie den bestehenden Foliensatz nutzen, der bereits die Basics (Markdown, VS Code, Export, THWS-Themes) abdeckt.
+
+<details><summary>Anhang öffnen: „Präsentationen mit MARP“ (bestehende Folienstruktur)</summary>
+
+Der vorhandene Foliensatz enthält:
+
++ Überblick und Zielsetzung
++ Markdown-Grundlag en
++ MARP in VS Code (Extension + YAML-Header)
++ Exportformate
++ THWS-Themes und Einsatzlogik
+
+**Typischer Workflow (NotebookLM → ChatGPT → MARP)**
+
+Nutzen Sie ihn als Template, nicht als Dogma: Inhalte müssen zur Lehrlogik passen, nicht zur Folienästhetik.
+
+</details>
+
+::: {.quick-check}
+Was ist der didaktische Kernvorteil von MARP gegenüber klassischer Folienarbeit?
+
+- Mehr Animationen und grafische Freiheit.
+- **Trennung von Inhalt und Form: Markdown erzwingt Klarheit, Templates sichern Konsistenz.**
+- Studierende lernen schneller, weil Folien automatisch schöner aussehen.
+
+> MARP ist kein Design-Upgrade. Es ist ein Denk-Upgrade.
+:::

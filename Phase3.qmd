@@ -1,0 +1,175 @@
+# Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine
+
+> *„Wissen ist Rohöl. Didaktik ist Raffinerie.“*  
+Perplexity findet die Quellen. NotebookLM macht daraus belastbares Wissen. Und jetzt kommt Phase 3: Aus Wissen wird **Lehre** – strukturiert, prüfbar, medienfähig.
+
+Wenn Phase 1 und 2 gut gemacht sind, liegen vor Ihnen keine „KI-Antworten“, sondern etwas sehr viel Wertvolleres: eine kuratierte, quellenbasierte Erkenntnismasse. Phase 3 ist der Moment, in dem Sie diese Masse nicht weiter „analysieren“, sondern **didaktisch veredeln**.
+
+Hier kommen generative Modelle wie **Gemini** oder **ChatGPT** ins Spiel. Nicht als Wahrheitsorakel – sondern als **Lehrredaktion**: Sie helfen beim Strukturieren, Vereinfachen, Visualisieren, Prüfen und Verpacken. Der intellektuelle Anspruch bleibt akademisch. Der Output wird lehrbar.
+
+## Rollenklärung: Was generative KI hier darf – und was nicht
+
+Generative KI ist in Phase 3 nicht der Bibliothekar, sondern der **Drehbuchautor**. Sie soll nicht „noch mehr recherchieren“, sondern vorhandenes Material in lernwirksame Formen gießen.
+
+Der Kernkonflikt ist dabei simpel:  
+**Phase 2 optimiert Faktentreue. Phase 3 optimiert Verständlichkeit.**  
+Und diese Optimierungen stehen manchmal in Spannung. Gute Lehre ist nicht „maximale Dichte“, sondern **maximale Anschlussfähigkeit** – ohne in Trivialität abzustürzen.
+
+> **Normativer Leitgedanke:**  
+> Generative KI darf *formulieren* und *strukturieren*. Sie darf nicht *erfinden*.  
+> Alles, was wie ein Fakt klingt, muss aus Phase 2 stammen oder explizit als Hypothese markiert werden.
+
+::: {.flip-card}
+#### Die „Zwei-Text“-Regel
+**Text A**: Der quellenbasierte Kern (aus NotebookLM).  
+**Text B**: Die didaktische Inszenierung (aus Gemini/ChatGPT).  
+Text B darf Text A nicht widersprechen – nur verständlicher, schöner, prüfbarer machen.
+:::
+
+## Der didaktische Workflow: Von Erkenntnis zu Lerneinheit
+
+Phase 3 funktioniert am besten als klarer Dreischritt. Nicht, weil Sie gerne Prozesse lieben – sondern weil Studierende sonst verlieren.
+
+### Schritt 1: Lernziel-Architektur (Constructive Alignment)
+
+Sie starten nicht mit Folien. Sie starten mit **Lernzielen**.  
+Denn jede „schöne Erklärung“ ist wertlos, wenn am Ende unklar ist, was Studierende *können* sollen.
+
+**Prompt (Lernziel-Design):**
+> „Du bist Hochschuldidaktiker:in. Erstelle aus dem folgenden Inhalt 4–6 Lernziele im Stil von Constructive Alignment.  
+> Für jedes Lernziel: (1) Verb nach Bloom, (2) Nachweisform (Prüfungsleistung), (3) typische Fehlvorstellung von Studierenden.“
+
+### Schritt 2: Lehrlogik und Dramaturgie (Hook → Substance → Practice → Check)
+
+Dann bauen Sie eine Einheit wie eine gute Argumentation: Einstieg, Kern, Transfer, Kontrolle.  
+Nicht als Bullet-Point-Friedhof, sondern als **didaktischer Spannungsbogen**.
+
+**Prompt (Einheitenstruktur 45–90 Minuten):**
+> „Erstelle eine Lehreinheit (45 Minuten) auf Basis des Materials.  
+> Struktur: Hook (Problem/Provokation), Theorie (Kernkonzepte), Beispiel (Fall), Anwendung (Mini-Übung), Lernkontrolle (Quiz).  
+> Gib zu jedem Abschnitt: Zeitbudget, Lehrform (Impuls, Diskussion, Gruppenarbeit), erwartetes Output-Artefakt.“
+
+### Schritt 3: Medien- und Interaktionsproduktion (Slide, H5P, Skript, Video)
+
+Erst jetzt kommt die Produktion: Folien, Aufgaben, Quiz, Sprechtext.  
+Hier spielt generative KI ihre Stärke aus: Sie ist eine Formatmaschine.
+
+**Prompt (Medienpaket):**
+> „Erzeuge ein konsistentes Medienpaket:  
+> (1) Folienskript mit 8–10 Folien (Titel + Kernaussage + Visual-Idee),  
+> (2) Handout (1 Seite) mit Merksätzen und Mini-Glossar,  
+> (3) 5 Prüfungsfragen (MC + Begründung),  
+> (4) 1 Fallaufgabe mit Lösungsskizze.“
+
+::: {.drag-exercise}
+Phase 3 bedeutet nicht *mehr Wissen*, sondern *besseres Lernen*: von *Erkenntnis* zu *Lernziel*, von *Lernziel* zu *Lehrlogik*, von *Lehrlogik* zu *Medien*.
+:::
+
+## Didaktische Blaupausen: Vier typische Lehrprodukte
+
+### Blaupause 1: Die Vorlesungsminiatur (10-Minuten-Impuls)
+
+Ideal als Einstieg oder als „Concept Primer“ vor einem Seminartext.
+
+> **Prompt:**
+> „Schreibe einen 10-minütigen Vorlesungsimpuls.  
+> Ton: präzise, akademisch, aber zugänglich.  
+> Baue ein Beispiel aus der Praxis ein und beende mit einer Leitfrage für Diskussion.“
+
+### Blaupause 2: Die Seminar-Debatte (Positionen + Evidenz)
+
+Studierende verwechseln gerne Meinung mit Argument. Phase 3 macht daraus eine Übung mit Norm.
+
+> **Prompt:**
+> „Erstelle ein Debatten-Set:  
+> 1 Pro-Position, 1 Contra-Position, 1 Mittelposition.  
+> Jede Position: 3 Argumente + 1 typische Schwachstelle.  
+> Danach: 5 Cross-Examination-Fragen für die Gegenseite.“
+
+### Blaupause 3: Der Prüfungsbaukasten (Bloom-gesteuert)
+
+Die Qualität einer Prüfung ist die Qualität Ihrer Taxonomie.
+
+> **Prompt:**
+> „Erstelle 9 Prüfungsitems:  
+> 3 Recall/Verstehen, 3 Anwenden/Analysieren, 3 Evaluieren/Gestalten.  
+> Für jedes Item: Erwartungshorizont + häufige Fehler + kurze Feedbackformulierung.“
+
+### Blaupause 4: H5P/Interaktive Formate (ohne Magie, mit Mechanik)
+
+Interaktivität ist kein Selbstzweck. Sie ist ein Test, ob Denken stattfindet.
+
+> **Prompt:**
+> „Erzeuge Material für ein interaktives Lernmodul:  
+> - 1 Lückentext (5 Lücken)  
+> - 1 Drag-and-Drop-Zuordnung (Begriff → Definition)  
+> - 1 Single-Choice-Quiz (3 Fragen)  
+> Bitte so formulieren, dass ich es direkt in ein E-Learning-Tool übertragen kann.“
+
+::: {.flip-card}
+#### Der Lehrredakteur-Modus
+Die beste Rolle für Gemini/ChatGPT ist nicht „Dozent:in“, sondern „Lehrredaktion“:  
+Strukturieren, glätten, zuspitzen, visualisieren — ohne neue Fakten zu erfinden.
+:::
+
+## Qualitätskontrolle: Der akademische Sicherheitsgurt
+
+Phase 3 ist produktiv – und gefährlich. Nicht, weil die Modelle „böse“ sind, sondern weil sie stilistisch überzeugend sind. Und Überzeugung ist kein Wahrheitskriterium.
+
+### Minimal-Checkliste für Lehrende
+
+1. **Faktenanker:** Jede Zahl, jede Definition, jede empirische Behauptung muss aus Phase 2 stammen oder als unsicher markiert sein.  
+2. **Begriffsdisziplin:** Begriffe werden konsistent verwendet (keine stillen Bedeutungswechsel).  
+3. **Didaktische Passung:** Beispiele passen zum Niveau (Bachelor ≠ Master ≠ Weiterbildung).  
+4. **Prüfungslogik:** Aufgaben prüfen Lernziele – nicht Texttreue.  
+5. **Transparenz:** KI-Nutzung wird im Kurs kommuniziert (Regeln, Grenzen, Erwartung an Eigenleistung).
+
+<details><summary>Deep Dive: „Halluzination“ in Phase 3 ist oft kein Faktfehler, sondern ein Strukturfehler</summary>
+
+Viele Probleme entstehen nicht durch falsche Fakten, sondern durch didaktische Verführung:
+- ein Beispiel, das „nett“ klingt, aber das Konzept falsch abbildet
+- eine Analogie, die Nebenannahmen einführt
+- eine Vereinfachung, die den Kern entstellt
+
+Die Gegenmaßnahme ist banal und effektiv:  
+**Beispiel/Analogie immer rückübersetzen lassen.**  
+„Welche exakten Elemente des Konzepts repräsentiert diese Analogie – und was bleibt weg?“
+
+</details>
+
+::: {.drag-exercise}
+Didaktische Qualität entsteht nicht durch *schöne Sprache*, sondern durch *prüfbare Passung*: Lernziel ↔ Inhalt ↔ Aufgabe ↔ Feedback.
+:::
+
+## Hands-On: Drei „Master-Prompts“ für die Praxis
+
+### Master-Prompt 1: Von NotebookLM-Report zu Lehrveranstaltung
+
+> „Du erhältst gleich einen Bericht (Inhalt).  
+> Aufgabe: Erzeuge daraus eine 60-minütige Lehreinheit für Bachelorstudierende.  
+> Struktur: Hook, Theorie, Beispiel, Anwendung, Lernkontrolle.  
+> Gib: Lernziele (Bloom), Zeitplanung, Visual-Ideen, 3 Interaktionen (kurz), 1 Quiz (5 Fragen).  
+> Schreibe in akademischem Deutsch, präzise und motivierend.“
+
+### Master-Prompt 2: Von Konzept zu Fallstudie
+
+> „Erstelle eine Fallstudie mit:  
+> Kontext (Unternehmen/Organisation), Datenlage, Konflikt, Aufgabenstellung (3 Fragen), Lösungsskizze.  
+> Schwierigkeitsgrad: mittel.  
+> Ziel: Anwendung des Konzepts auf eine realistische Entscheidungssituation.“
+
+### Master-Prompt 3: Von Inhalt zu Video-Skript
+
+> „Schreibe ein 90-Sekunden-Video-Skript.  
+> Anforderungen: kurze Sätze, sprechbar, klare Übergänge, 1 Metapher, 1 Mini-Beispiel, 1 Abschlussfrage.  
+> Gliedere nach Szenen (Intro, Kern, Beispiel, Abschluss).“
+
+::: {.quick-check}
+Was ist die zentrale Funktion von Gemini/ChatGPT in Phase 3?
+
+- Neue wissenschaftliche Fakten recherchieren und belegen.
+- Den Inhalt aus Phase 2 ersetzen, weil er zu „trocken“ ist.
+- **Quellenbasiertes Wissen in didaktische Strukturen, Medienformate und prüfbare Lernaktivitäten transformieren.**
+
+> Phase 3 macht aus Wissen Lehre. Nicht durch mehr Wahrheit, sondern durch bessere Form.
+:::

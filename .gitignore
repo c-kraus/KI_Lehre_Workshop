@@ -1,0 +1,29 @@
+# --- Quarto & Output ---
+/.quarto/
+/_site/
+/_book/
+# _freeze/  # Aktivieren, falls du Berechnungen (Jupyter) NICHT auf GitHub neu rechnen lassen willst
+
+# --- MacOS Systemmüll (The Apple Trap) ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Python & Jupyter (AI & Data) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+env/
+.env
+
+# --- Typst & PDF Artefakte ---
+# Wir ignorieren generierte PDFs, da sie "Build Artifacts" sind.
+# (Außer du willst sie zwingend versionieren, dann diese Zeile löschen)
+*.pdf
+
+# --- Logfiles ---
+*.log

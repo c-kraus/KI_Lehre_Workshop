@@ -1,0 +1,162 @@
+# Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche
+
+> *„Recherche ist nicht das Sammeln von Links. Recherche ist das Design einer Erkenntnisroute.“*  
+Und Perplexity ist der Reiseleiter, der Ihnen nicht nur den Weg zeigt, sondern auch die Quittungen (Quellen) mitliefert.
+
+Wer in der Hochschullehre heute ernsthaft mit KI arbeitet, muss eine unangenehme Wahrheit akzeptieren: **Die meisten Studierenden verwechseln Information mit Erkenntnis.** Sie googeln, sie scrollen, sie kopieren — und nennen das „Literaturarbeit“. Perplexity ist kein pädagogischer Zauberstab, aber es ist ein Werkzeug, das genau diese Verwechslung sichtbar macht: Es zwingt dazu, Antworten als **quellenbasierte Synthesen** zu verstehen, nicht als spontane Eingebung eines Chatbots.
+
+Didaktisch ist Perplexity damit mehr als „Google mit besserem Tonfall“. Es ist eine **Recherche-Architektur**, die sich hervorragend eignet, um akademische Kernkompetenzen zu trainieren: Quellenkritik, begründete Argumentation, Perspektivenvergleich, iterative Fragestellung. Kurz: Es passt dorthin, wo Wissenschaft beginnt — nicht beim Ergebnis, sondern bei der Methode.
+
+## Strategische Positionierung: Perplexity ist kein ChatGPT mit anderem Logo
+
+Perplexity ist im KI-Ökosystem ein Spezialist: Es optimiert nicht primär die Generierung neuer Texte, sondern den **Zugang zu und die Synthese von vorhandener Information**. Der Unterschied klingt banal, ist aber didaktisch fundamental. Generative Systeme glänzen, wenn es um Formulierung, Struktur, kreative Varianten und sparringspartnerartige Dialoge geht. Perplexity glänzt, wenn es um **Recherche mit Quellenbezug** geht.
+
+Das ist genau der Punkt, an dem Hochschullehre oft scheitert: Studierende lesen selten die Originale, sondern leben von Sekundär- und Tertiärverwertungen. Perplexity kann dieses Verhalten verstärken — oder, richtig eingesetzt, unterlaufen. Denn seine Stärke liegt darin, dass es Antworten **mit Quellen** koppelt und damit die Tür zur akademischen Norm öffnet: *Behauptungen brauchen Belege.*
+
+::: {.drag-exercise}
+Perplexity ist vor allem ein *Recherche*-Werkzeug: Es liefert quellenbasierte *Synthesen*, während generative Systeme stärker auf *Textproduktion* und *Ideenentwicklung* optimiert sind.
+:::
+
+## Das Funktionsprinzip: Von der Frage zur Recherchekette
+
+Perplexity arbeitet wie ein sehr schneller wissenschaftlicher Assistent: Es sucht, filtert, gewichtet, fasst zusammen — und zeigt dabei offen, auf welche Quellen es sich stützt. Didaktisch interessant ist nicht nur die Antwort, sondern der Weg dorthin: Perplexity macht Recherche **iterativ**. Eine gute Sitzung besteht nicht aus einer Frage, sondern aus einer Kette von Anschlussfragen, die das Thema schrittweise schärfen.
+
+Hier steckt ein hochschuldidaktischer Hebel: Sie können Studierende dazu bringen, nicht nur „eine Antwort“ zu wollen, sondern **eine präzise Fragestellung** zu entwickeln. In Seminaren ist das oft der eigentliche Lernfortschritt. Die Hausarbeit scheitert selten am Schreiben — sie scheitert am Denken vorher.
+
+<details><summary>Didaktischer Kern: Perplexity als Trainingsgerät für „Fragekompetenz“</summary>
+
+Perplexity belohnt präzise Prompts, aber nicht im Sinne von „Prompt-Magie“, sondern im Sinne wissenschaftlicher Klarheit: Begriffe definieren, Kontexte abstecken, Zeiträume nennen, Region oder Disziplin festlegen, konkurrierende Perspektiven einfordern.  
+Wer Perplexity „richtig“ nutzen will, muss wissenschaftlich fragen lernen — und genau das ist eine prüfungsrelevante Kompetenz.
+
+</details>
+
+::: {.flip-card}
+#### Anschlussfragen sind das eigentliche Produkt
+Die erste Antwort ist selten das Ziel. Der didaktische Gewinn liegt in den Anschlussfragen: Sie eröffnen neue Dimensionen, testen Annahmen und zwingen zur Präzisierung der Fragestellung — wie ein gutes Kolloquium, nur ohne Kaffee.
+:::
+
+## Die Steuerungsinstrumente: Focus, Modi und Quellenarbeit (das akademische Cockpit)
+
+Perplexity ist dann stark, wenn Sie die Suchdomäne und die Tiefe bewusst steuern. Hochschullehre braucht genau das: Kontrolle über Qualität, Anschlussfähigkeit und Nachvollziehbarkeit.
+
+### Focus: Die Disziplin schaltet den Lärm aus
+
+Mit der Focus-Funktion begrenzen Sie, *wo* gesucht wird. Didaktisch ist das eine elegante Brücke zur Methodenlehre: „Welche Quellenräume sind für welche Fragen legitim?“ Web ist breit, Academic ist enger, Social ist diskursiv, Videos sind demonstrativ, Writing ist produktiv — aber nicht recherchierend.
+
+In einem Seminar können Sie daraus eine kleine epistemische Provokation machen:  
+*Wenn Sie im Social-Focus recherchieren, bekommen Sie nicht Wahrheit, sondern Diskurs. Wenn Sie im Academic-Focus recherchieren, bekommen Sie nicht immer Aktualität, aber methodische Strenge.* Beides kann sinnvoll sein — wenn man weiß, was man tut.
+
+::: {.drag-exercise}
+Mit der Funktion *Focus* lässt sich die Suchdomäne eingrenzen: *Academic* für wissenschaftliche Quellen, *Web* für allgemeine Echtzeitrecherche, *Social* für Diskurse und Meinungen.
+:::
+
+### Modi: Von der schnellen Antwort zur tiefen Recherche
+
+Perplexity ist nicht monolithisch. Es kennt unterschiedliche Tiefen: von der schnellen, pragmatischen Abfrage bis zu agentenartigen Recherchen, die mehrere Quellenstränge kombinieren. Für die Lehre bedeutet das: Sie können den Rechercheaufwand **didaktisch dosieren**.
+
+- In der Vorlesung: schnelle Synthese zur Orientierung.
+- Im Seminar: tieferer Modus für systematische Literaturarbeit.
+- In Projektarbeiten: agentenartige Recherche als Startpunkt für eine strukturierte Quellensammlung.
+
+Das Entscheidende bleibt aber gleich: **Die Quellen müssen in die Hand der Studierenden zurück.** Perplexity darf nicht das Lesen ersetzen, sondern muss das Lesen vorbereiten — wie eine gute Einleitung, nicht wie ein Ersatzroman.
+
+::: {.flip-card}
+#### Quellenmanagement ist Prüfungsmanagement
+Wenn Studierende Quellen nicht prüfen, prüfen Sie am Ende nicht Wissen, sondern Stil. Perplexity kann Belege sichtbar machen — aber akademische Integrität entsteht erst, wenn Studierende die Quellen *lesen* und *bewerten*.
+:::
+
+## Hochschuldidaktische Einsatzszenarien: Vier Blaupausen mit Prompts
+
+Theorie ist sympathisch. Lehre ist gnadenlos praktisch. Die folgenden Szenarien sind so gebaut, dass sie direkt in Lehrveranstaltungen eingesetzt werden können — als Übung, als Gruppenarbeit oder als Vorbereitung auf Prüfungsleistungen.
+
+### Szenario 1: Der Literatur-Scout (Seminarvorbereitung)
+
+**Ziel:** Studierende lernen, ein Themenfeld systematisch zu kartieren, statt „irgendwas“ zu googeln.
+
+> **Prompt:**  
+> „Erstelle eine erste Forschungslandkarte zum Thema: *[Thema X]*.  
+> - Gib mir 6–10 zentrale Konzepte/Begriffe, die in der Literatur dominieren.  
+> - Nenne zu jedem Konzept 1–2 wissenschaftliche Schlüsselquellen (mit Link/Quelle).  
+> - Formuliere 5 präzise Anschlussfragen, die für ein Seminarreferat sinnvoll wären.“
+
+**Didaktischer Twist:** Lassen Sie Studierende die Begriffe anschließend definieren — aber nur anhand der Originalquellen.
+
+::: {.drag-exercise}
+Eine gute Recherche beginnt nicht mit Antworten, sondern mit *Begriffen*. Wer die Begriffe nicht klärt, diskutiert später nur über Schatten an der Wand.
+:::
+
+### Szenario 2: Der Quellen-TÜV (Quellenkritik als Übung)
+
+**Ziel:** Studierende trainieren Kriterien wie Aktualität, Autorität, Methodik, Bias.
+
+> **Prompt:**  
+> „Gib mir zu *[Fragestellung]* eine Antwort mit Quellen.  
+> Danach bewerte jede Quelle kurz nach:  
+> 1) Autorität/Institution, 2) Aktualität, 3) mögliche Bias/Agenda, 4) Eignung für eine wissenschaftliche Hausarbeit.  
+> Markiere Quellen, die eher populärwissenschaftlich oder problematisch sind.“
+
+**Lehrformat:** Gruppenarbeit. Jede Gruppe verteidigt „ihre“ Quelle im Plenum, wie in einer kleinen Peer-Review-Simulation.
+
+::: {.flip-card}
+#### Wissenschaft ist nicht „was im Internet steht“
+Wissenschaft ist ein *Validierungsprozess*. Quellen sind nicht gleich Quellen. Perplexity liefert Material — akademische Qualität entsteht durch Bewertung, Kontext und methodische Einordnung.
+:::
+
+### Szenario 3: Der Kontroversen-Generator (Diskurskompetenz)
+
+**Ziel:** Studierende lernen, konkurrierende Positionen fair darzustellen (und nicht nur die eigene Meinung zu verstärken).
+
+> **Prompt:**  
+> „Stelle zu *[These X]* mindestens drei unterschiedliche Positionen dar:  
+> - eine stark zustimmende,  
+> - eine kritisch-ablehnende,  
+> - eine differenzierte Mittelposition.  
+> Gib zu jeder Position zentrale Argumente und jeweils Quellen, die diese Position stützen.  
+> Formuliere anschließend 3 Fragen, die die Positionen empirisch prüfbar machen.“
+
+**Didaktischer Nutzen:** Das ist praktisch eine Vorstufe zur Debatte — aber mit Quellenpflicht.
+
+::: {.drag-exercise}
+Kontroversen sind keine Meinungswettkämpfe, sondern *Hypothesen mit Quellen*. Wer keine Belege liefert, liefert keine Position — nur Lautstärke.
+:::
+
+### Szenario 4: Der Brücken-Workflow (Perplexity → NotebookLM)
+
+**Ziel:** Studierende bauen aus Quellen eine eigene, grounded Wissensbasis, statt im offenen Web zu treiben.
+
+> **Prompt in Perplexity:**  
+> „Finde die 8 relevantesten Primärquellen zu *[Thema X]* aus den letzten 5 Jahren.  
+> Bevorzuge systematische Reviews, Meta-Analysen oder Leitlinien.  
+> Gib zu jeder Quelle: Kernaussage, Methodik/Datengrundlage und warum sie wichtig ist.“
+
+**Anschluss:** Links/ PDFs werden in NotebookLM importiert. Dort entsteht aus der Sammlung eine saubere, zitierfähige Synthese — ohne dass Studierende „aus dem Bauch“ argumentieren.
+
+<details><summary>Didaktische Empfehlung: Rollen sauber trennen</summary>
+
+Perplexity: Quellen finden, filtern, kartieren.  
+NotebookLM: Quellen intern verdichten, konsistent zusammenführen, Argumente stabilisieren.  
+Generative Tools: Texte formulieren, didaktische Materialien gestalten, Varianten erstellen.  
+
+Das ist kein Tool-Hopping, sondern eine Arbeitsteilung wie im Forschungsprozess selbst.
+
+</details>
+
+## Lehr- und Prüfungsbezug: Was Sie explizit adressieren sollten
+
+Perplexity wird im Lehrkontext schnell zum „Shortcut-Tool“. Das ist nicht das Problem. Das Problem ist, wenn niemand mehr weiß, *welcher* Shortcut zu *welcher* Norm passt. Wenn Sie Perplexity zulassen, sollten Sie drei Dinge explizit regeln:
+
+Erstens: **Quellenpflicht**. Jede wesentliche Behauptung braucht eine nachprüfbare Quelle.  
+Zweitens: **Primärlektüre**. Perplexity ist Einstieg, nicht Endstation.  
+Drittens: **Transparenz**. Studierende sollen offenlegen, wie sie recherchiert haben (z. B. Recherchelog, Suchpfad, Auswahlkriterien).
+
+Das ist keine Bürokratie. Das ist Didaktik. Sonst prüfen Sie am Ende nicht Kompetenz, sondern Glück.
+
+::: {.quick-check}
+Welche Nutzung von Perplexity ist im Hochschulkontext didaktisch am sinnvollsten?
+
+- Perplexity liefert fertige Texte, die Studierende direkt abgeben können.
+- **Perplexity dient als quellenbasierter Einstieg: Kartierung, Quellenprüfung, Perspektivenvergleich und Entwicklung besserer Fragestellungen.**
+- Perplexity ersetzt die Primärlektüre, weil es ja „zusammenfasst“.
+
+> Perplexity ist nicht der Ersatz für wissenschaftliches Arbeiten, sondern eine Lupe dafür. Es zeigt schneller, *wo* Sie hinschauen sollten — aber hinschauen müssen Sie immer noch selbst.
+:::

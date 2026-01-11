@@ -1,0 +1,171 @@
+# Phase 6: Interaktive Lerninhalte – H5P oder Quarto?
+
+> *„Interaktivität ist kein Feature. Sie ist eine didaktische Entscheidung.“*  
+Und wie jede gute Entscheidung beginnt sie mit der Frage nach **Freiheit vs. Führung**.
+
+Nach Recherche (Phase 1), Grounding (Phase 2), didaktischer Transformation (Phase 3) und medialer Ausspielung über Folien (Phase 4) erreichen wir die letzte, aber entscheidende Phase: **Interaktive Lerninhalte**.  
+Hier entscheidet sich, ob Studierende nur konsumieren – oder ob sie *denken, handeln und überprüfen*.
+
+In der bisherigen Empfehlung war **H5P** das bevorzugte Werkzeug. Das ist nach wie vor richtig.  
+Aber es ist nicht mehr die ganze Wahrheit.
+
+Heute stehen uns **zwei valide, aber grundverschiedene Ansätze** zur Verfügung:
+
+- **H5P**: schnell, nativ in Moodle, didaktisch geführt  
+- **Quarto**: offen, mächtig, versionierbar – aber mit Lernkurve  
+
+Beide haben ihren Platz. Die Kunst liegt darin, *den richtigen Einsatz zu wählen*.
+
+## H5P: Didaktische Leitplanken, geringe Reibung
+
+H5P ist das, was man in der Lehre ein **„Low-Barrier-Tool“** nennt:  
+Es funktioniert direkt in Moodle, benötigt keine Programmierkenntnisse und liefert sofort sichtbare Ergebnisse.
+
+Didaktisch ist H5P stark dort, wo **Struktur, Führung und Lernzielkontrolle** gefragt sind.
+
+### Stärken von H5P im Hochschulkontext
+
+- Native Integration in Moodle (inkl. Gradebook)
+- Klare Inhaltstypen (Quiz, Interactive Book, Course Presentation)
+- Geringe Einstiegshürde für Lehrende
+- Geeignet für standardisierte Online-Lehre und Selbstlernphasen
+
+Gerade das **Interactive Book** ist ein robustes Format: Kapitelstruktur, Fortschrittsanzeige, Quiz-Integration – alles „out of the box“.
+
+> **Didaktischer Vorteil:**  
+> H5P zwingt nicht zum Nachdenken über Technik, sondern über *Lernschritte*.
+
+::: {.flip-card}
+#### Die Stärke von H5P
+H5P ist didaktisch restriktiv – und genau deshalb gut für Einsteiger:innen.  
+Es verhindert technische Eskalation und hält den Fokus auf Aktivierung und Lernzielkontrolle.
+:::
+
+### Grenzen von H5P
+
+Diese Stärke ist zugleich die Grenze:
+
+- Begrenzte Gestaltungsfreiheit
+- Kaum Trennung von Inhalt, Struktur und Darstellung
+- Eingeschränkte Versionierung und Wiederverwendbarkeit
+- Inhalte sind stark an Moodle gebunden
+
+Kurz: **H5P ist ein sehr gutes didaktisches Werkzeug – aber kein offenes Publikationssystem.**
+
+## Quarto: Offenheit, Wiederverwendbarkeit und didaktische Tiefe
+
+Quarto verfolgt einen anderen Ansatz. Es ist kein „LMS-Plugin“, sondern ein **Publikationssystem** für wissenschaftliche und didaktische Inhalte.  
+Wer Quarto nutzt, baut keine einzelnen Lernobjekte, sondern **Bücher, Skripte, Kurse, Lernwelten**.
+
+### Warum Quarto didaktisch attraktiv ist
+
+- Strikte Trennung von Inhalt (Markdown), Logik (Quarto) und Darstellung (HTML/CSS)
+- Versionierbar (Git), reproduzierbar, langfristig wartbar
+- Interaktive Elemente (Quizzes, Callouts, Tabs, Accordions, Custom JS)
+- Ideal für **Flipped Classroom**, Reader, digitale Lehrbücher
+
+Ein mit Quarto erzeugtes HTML-Book kann das sein, was Folien nie waren:  
+**der primäre Lernraum**.
+
+> **Paradigmenwechsel:**  
+> Nicht „Folien + Moodle + Aufgaben“, sondern **ein interaktives Lehrbuch**, ergänzt durch Präsenz.
+
+::: {.drag-exercise}
+H5P ist ideal für *geführte Interaktion* in Moodle.  
+Quarto ist ideal für *offene, strukturierte Lernräume* jenseits einzelner Inhalte.
+:::
+
+### Die Kehrseite: Lernkurve
+
+Quarto ist kein Klickwerkzeug. Es verlangt:
+
+- Grundverständnis von Markdown
+- Bereitschaft, mit Beispielen zu lernen
+- Akzeptanz, dass Freiheit initial Zeit kostet
+
+Die gute Nachricht: **Das Lernen beschleunigt sich drastisch**, wenn man nicht bei Null anfängt.
+
+## Lernen durch Beispiele: GitHub als didaktischer Beschleuniger
+
+Der effizienteste Einstieg in Quarto ist nicht das Lesen von Dokumentation, sondern das **Studieren funktionierender Beispiele**.
+
+Für die THWS stehen dafür zwei zentrale Repositories zur Verfügung:
+
+- **Templates & Extensions:**  
+  https://github.com/c-kraus/thws_quarto
+
+- **Prinzip:**  
+  Klonen → Anpassen → Verstehen → Erweitern
+
+Hier zeigt sich ein entscheidender Unterschied zu H5P:  
+Quarto belohnt **Exploration und Variation**, nicht Klickroutine.
+
+::: {.flip-card}
+#### Didaktik durch Lesen von Code
+Quarto zwingt zur Auseinandersetzung mit Struktur.  
+Das ist kein Nachteil – es ist akademische Sozialisation in digitaler Form.
+:::
+
+## Entscheidungshilfe: H5P oder Quarto?
+
+Die Wahl ist keine Glaubensfrage, sondern eine Frage des **didaktischen Ziels**.
+
+### Wann H5P die bessere Wahl ist
+
+- Sie arbeiten ausschließlich in Moodle
+- Sie wollen schnelle, standardisierte Interaktion
+- Sie brauchen Fortschritts- und Notentracking
+- Sie möchten geringe technische Einstiegshürden
+
+### Wann Quarto die bessere Wahl ist
+
+- Sie denken in Kapiteln, nicht in Einzelelementen
+- Sie wollen Inhalte langfristig pflegen und weiterentwickeln
+- Sie setzen auf Flipped Classroom oder Blended Learning
+- Sie wollen Inhalt, Struktur und Darstellung sauber trennen
+
+> **Reife Lehre nutzt beides.**  
+> H5P für gezielte Aktivierung im LMS.  
+> Quarto für den inhaltlichen Kern und die didaktische Tiefe.
+
+::: {.quick-check}
+Welche Aussage trifft den didaktischen Unterschied am besten?
+
+- H5P ist moderner als Quarto, weil es klickbar ist.
+- Quarto ersetzt H5P vollständig.
+- **H5P bietet schnelle, geführte Interaktion – Quarto bietet offene, nachhaltige Lernräume mit höherer Lernkurve.**
+
+> Die Frage ist nicht: *Welches Tool ist besser?*  
+> Die Frage ist: *Welches Tool passt zu meinem Lehrziel?*
+:::
+
+## Der vollständige Workflow (Phase 1–5 in einem Satz)
+
+1. **Perplexity** findet und strukturiert externe Quellen.  
+2. **NotebookLM** groundet und stabilisiert Wissen.  
+3. **Gemini/ChatGPT** transformiert Wissen in didaktische Formate.  
+4. **MARP** produziert konsistente Folien aus Markdown.  
+5. **HeyGen** erstellt Videos aus Text.
+6. **H5P oder Quarto** machen Lernen interaktiv – geführt oder offen.
+
+Damit schließt sich der Kreis: von Recherche zu Erkenntnis, von Erkenntnis zu Lehre, von Lehre zu Lernen.
+
+## Anhang: Bisheriger Foliensatz zu H5P (Referenz)
+
+Als Vergleich und Einstieg liegt der bestehende, auf H5P basierende Foliensatz vor. Er eignet sich hervorragend, um die Stärken von H5P zu verstehen und bewusst von Quarto abzugrenzen. :contentReference[oaicite:0]{index=0}
+
+<details><summary>Anhang öffnen: „Interaktive Lehre mit H5P“</summary>
+
+Der Foliensatz behandelt:
+- Grundlagen von H5P
+- Das Interactive Book als Kernformat
+- Didaktische Einsatzszenarien
+- Integration in Moodle
+- Lernzielkontrolle und Tracking
+
+Nutzen Sie ihn als Referenz – nicht als Endpunkt.
+
+</details>
+
+> *Die Zukunft der Lehre ist nicht toolgetrieben.  
+> Sie ist architekturgetrieben.*

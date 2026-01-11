@@ -1,0 +1,209 @@
+# Anhang: Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet
+
+> *„KI ist kein Genie.  
+> Sie ist ein sehr fleißiger, sehr schneller – und manchmal erstaunlich begriffsstutziger Assistent.“*
+
+Dieser Anhang ist kein Prompt-Rezeptbuch. Er ist eine **Haltungserklärung**.  
+Denn die Qualität der Arbeit mit KI entscheidet sich nicht an der Frage *welches Tool*, sondern an der Frage *wie man mit ihm spricht*.
+
+Viele Enttäuschungen im Umgang mit KI lassen sich auf ein einfaches Missverständnis zurückführen:  
+Man behandelt die KI wie eine Suchmaschine – und erwartet die Präzision eines Experten.
+
+Beides passt nicht zusammen.
+
+## Das mentale Modell: Der fleißige, aber dumme Assistent
+
+Ein hilfreiches Bild ist folgendes:
+
+> Stellen Sie sich vor, Sie bekommen einen Assistenten, der:
+> - extrem motiviert ist  
+> - nie müde wird  
+> - alles sofort ausführt  
+> - **aber keinerlei Kontextverständnis hat, wenn Sie ihn nicht explizit liefern**
+
+Dieser Assistent rät nicht, widerspricht nicht, denkt nicht „mit“.  
+Er tut genau das, was Sie sagen – inklusive aller Unklarheiten, Widersprüche und impliziten Annahmen.
+
+Das ist kein Fehler. Das ist das Design.
+
+::: {.flip-card}
+#### Warum „dumme“ Assistenten nützlich sind
+Weil sie gnadenlos ehrlich spiegeln, wie klar (oder unklar) unsere eigenen Anweisungen sind.
+:::
+
+## Prompting ist immer iterativ – wie Zusammenarbeit mit Menschen
+
+Niemand erwartet von einer Kollegin oder einem Kollegen, dass der erste Entwurf perfekt ist.  
+Warum erwarten wir das von KI?
+
+**Gutes Prompting ist kein Einmalakt.**  
+Es ist ein Dialog:
+
+1. Sie geben eine erste Anweisung.  
+2. Die KI liefert einen Entwurf.  
+3. Sie korrigieren, schärfen, widersprechen.  
+4. Die KI passt an.  
+
+Das ist keine Schwäche des Systems – das ist **Zusammenarbeit**.
+
+> **Merksatz:**  
+> Der erste Output ist selten richtig.  
+> Aber er ist fast immer ein guter *Startpunkt*.
+
+::: {.drag-exercise}
+Prompting funktioniert wie Zusammenarbeit: *Anweisung → Entwurf → Feedback → Verbesserung*. Wer Perfektion im ersten Schritt erwartet, arbeitet nicht iterativ.
+:::
+
+## Was einen guten Prompt ausmacht (ohne Magie)
+
+Ein guter Prompt ist keine Zauberformel.  
+Er beantwortet – explizit – vier einfache Fragen:
+
+### Rolle: Wer soll die KI sein?
+Beispiel:  
+> „Agiere als Hochschuldidaktiker:in.“  
+> „Du bist ein erfahrener Redakteur für Lehrmaterialien.“  
+
+### Aufgabe: Was soll konkret entstehen?
+Nicht: „Erklär mir X.“  
+Sondern:  
+> „Erstelle eine 45-minütige Lehreinheit mit Lernzielen, Beispiel und Lernkontrolle.“
+
+### Rahmen: Für wen, auf welchem Niveau, mit welchen Grenzen?
+- Zielgruppe (Bachelor/Master/Weiterbildung)
+- Vorwissen
+- Ton (präzise, zugänglich, kritisch)
+- Verbote („keine neuen Fakten erfinden“, „keine Bullet-Point-Wüsten“)
+
+### Format: Wie soll das Ergebnis aussehen?
+- Fließtext, Tabelle, Skript
+- Länge
+- Struktur
+
+> **Faustregel:**  
+> Je genauer Sie das *Format* beschreiben, desto besser wird der Inhalt.
+
+::: {.flip-card}
+#### Prompt ≠ Frage
+Ein Prompt ist eine Arbeitsanweisung, kein Smalltalk.
+:::
+
+## Warum Feedback oft wichtiger ist als der ursprüngliche Prompt
+
+Viele Nutzer:innen investieren 90 % ihrer Energie in den ersten Prompt – und 10 % ins Feedback.  
+Erfahrene Anwender:innen machen es genau umgekehrt.
+
+Typische, wirksame Feedbacks sind:
+- „Das ist zu oberflächlich – geh eine Ebene tiefer.“
+- „Das Beispiel passt nicht zum Niveau.“
+- „Bitte expliziter, weniger Metaphern.“
+- „Die Struktur ist gut, aber die Reihenfolge ist didaktisch unglücklich.“
+
+Die KI ist extrem gut darin, **bestehenden Text zu verbessern**.  
+Sie ist deutlich schlechter darin, beim ersten Versuch exakt zu treffen.
+
+> **Didaktische Parallele:**  
+> Auch Studierende lernen mehr durch Feedback als durch perfekte Aufgabenstellungen.
+
+::: {.drag-exercise}
+Die Qualität des zweiten und dritten Outputs hängt stärker vom *Feedback* als vom ursprünglichen Prompt ab.
+:::
+
+## Personalisierte GPTs & Gems: Warum Rahmen alles verändern
+
+Ein großer Hebel liegt in **vorab definierten Systemprompts** – also personalisierten Assistenten (GPTs oder Gems), die bereits wissen:
+
+- in welchem Kontext sie arbeiten
+- welchen Stil sie einhalten sollen
+- welche Regeln gelten
+
+Didaktisch ist das ein enormer Vorteil:
+- weniger Wiederholungen
+- konsistenter Output
+- geringere kognitive Last beim Prompten
+
+Man könnte auch sagen:
+> **Ein guter Systemprompt ersetzt 50 % der Tipperei.**
+
+Solche Assistenten sind besonders sinnvoll für wiederkehrende Aufgaben:
+- Skripterstellung
+- Folienproduktion
+- Prüfungsfragen
+- technische Umsetzungen
+
+::: {.flip-card}
+#### Systemprompt = Arbeitsvertrag
+Er legt fest, wie „der Assistent tickt“, bevor die eigentliche Arbeit beginnt.
+:::
+
+## Platzhalter: Beispiele für personalisierte Assistenten
+
+Die folgenden Abschnitte sind bewusst als Platzhalter angelegt.  
+Hier können konkrete Systemprompts oder Beispiele ergänzt werden.
+
+<details><summary>Beispiel: Quarto-Assistent (Platzhalter)</summary>
+
+Hier folgt ein Beispiel-Systemprompt für einen Assistenten, der:
+- ausschließlich Quarto-konformes Markdown schreibt
+- didaktische Interaktionen nutzt
+- akademischen Stil einhält
+- keine Inhalte zusammenfasst oder kürzt
+
+</details>
+
+<details><summary>Beispiel: MARP-Assistent (Platzhalter)</summary>
+
+Hier folgt ein Beispiel-Systemprompt für einen Assistenten, der:
+- MARP-kompatible Markdown-Folien erzeugt
+- klare Folienlogik (eine Aussage pro Folie) einhält
+- THWS-Templates berücksichtigt
+
+</details>
+
+<details><summary>Beispiel: HTMLBuilder (Platzhalter)</summary>
+
+Hier folgt ein Beispiel-Systemprompt für einen Assistenten, der:
+- sauberes, semantisches HTML erzeugt
+- didaktische Komponenten (Tabs, Accordions) nutzt
+- Barrierefreiheit berücksichtigt
+
+</details>
+
+<details><summary>Beispiel: Moodle-Fragen-Generator (Platzhalter)</summary>
+
+Hier folgt ein Beispiel-Systemprompt für einen Assistenten, der:
+- prüfungsrelevante Fragen generiert
+- Bloom-Taxonomie berücksichtigt
+- Distraktoren begründet
+- Moodle-kompatible Formate ausgibt
+
+</details>
+
+## Ein realistisches Schlusswort zum Prompting
+
+Prompting ist keine neue Disziplin.  
+Es ist **präzise Kommunikation unter asymmetrischen Bedingungen**.
+
+Die KI:
+- vergisst nichts
+- weiß nichts, was Sie nicht liefern oder erlauben
+- ist geduldig
+- ist formbar
+
+Je klarer Sie denken, desto besser wird der Output.  
+Und wenn der Output schlecht ist, liegt das selten an der KI – sondern an unklaren Erwartungen.
+
+> **Letzter Merksatz:**  
+> Gute Prompts ersetzen keine Didaktik.  
+> Aber gute Didaktik zeigt sich in guten Prompts.
+
+::: {.quick-check}
+Was ist der wichtigste Grundsatz beim Prompting?
+
+- Den perfekten Prompt einmal formulieren.
+- Möglichst viele Details sofort unterbringen.
+- **Prompting als iterativen Dialog verstehen – mit klaren Rollen, Feedback und schrittweiser Verbesserung.**
+
+> KI ist kein Orakel.  
+> Sie ist ein Spiegel.
+:::

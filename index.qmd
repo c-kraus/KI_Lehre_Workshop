@@ -1,0 +1,84 @@
+# Willkommen im Maschinenraum der Lehre {.unnumbered}
+
+Lehre ist ein Produktionsprozess. Nicht im Sinne von Fließbandromantik – sondern im nüchternen Sinn: Aus einer Idee soll ein Lernarrangement werden, das **verständnisbar**, **überprüfbar** und **wiederholbar** ist.
+
+Dieser Reader zeigt einen kompakten Workflow, um aus einer Lehrfrage eine vollständige, interaktive Lerneinheit zu bauen – von der Recherche bis zur Umsetzung in Text, Folien, Video und Interaktivität. Wenn Sie an einer Stelle denken: „Das klingt ja schön, aber so läuft’s bei mir nie“ – wunderbar. Der Workflow soll helfen, nicht recht haben. Und falls Sie ihn ganz anders umsetzen: bitte erzählen Sie mir, wie.
+
+> **Versprechen dieses Buchs:**  
+> Wir optimieren nicht „KI-Nutzung“. Wir optimieren **didaktische Entscheidungen** – mit KI als Werkquarto zeug, nicht als Weltanschauung.
+
+## Der Workflow in einem Satz {.unnumbered}
+
+
+Wir gehen von einer Lehrfrage aus, recherchieren quellenbasiert, stabilisieren Wissen, transformieren es in lernwirksame Formate und spielen es über passende Medien aus – mit einer klaren Trennung von **Wahrheit**, **Didaktik** und **Design**.
+
+## Die sechs Phasen als Pipeline{.unnumbered}
+
+
+### Phase 1: Perplexity – Recherche mit Quellen {.unnumbered}
+
+Perplexity ist die Antwortmaschine für den Einstieg: Es kartiert Themen, liefert Perspektiven und zwingt zu Quellenarbeit. Didaktisch bedeutet das: Wir starten nicht mit Meinungen, sondern mit überprüfbarem Material.
+
+### Phase 2: NotebookLM – Grounding und kuratierte Synthese {.unnumbered}
+
+NotebookLM ist der Analyst: Es arbeitet ausschließlich mit den bereitgestellten Dokumenten. Das ist akademisch Gold wert, weil es Halluzinationen nicht „reduziert“, sondern strukturell unattraktiv macht. Was nicht in den Quellen steht, existiert nicht.
+
+### Phase 3: Gemini/ChatGPT – Didaktische Transformation {.unnumbered}
+
+Hier wird aus Wissen Lehre: Lernziele, Dramaturgie, Aufgaben, Feedback, Prüfungslogik. Generative KI ist in dieser Phase keine Bibliothek, sondern eine Lehrredaktion. Sie formuliert und strukturiert – sie erfindet keine Fakten.
+
+### Phase 4: MARP – Folien aus Markdown {.unnumbered}
+
+MARP trennt Inhalt und Form: Markdown zwingt zur Klarheit, Templates sichern Konsistenz. Folien sind dabei ein Ausspielkanal – nicht die zentrale Wissensspeicherung. Wer ein gutes Buch hat, braucht weniger Folien.
+
+### Phase 5: Interaktivität – H5P oder Quarto {.unnumbered}
+
+H5P ist schnell, nativ in Moodle und didaktisch geführt – aber begrenzt. Quarto ist offen, mächtig und ideal für Flipped Classroom – aber verlangt Einarbeitung. Beides ist möglich. Reife Lehre wählt bewusst.
+
+### Phase 6: HeyGen – Vom Skript zum Lehrvideo {.unnumbered}
+
+HeyGen skaliert die Stimme: kurze Clips (1–3 Minuten) für Orientierung, Entlastung, asynchrones Lernen. Entscheidend ist das Sprechskript: Schreiben für Ohren, nicht für Augen.
+
+## Platzhalter: Interaktive Visualisierung der Pipeline {.unnumbered}
+
+::: {.column-page}
+<details><summary>Interaktive Darstellung (Platzhalter)</summary>
+
+Hier wird eine interaktive Visualisierung des Workflows eingebunden (z. B. als SVG/HTML-Widget), mit klickbaren Phasen, Tool-Links und typischen Outputs:
+
+- Phase 1 → Quellenliste, Suchpfad  
+- Phase 2 → grounded Notizen, Kernthesen  
+- Phase 3 → Lernziele, Aufgaben, Prüfungsitems  
+- Phase 4 → Folien-Export (PDF/HTML)  
+- Phase 5 → Video-Clips (MP4/Embed)
+- Phase 6 → interaktives Book (H5P/Quarto)  
+
+</details>
+:::
+
+::: {.drag-exercise}
+Ein guter KI-Workflow trennt strikt: *Recherche* (Phase 1) → *Grounding* (Phase 2) → *Didaktik* (Phase 3) → *Medien* (Phase 4–6).
+:::
+
+## Wie Sie dieses Buch verwenden sollten {.unnumbered}
+
+Lesen Sie es nicht wie ein Handbuch. Nutzen Sie es wie ein **Baukasten**:
+
+- Wenn Sie gerade ein neues Thema vorbereiten: Start bei Phase 1–2.
+- Wenn Sie Material haben, aber keine Lehrlogik: Phase 3.
+- Wenn die Inhalte stehen und Sie produzieren müssen: Phase 4–6.
+
+Und wenn Sie nur eine Sache mitnehmen wollen:
+
+> **Die Kompetenz der Zukunft ist nicht Tool-Beherrschung.**  
+> Es ist die Fähigkeit, Werkzeuge intelligent zu kombinieren – und dabei akademische Standards nicht zu verlieren.
+
+::: {.quick-check}
+Was ist das zentrale Prinzip dieses Readers?
+
+- Möglichst viele KI-Tools kennenlernen.
+- Möglichst schnell Inhalte erzeugen.
+- **Einen überprüfbaren Workflow etablieren, der akademische Qualität und didaktische Wirksamkeit verbindet.**
+
+> KI ist hier kein Ersatz für Denken, sondern ein Verstärker für Struktur.
+:::

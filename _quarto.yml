@@ -1,0 +1,46 @@
+project:
+  type: book
+  output-dir: _site
+
+number-sections: true
+
+book:
+  title: "Schneller, schöner, stressfreier Lehren"
+  subtitle: "Vom Recherchieren zur interaktiven Vorlesung"
+  author: "Prof. Dr. Christian Kraus"
+  date: "last-modified"
+  chapters:
+    - index.qmd
+    - Phase1.qmd
+    - Phase2.qmd
+    - Phase3.qmd
+    - Phase4.qmd
+    - Phase5.qmd
+    - Phase6.qmd
+    - Abschluss.qmd
+  appendices:
+    - Anhang.qmd
+    
+
+  
+  # Navigation & Suche
+  sidebar:
+    style: "docked"
+    background: light # Passt gut zu deinem thws-grey/orange
+    collapse-level: 1
+    search: true
+  repo-url: https://github.com/c-kraus
+  repo-actions: [edit]
+  sharing: [linkedin]
+  downloads: [pdf]
+   
+format:
+  moodle-html: default
+  reader-typst: default
+
+
+
+# Globale Optionen für Code-Zellen (Tech-Stack)
+execute:
+  echo: false
+  warning: false
