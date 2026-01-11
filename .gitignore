@@ -27,3 +27,4 @@ env/
 
 # --- Logfiles ---
 *.log
+**/*.quarto_ipynb

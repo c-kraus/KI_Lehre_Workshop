@@ -26,12 +26,9 @@ Der Workflow lässt sich auf drei Ebenen verdichten:
 
 Die entscheidende Erkenntnis ist dabei fast banal – und genau deshalb wirksam:
 
-> **Nicht jedes Tool ist für jede Phase geeignet.  
-> Qualität entsteht durch Arbeitsteilung.**
+**Nicht jedes Tool ist für jede Phase geeignet.** Qualität entsteht durch Arbeitsteilung.
 
-::: {.drag-exercise}
-Akademische Qualität entsteht dort, wo *Recherche*, *Didaktik* und *Medien* bewusst getrennt – und danach sauber verbunden werden.
-:::
+> Akademische Qualität entsteht dort, wo *Recherche*, *Didaktik* und *Medien* bewusst getrennt – und danach sauber verbunden werden.
 
 ## Was sich mit diesem Workflow ändert (und was nicht)
 
@@ -162,13 +159,4 @@ Der entscheidende Schritt ist nicht technischer Natur, sondern mental:
 > **Lehre ist kein Produkt.  
 > Sie ist ein Prozess – und Prozesse kann man gestalten.**
 
-::: {.quick-check}
-Was ist die zentrale Perspektive dieses Buches?
 
-- KI macht Lehre einfacher.
-- Technik ersetzt didaktische Arbeit.
-- **Strukturierte Workflows ermöglichen nachhaltige, kollaborative und qualitativ hochwertige Lehre – mit KI als Werkzeug.**
-
-> Wenn dieses Buch dazu beiträgt, dass Ihre Materialien klarer, teilbarer und langlebiger werden,  
-> dann hat es seinen Zweck erfüllt.
-:::

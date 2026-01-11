@@ -77,11 +77,9 @@ Typischer Ablauf:
 
 Damit wird Video nicht zum Selbstzweck, sondern zu einem **Baustein im Lernprozess**.
 
-::: {.drag-exercise}
-Ein gutes Lehrvideo steht nie allein: Es ist eingebettet zwischen *Lesen*, *Nachdenken* und *Anwenden*.
-:::
+> Ein gutes Lehrvideo steht nie allein: Es ist eingebettet zwischen *Lesen*, *Nachdenken* und *Anwenden*.
 
-## D. Die Kunst des Sprechskripts: Schreiben für Ohren, nicht für Augen
+## Die Kunst des Sprechskripts: Schreiben für Ohren, nicht für Augen
 
 Der größte Fehler bei Lehrvideos ist trivial – und allgegenwärtig:  
 **Man liest einen Text vor, der für das Lesen geschrieben wurde.**
@@ -93,8 +91,8 @@ Ein gutes Sprechskript folgt anderen Regeln.
 - **Kurze Sätze.** Ein Gedanke pro Satz.
 - **Zahlen ausschreiben.** „Zehn Prozent“, nicht „10 %“.
 - **Formeln übersetzen.**  
-  Nicht: „K0 mal eins plus i hoch n“.  
-  Sondern: „Ausgangskapital mal eins plus Zinssatz, potenziert mit der Laufzeit.“
+  So: „K0 mal eins plus i hoch n“.  
+  Oder: „Ausgangskapital mal eins plus Zinssatz, potenziert mit der Laufzeit.“
 - **Pausen markieren.** Absätze, `-` oder `*` als Denkpausen.
 - **Direkte Ansprache.** „Schauen wir uns jetzt an …“
 
@@ -131,9 +129,7 @@ Sprechtexte müssen redundanter, rhythmischer und langsamer sein.
 
 Für die Hochschullehre genügt in der Regel der **Standard-Account**.
 
-::: {.drag-exercise}
-Ein Lehrvideo beginnt nicht mit Technik, sondern mit der Frage: *Was würde ich einer einzelnen Person jetzt mündlich erklären?*
-:::
+> Ein Lehrvideo beginnt nicht mit Technik, sondern mit der Frage: *Was würde ich einer einzelnen Person jetzt mündlich erklären?*
 
 ## Transparenz und Akzeptanz: Die KI-Stimme ist kein Makel
 

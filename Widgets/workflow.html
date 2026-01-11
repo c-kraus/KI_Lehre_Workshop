@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Didactic Refinery v3</title>
+    <style>
+        /* THWS Design System */
+        :root {
+            --thws-orange: #ff6a00;
+            --thws-grey: #333333;
+            --thws-light-grey: #f5f5f5;
+            --font-stack: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            font-family: var(--font-stack);
+            background-color: transparent;
+            color: var(--thws-grey);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .thws-card {
+            border-left: 5px solid var(--thws-orange);
+            background: #ffffff;
+            padding: 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            height: 580px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 15px 25px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 1.25rem;
+            color: var(--thws-grey);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 span {
+            color: var(--thws-orange);
+            font-size: 0.8em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 1px solid var(--thws-orange);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .canvas-container {
+            flex-grow: 1;
+            position: relative;
+            background-color: #fafafa;
+            overflow: hidden;
+            cursor: crosshair;
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Tooltip Overlay */
+        .info-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(5px);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .info-panel.active {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+            pointer-events: auto;
+        }
+
+        .info-panel h4 {
+            margin: 0 0 5px 0;
+            color: var(--thws-orange);
+            font-size: 1rem;
+        }
+
+        .info-panel p {
+            margin: 0;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            color: #555;
+        }
+
+        .status-badge {
+            font-size: 0.75rem;
+            background: #eee;
+            padding: 4px 8px;
+            border-radius: 4px;
+            color: #666;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="thws-card">
+        <header>
+            <div>
+                <h2>Production Pipeline
+                    <p style="margin: 5px 0 0; color: #888; font-size: 0.9rem;">
+
+                    </p>
+            </div>
+            <div class="status-badge">RUNNING</div>
+        </header>
+
+        <div class="canvas-container" id="container">
+            <canvas id="factoryCanvas"></canvas>
+
+            <div class="info-panel" id="infoPanel">
+                <h4 id="panelTitle">Station Title</h4>
+                <p id="panelDesc">Description text goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('factoryCanvas');
+        const ctx = canvas.getContext('2d');
+        const container = document.getElementById('container');
+        const panel = document.getElementById('infoPanel');
+        const panelTitle = document.getElementById('panelTitle');
+        const panelDesc = document.getElementById('panelDesc');
+
+        let width, height;
+        let animationId;
+        let isPaused = false;
+        let frameCount = 0;
+
+        // Palette
+        const COLORS = {
+            RAW: '#b0b0b0',
+            VALID: '#2196F3',   // Blue
+            STRUCT: '#FFC107',  // Yellow
+            MEDIA: '#4CAF50',   // Green (Video/Slides)
+            FINAL: '#ff6a00',   // Orange (H5P/Quarto)
+            GRID: '#e0e0e0',
+            BELT: '#ddd'
+        };
+
+        // Station Configuration
+        const stations = [
+            {
+                id: 'perplexity', xPct: 0.12, yPct: 0.5, w: 65, h: 80, label: '1. Perplexity',
+                title: '1. Perplexity (Der Filter)',
+                desc: 'Recherche & Validierung. Rohe Informationen werden gescannt, Halluzinationen entfernt und Quellen geprüft.'
+            },
+            {
+                id: 'notebooklm', xPct: 0.28, yPct: 0.5, w: 65, h: 80, label: '2. NotebookLM',
+                title: '2. NotebookLM (Die Presse)',
+                desc: 'Verdichtung. Retrieval Augmented Generation (RAG) komprimiert die Quellen auf den harten Fakten-Kern.'
+            },
+            {
+                id: 'gemini', xPct: 0.44, yPct: 0.5, w: 65, h: 80, label: '3. Gemini',
+                title: '3. Gemini / ChatGPT (Der Architekt)',
+                desc: 'Strukturierung. Der Fakten-Kern wird in ein didaktisches Gerüst umgebaut (Lernziele, Dramaturgie).'
+            },
+            // SPLIT BRANCHES
+            {
+                id: 'marp', xPct: 0.65, yPct: 0.25, w: 75, h: 60, label: '4. Marp',
+                title: '4. Marp (Visualisierung)',
+                desc: 'Markdown-to-Slides. Ein Teil der Struktur wird in visuelle Präsentationsfolien gewalzt.'
+            },
+            {
+                id: 'heygen', xPct: 0.65, yPct: 0.75, w: 75, h: 60, label: '5. HeyGen',
+                title: '5. HeyGen (Synthese)',
+                desc: 'AI-Video. Der andere Teil der Struktur wird durch Avatare in Audio/Video-Content verwandelt.'
+            },
+            // MERGE ENDPOINT
+            {
+                id: 'h5p', xPct: 0.88, yPct: 0.5, w: 95, h: 90, label: '6. H5P/Quarto',
+                title: '6. H5P & Quarto (Der Container)',
+                desc: 'Assemblierung. Folien (4) und Video (5) fließen zusammen in ein interaktives Lernmodul oder ein Quarto-Book.'
+            }
+        ];
+
+        let packets = [];
+
+        function resize() {
+            width = container.clientWidth;
+            height = container.clientHeight;
+            canvas.width = width;
+            canvas.height = height;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        class Packet {
+            constructor(type = 'main') {
+                this.x = 0;
+                this.y = height * 0.5;
+                this.speed = 1.3;
+                this.type = type; // main, top (marp), bot (heygen), final
+                this.stage = 0;
+                this.active = true;
+
+                // Visual Particles
+                this.particles = [];
+                for (let i = 0; i < 6; i++) {
+                    this.particles.push({ dx: Math.random() * 10 - 5, dy: Math.random() * 10 - 5, r: Math.random() * 3 + 2 });
+                }
+            }
+
+            update() {
+                if (isPaused) return;
+
+                const splitX = width * 0.52; // Point after Gemini
+                const mergeX = width * 0.80; // Point before H5P/Quarto
+
+                // MOVEMENT LOGIC
+                if (this.type === 'main') {
+                    this.x += this.speed;
+                    // Check Split
+                    if (this.x >= splitX) {
+                        this.split();
+                    }
+                }
+                else if (this.type === 'top') {
+                    // Move towards Marp (Top) then towards Merge
+                    if (this.x < width * 0.65) {
+                        // Moving to station 4
+                        this.x += this.speed;
+                        this.y += (height * 0.25 - this.y) * 0.1;
+                    } else {
+                        // Moving to merge point
+                        this.x += this.speed;
+                        this.y += (height * 0.5 - this.y) * 0.05; // Slowly back to center
+                    }
+                    if (this.x >= mergeX) this.active = false; // Will be replaced by Final
+                }
+                else if (this.type === 'bot') {
+                    // Move towards HeyGen (Bot) then towards Merge
+                    if (this.x < width * 0.65) {
+                        // Moving to station 5
+                        this.x += this.speed;
+                        this.y += (height * 0.75 - this.y) * 0.1;
+                    } else {
+                        this.x += this.speed;
+                        this.y += (height * 0.5 - this.y) * 0.05;
+                    }
+                    if (this.x >= mergeX) this.active = false;
+                }
+                else if (this.type === 'final') {
+                    this.x += this.speed;
+                    if (this.x > width + 50) this.active = false;
+                }
+
+                // STAGE/COLOR LOGIC
+                if (this.type === 'main') {
+                    if (this.x < width * 0.18) this.stage = 0; // Raw
+                    else if (this.x < width * 0.35) this.stage = 1; // Valid
+                    else this.stage = 2; // Struct
+                }
+            }
+
+            split() {
+                this.active = false;
+                let p1 = new Packet('top'); p1.x = this.x; p1.y = this.y; p1.stage = 3;
+                let p2 = new Packet('bot'); p2.x = this.x; p2.y = this.y; p2.stage = 3;
+                packets.push(p1, p2);
+            }
+
+            draw(ctx) {
+                ctx.save();
+                ctx.translate(this.x, this.y);
+
+                // STAGE 0: RAW (Cloud)
+                if (this.stage === 0) {
+                    ctx.fillStyle = COLORS.RAW;
+                    this.particles.forEach(p => {
+                        ctx.beginPath(); ctx.arc(p.dx, p.dy, p.r, 0, Math.PI * 2); ctx.fill();
+                    });
+                }
+                // STAGE 1: VALID (Blue Cube)
+                else if (this.stage === 1) {
+                    ctx.fillStyle = COLORS.VALID;
+                    ctx.fillRect(-12, -12, 24, 24);
+                    ctx.strokeStyle = 'white'; ctx.strokeRect(-12, -12, 24, 24);
+                }
+                // STAGE 2: STRUCT (Yellow Grid)
+                else if (this.stage === 2) {
+                    ctx.strokeStyle = COLORS.STRUCT; ctx.lineWidth = 2;
+                    ctx.strokeRect(-12, -12, 24, 24);
+                    ctx.beginPath();
+                    ctx.moveTo(-12, 0); ctx.lineTo(12, 0);
+                    ctx.moveTo(0, -12); ctx.lineTo(0, 12);
+                    ctx.stroke();
+                }
+                // STAGE 3: PARTS (Top=Marp, Bot=HeyGen)
+                else if (this.stage === 3) {
+                    ctx.fillStyle = COLORS.MEDIA;
+                    if (this.type === 'top') { // Slide Icon
+                        ctx.fillRect(-10, -8, 20, 16);
+                        ctx.fillStyle = 'rgba(255,255,255,0.5)'; ctx.fillRect(-10, -8, 5, 16);
+                    } else { // Play Icon
+                        ctx.beginPath(); ctx.arc(0, 0, 10, 0, Math.PI * 2); ctx.fill();
+                        ctx.fillStyle = 'white';
+                        ctx.beginPath(); ctx.moveTo(-3, -4); ctx.lineTo(4, 0); ctx.lineTo(-3, 4); ctx.fill();
+                    }
+                }
+                // FINAL: H5P/QUARTO
+                else if (this.type === 'final') {
+                    ctx.fillStyle = COLORS.FINAL;
+                    // Hexagon
+                    ctx.beginPath();
+                    for (let i = 0; i < 6; i++) {
+                        ctx.lineTo(16 * Math.cos(i * Math.PI / 3), 16 * Math.sin(i * Math.PI / 3));
+                    }
+                    ctx.closePath();
+                    ctx.fill();
+
+                    // Text
+                    ctx.fillStyle = 'white';
+                    ctx.font = 'bold 9px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText('FIN', 0, 0);
+                }
+
+                ctx.restore();
+            }
+        }
+
+        // Interaction
+        canvas.addEventListener('mousemove', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const mx = e.clientX - rect.left;
+            const my = e.clientY - rect.top;
+
+            let hit = false;
+            stations.forEach(s => {
+                const sx = s.xPct * width;
+                const sy = s.yPct * height;
+                // Simple hitbox
+                if (mx > sx - s.w / 2 && mx < sx + s.w / 2 && my > sy - s.h / 2 && my < sy + s.h / 2) {
+                    hit = true;
+                    isPaused = true;
+                    panel.classList.add('active');
+                    panelTitle.innerText = s.title;
+                    panelDesc.innerText = s.desc;
+                    s.hover = true;
+                } else {
+                    s.hover = false;
+                }
+            });
+
+            if (!hit) {
+                isPaused = false;
+                panel.classList.remove('active');
+            }
+        });
+
+        // Helper Graphics
+        function drawMachine(ctx, s) {
+            const x = s.xPct * width;
+            const y = s.yPct * height;
+
+            ctx.save();
+            ctx.translate(x, y);
+
+            if (s.hover) {
+                ctx.shadowColor = COLORS.FINAL;
+                ctx.shadowBlur = 20;
+            }
+
+            // Box
+            ctx.fillStyle = 'white';
+            ctx.fillRect(-s.w / 2, -s.h / 2, s.w, s.h);
+            ctx.strokeStyle = s.hover ? COLORS.FINAL : '#bbb';
+            ctx.lineWidth = s.hover ? 3 : 1;
+            ctx.strokeRect(-s.w / 2, -s.h / 2, s.w, s.h);
+
+            // Label
+            ctx.fillStyle = '#444';
+            ctx.font = '600 10px var(--font-stack)';
+            ctx.textAlign = 'center';
+            ctx.fillText(s.label, 0, s.h / 2 + 15);
+
+            // Icons inside based on ID
+            ctx.strokeStyle = '#888';
+            ctx.lineWidth = 1.5;
+
+            if (s.id === 'perplexity') {
+                // Filter funnel
+                ctx.beginPath(); ctx.moveTo(-10, -10); ctx.lineTo(10, -10); ctx.lineTo(0, 10); ctx.stroke();
+            } else if (s.id === 'notebooklm') {
+                // Press
+                ctx.strokeRect(-12, -8, 24, 6); ctx.strokeRect(-8, 6, 16, 6);
+            } else if (s.id === 'gemini') {
+                // Structure/Grid
+                ctx.beginPath(); ctx.moveTo(-8, 8); ctx.lineTo(0, -8); ctx.lineTo(8, 8); ctx.stroke();
+                ctx.beginPath(); ctx.arc(0, -8, 2, 0, Math.PI * 2); ctx.stroke();
+            } else if (s.id === 'marp') {
+                // Screen / Slides
+                ctx.strokeRect(-12, -8, 24, 16);
+            } else if (s.id === 'heygen') {
+                // Waveform
+                ctx.beginPath(); ctx.moveTo(-10, 0); ctx.bezierCurveTo(-5, -10, 5, 10, 10, 0); ctx.stroke();
+            } else if (s.id === 'h5p') {
+                // Package Box
+                ctx.strokeRect(-12, -12, 24, 24);
+                ctx.beginPath(); ctx.moveTo(-12, -12); ctx.lineTo(12, 12); ctx.stroke();
+            }
+
+            ctx.restore();
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+
+            // Grid Background
+            ctx.strokeStyle = COLORS.GRID;
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            for (let i = 0; i < width; i += 40) { ctx.moveTo(i, 0); ctx.lineTo(i, height); }
+            for (let i = 0; i < height; i += 40) { ctx.moveTo(0, i); ctx.lineTo(width, i); }
+            ctx.stroke();
+
+            // Conveyor Belt Lines
+            ctx.strokeStyle = COLORS.BELT;
+            ctx.lineWidth = 4;
+            ctx.beginPath();
+
+            // 1. Main Line
+            const splitX = width * 0.52;
+            const mergeX = width * 0.80;
+
+            ctx.moveTo(0, height * 0.5);
+            ctx.lineTo(splitX, height * 0.5);
+
+            // 2. Split Branches (Curved to stations 4 and 5)
+            // Top Path to Station 4
+            ctx.moveTo(splitX, height * 0.5);
+            ctx.bezierCurveTo(splitX + 40, height * 0.5, splitX + 20, height * 0.25, width * 0.65, height * 0.25);
+            // From Station 4 to Merge
+            ctx.lineTo(width * 0.65, height * 0.25); // Pass through
+            ctx.bezierCurveTo(mergeX, height * 0.25, mergeX - 40, height * 0.5, mergeX, height * 0.5);
+
+            // Bot Path to Station 5
+            ctx.moveTo(splitX, height * 0.5);
+            ctx.bezierCurveTo(splitX + 40, height * 0.5, splitX + 20, height * 0.75, width * 0.65, height * 0.75);
+            // From Station 5 to Merge
+            ctx.lineTo(width * 0.65, height * 0.75); // Pass through
+            ctx.bezierCurveTo(mergeX, height * 0.75, mergeX - 40, height * 0.5, mergeX, height * 0.5);
+
+            // 3. Final Line (Station 6)
+            ctx.moveTo(mergeX, height * 0.5);
+            ctx.lineTo(width, height * 0.5);
+            ctx.stroke();
+
+            // Draw Stations
+            stations.forEach(s => drawMachine(ctx, s));
+
+            // Spawner
+            if (!isPaused && frameCount % 160 === 0) {
+                packets.push(new Packet('main'));
+            }
+
+            // Merger Logic
+            let spawnFinal = false;
+            packets.forEach(p => {
+                if (p.type === 'top' && p.x >= mergeX - p.speed * 2 && p.active) {
+                    spawnFinal = true;
+                }
+            });
+
+            if (spawnFinal) {
+                let fp = new Packet('final');
+                fp.x = mergeX;
+                fp.y = height * 0.5;
+                setTimeout(() => packets.push(fp), 50);
+            }
+
+            // Draw Packets
+            packets.forEach(p => {
+                p.update();
+                p.draw(ctx);
+            });
+            packets = packets.filter(p => p.active);
+
+            if (!isPaused) frameCount++;
+            animationId = requestAnimationFrame(animate);
+        }
+
+        animate();
+
+    </script>
+</body>
+
+</html>

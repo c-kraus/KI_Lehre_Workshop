@@ -31,29 +31,24 @@ Hier wird aus Wissen Lehre: Lernziele, Dramaturgie, Aufgaben, Feedback, Prüfung
 
 MARP trennt Inhalt und Form: Markdown zwingt zur Klarheit, Templates sichern Konsistenz. Folien sind dabei ein Ausspielkanal – nicht die zentrale Wissensspeicherung. Wer ein gutes Buch hat, braucht weniger Folien.
 
-### Phase 5: Interaktivität – H5P oder Quarto {.unnumbered}
-
-H5P ist schnell, nativ in Moodle und didaktisch geführt – aber begrenzt. Quarto ist offen, mächtig und ideal für Flipped Classroom – aber verlangt Einarbeitung. Beides ist möglich. Reife Lehre wählt bewusst.
-
-### Phase 6: HeyGen – Vom Skript zum Lehrvideo {.unnumbered}
+### Phase 5: HeyGen – Vom Skript zum Lehrvideo {.unnumbered}
 
 HeyGen skaliert die Stimme: kurze Clips (1–3 Minuten) für Orientierung, Entlastung, asynchrones Lernen. Entscheidend ist das Sprechskript: Schreiben für Ohren, nicht für Augen.
 
-## Platzhalter: Interaktive Visualisierung der Pipeline {.unnumbered}
+### Phase 6: Interaktivität – H5P oder Quarto {.unnumbered}
 
-::: {.column-page}
-<details><summary>Interaktive Darstellung (Platzhalter)</summary>
+H5P ist schnell, nativ in Moodle und didaktisch geführt – aber begrenzt. Quarto ist offen, mächtig und ideal für Flipped Classroom – aber verlangt Einarbeitung. Beides ist möglich. Reife Lehre wählt bewusst.
 
-Hier wird eine interaktive Visualisierung des Workflows eingebunden (z. B. als SVG/HTML-Widget), mit klickbaren Phasen, Tool-Links und typischen Outputs:
 
-- Phase 1 → Quellenliste, Suchpfad  
-- Phase 2 → grounded Notizen, Kernthesen  
-- Phase 3 → Lernziele, Aufgaben, Prüfungsitems  
-- Phase 4 → Folien-Export (PDF/HTML)  
-- Phase 5 → Video-Clips (MP4/Embed)
-- Phase 6 → interaktives Book (H5P/Quarto)  
 
-</details>
+## Interaktive Visualisierung der Pipeline {.unnumbered}
+
+::: {.content-visible when-format="html"}
+<iframe src="Widgets/workflow.html" 
+        style="width: 100%; height: 650px; border: none;" 
+        loading="lazy">
+</iframe>
+
 :::
 
 ::: {.drag-exercise}

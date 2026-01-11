@@ -105,7 +105,7 @@ Das fördert Konsistenz: gleiche Optik, gleiche Fußzeilen, gleiche Typografie �
 
 Die THWS-Themes und Templates können aus dem GitHub-Repository heruntergeladen werden:
 
-https://github.com/c-kraus/thws
+[https://github.com/c-kraus/thws](https://github.com/c-kraus/thws)
 
 Didaktisch ist das mehr als „CI-Politur“:
 Es reduziert die kognitive Last bei der Materialproduktion. Lehrende müssen nicht jedes Semester Folien „neu designen“. Sie schreiben Inhalte, das Template erledigt den Rest.
@@ -113,52 +113,33 @@ Es reduziert die kognitive Last bei der Materialproduktion. Lehrende müssen nic
 Pro-Tipp:
 Legen Sie ein Kurs-Repository an (Git). Ihre Folien sind dann versioniert, nachvollziehbar, kollaborativ bearbeitbar – und damit akademisch „reproduzierbar“.
 
-::: {.flip-card}
-
-Warum Templates mehr sind als Kosmetik
+**Warum Templates mehr sind als Kosmetik**
 
 Ein Template ist eine didaktische Infrastruktur: Es standardisiert Form, damit Sie Zeit in Inhalt investieren können.
 Das ist keine Bürokratie – das ist Professionalität.
-:::
+
 
 ## Export: HTML, PDF, (optional) PPTX – je nach Lehrszenario
 
 MARP kann aus VS Code heraus exportieren:
 
-HTML: Präsentation im Browser (ideal für Live und Moodle-Embedding)
+**HTML:** Präsentation im Browser (ideal für Live und Moodle-Embedding)
 
-PDF: stabil, portabel, druckbar (Standard für Verteilung)
+**PDF:** stabil, portabel, druckbar (Standard für Verteilung)
 
-PPTX (optional): wenn institutionelle Gewohnheiten es verlangen
+**PPTX:** (optional): wenn institutionelle Gewohnheiten es verlangen
 
 Wichtig ist die didaktische Entscheidung:
-PDF ist häufig genug – vor allem, wenn der Reader (Quarto) die eigentliche Lernarbeit trägt.
+PDF ist häufig genug – vor allem, wenn der Reader (Quarto) oder das Interyctive Book (H5P) die eigentliche Lernarbeit trägt.
 
-G. Der End-to-End-Workflow: Von KI-Analyse zu CI-konformen Folien
-
-In der idealen Pipeline ist MARP nicht „ein Tool“, sondern der letzte Produktionsschritt:
-
-Perplexity liefert Quellen und Perspektiven (Recherche)
-
-NotebookLM stabilisiert Wissen (Grounding & Synthese)
-
-Gemini/ChatGPT transformiert in Lernziele, Dramaturgie, Aufgaben (Didaktik)
-
-MARP gießt das Ergebnis in ein reproduzierbares Folienset (Distribution)
+In der idealen Pipeline ist MARP nicht „ein Tool“, sondern der letzte Produktionsschritt, es gießt das Ergebnis in ein reproduzierbares Folienset (Distribution)
 
 Damit wird Folienproduktion zu etwas, das sie immer hätte sein sollen: eine Ableitung, nicht ein Kunstprojekt.
 
-::: {.drag-exercise}
-MARP ist der letzte Schritt: Wenn Lernziele, Struktur und Aufgaben bereits stehen, werden Folien zur Ausspielung – nicht zur Denkkrücke.
-:::
 
-## Anhang: Bestehender THWS-MARP-Foliensatz (Referenz)
+<details><summary>Refernzbeispiel unserer THWS CI in Marp</summary>
 
-Als Ausgangspunkt können Sie den bestehenden Foliensatz nutzen, der bereits die Basics (Markdown, VS Code, Export, THWS-Themes) abdeckt.
-
-<details><summary>Anhang öffnen: „Präsentationen mit MARP“ (bestehende Folienstruktur)</summary>
-
-Der vorhandene Foliensatz enthält:
+Die [hier abrufbare Datei](https://github.com/c-kraus/thws/blob/main/Beispiel_Markdown) enthält:
 
 + Überblick und Zielsetzung
 + Markdown-Grundlag en

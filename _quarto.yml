@@ -2,8 +2,9 @@ project:
   type: book
   output-dir: _site
 
-number-sections: true
 
+number-sections: true
+lang: de
 book:
   title: "Schneller, schöner, stressfreier Lehren"
   subtitle: "Vom Recherchieren zur interaktiven Vorlesung"
@@ -29,14 +30,14 @@ book:
     background: light # Passt gut zu deinem thws-grey/orange
     collapse-level: 1
     search: true
-  repo-url: https://github.com/c-kraus
+  repo-url: https://github.com/c-kraus/KI_Lehre_Workshop
   repo-actions: [edit]
   sharing: [linkedin]
-  downloads: [pdf]
+ 
    
 format:
   moodle-html: default
-  reader-typst: default
+  
 
 
 
