@@ -5,7 +5,7 @@ Lehre ist ein Produktionsprozess. Nicht im Sinne von Fließbandromantik – sond
 Dieser Reader zeigt einen kompakten Workflow, um aus einer Lehrfrage eine vollständige, interaktive Lerneinheit zu bauen – von der Recherche bis zur Umsetzung in Text, Folien, Video und Interaktivität. Wenn Sie an einer Stelle denken: „Das klingt ja schön, aber so läuft’s bei mir nie“ – wunderbar. Der Workflow soll helfen, nicht recht haben. Und falls Sie ihn ganz anders umsetzen: bitte erzählen Sie mir, wie.
 
 > **Versprechen dieses Buchs:**  
-> Wir optimieren nicht „KI-Nutzung“. Wir optimieren **didaktische Entscheidungen** – mit KI als Werkquarto zeug, nicht als Weltanschauung.
+> Wir optimieren nicht „KI-Nutzung“. Wir optimieren **didaktische Entscheidungen** – mit KI als Werkzeug, nicht als Weltanschauung.
 
 ## Der Workflow in einem Satz {.unnumbered}
 
