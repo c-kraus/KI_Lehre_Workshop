@@ -31,7 +31,7 @@ book:
     collapse-level: 1
     search: true
   repo-url: https://github.com/c-kraus/KI_Lehre_Workshop
-  repo-actions: [edit]
+  repo-actions: [issue]
   sharing: [linkedin]
  
    
