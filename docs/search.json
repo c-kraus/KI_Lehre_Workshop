@@ -1,0 +1,686 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Schneller, schöner, stressfreier Lehren",
+    "section": "",
+    "text": "Willkommen im Maschinenraum der Lehre\nLehre ist ein Produktionsprozess. Nicht im Sinne von Fließbandromantik – sondern im nüchternen Sinn: Aus einer Idee soll ein Lernarrangement werden, das verständnisbar, überprüfbar und wiederholbar ist.\nDieser Reader zeigt einen kompakten Workflow, um aus einer Lehrfrage eine vollständige, interaktive Lerneinheit zu bauen – von der Recherche bis zur Umsetzung in Text, Folien, Video und Interaktivität. Wenn Sie an einer Stelle denken: „Das klingt ja schön, aber so läuft’s bei mir nie“ – wunderbar. Der Workflow soll helfen, nicht recht haben. Und falls Sie ihn ganz anders umsetzen: bitte erzählen Sie mir, wie.",
+    "crumbs": [
+      "Willkommen im Maschinenraum der Lehre"
+    ]
+  },
+  {
+    "objectID": "index.html#der-workflow-in-einem-satz",
+    "href": "index.html#der-workflow-in-einem-satz",
+    "title": "Schneller, schöner, stressfreier Lehren",
+    "section": "Der Workflow in einem Satz",
+    "text": "Der Workflow in einem Satz\nWir gehen von einer Lehrfrage aus, recherchieren quellenbasiert, stabilisieren Wissen, transformieren es in lernwirksame Formate und spielen es über passende Medien aus – mit einer klaren Trennung von Wahrheit, Didaktik und Design.",
+    "crumbs": [
+      "Willkommen im Maschinenraum der Lehre"
+    ]
+  },
+  {
+    "objectID": "index.html#die-sechs-phasen-als-pipeline",
+    "href": "index.html#die-sechs-phasen-als-pipeline",
+    "title": "Schneller, schöner, stressfreier Lehren",
+    "section": "Die sechs Phasen als Pipeline",
+    "text": "Die sechs Phasen als Pipeline\n\nPhase 1: Perplexity – Recherche mit Quellen\nPerplexity ist die Antwortmaschine für den Einstieg: Es kartiert Themen, liefert Perspektiven und zwingt zu Quellenarbeit. Didaktisch bedeutet das: Wir starten nicht mit Meinungen, sondern mit überprüfbarem Material.\n\n\nPhase 2: NotebookLM – Grounding und kuratierte Synthese\nNotebookLM ist der Analyst: Es arbeitet ausschließlich mit den bereitgestellten Dokumenten. Das ist akademisch Gold wert, weil es Halluzinationen nicht „reduziert“, sondern strukturell unattraktiv macht. Was nicht in den Quellen steht, existiert nicht.\n\n\nPhase 3: Gemini/ChatGPT – Didaktische Transformation\nHier wird aus Wissen Lehre: Lernziele, Dramaturgie, Aufgaben, Feedback, Prüfungslogik. Generative KI ist in dieser Phase keine Bibliothek, sondern eine Lehrredaktion. Sie formuliert und strukturiert – sie erfindet keine Fakten.\n\n\nPhase 4: MARP – Folien aus Markdown\nMARP trennt Inhalt und Form: Markdown zwingt zur Klarheit, Templates sichern Konsistenz. Folien sind dabei ein Ausspielkanal – nicht die zentrale Wissensspeicherung. Wer ein gutes Buch hat, braucht weniger Folien.\n\n\nPhase 5: HeyGen – Vom Skript zum Lehrvideo\nHeyGen skaliert die Stimme: kurze Clips (1–3 Minuten) für Orientierung, Entlastung, asynchrones Lernen. Entscheidend ist das Sprechskript: Schreiben für Ohren, nicht für Augen.\n\n\nPhase 6: Interaktivität – H5P oder Quarto\nH5P ist schnell, nativ in Moodle und didaktisch geführt – aber begrenzt. Quarto ist offen, mächtig und ideal für Flipped Classroom – aber verlangt Einarbeitung. Beides ist möglich. Reife Lehre wählt bewusst.",
+    "crumbs": [
+      "Willkommen im Maschinenraum der Lehre"
+    ]
+  },
+  {
+    "objectID": "index.html#interaktive-visualisierung-der-pipeline",
+    "href": "index.html#interaktive-visualisierung-der-pipeline",
+    "title": "Schneller, schöner, stressfreier Lehren",
+    "section": "Interaktive Visualisierung der Pipeline",
+    "text": "Interaktive Visualisierung der Pipeline\n\n\n\nEin guter KI-Workflow trennt strikt: Recherche (Phase 1) → Grounding (Phase 2) → Didaktik (Phase 3) → Medien (Phase 4–6).",
+    "crumbs": [
+      "Willkommen im Maschinenraum der Lehre"
+    ]
+  },
+  {
+    "objectID": "index.html#wie-sie-dieses-buch-verwenden-sollten",
+    "href": "index.html#wie-sie-dieses-buch-verwenden-sollten",
+    "title": "Schneller, schöner, stressfreier Lehren",
+    "section": "Wie Sie dieses Buch verwenden sollten",
+    "text": "Wie Sie dieses Buch verwenden sollten\nLesen Sie es nicht wie ein Handbuch. Nutzen Sie es wie ein Baukasten:\n\nWenn Sie gerade ein neues Thema vorbereiten: Start bei Phase 1–2.\nWenn Sie Material haben, aber keine Lehrlogik: Phase 3.\nWenn die Inhalte stehen und Sie produzieren müssen: Phase 4–6.\n\nUnd wenn Sie nur eine Sache mitnehmen wollen:\n\nDie Kompetenz der Zukunft ist nicht Tool-Beherrschung.\nEs ist die Fähigkeit, Werkzeuge intelligent zu kombinieren – und dabei akademische Standards nicht zu verlieren.\n\n\nWas ist das zentrale Prinzip dieses Readers?\n\nMöglichst viele KI-Tools kennenlernen.\nMöglichst schnell Inhalte erzeugen.\nEinen überprüfbaren Workflow etablieren, der akademische Qualität und didaktische Wirksamkeit verbindet.\n\n\nKI ist hier kein Ersatz für Denken, sondern ein Verstärker für Struktur.",
+    "crumbs": [
+      "Willkommen im Maschinenraum der Lehre"
+    ]
+  },
+  {
+    "objectID": "Phase1.html",
+    "href": "Phase1.html",
+    "title": "1  Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche",
+    "section": "",
+    "text": "1.1 Strategische Positionierung: Perplexity ist kein ChatGPT mit anderem Logo\nWer in der Hochschullehre heute ernsthaft mit KI arbeitet, muss eine unangenehme Wahrheit akzeptieren: Die meisten Studierenden verwechseln Information mit Erkenntnis. Sie googeln, sie scrollen, sie kopieren — und nennen das „Literaturarbeit“. Perplexity ist kein pädagogischer Zauberstab, aber es ist ein Werkzeug, das genau diese Verwechslung sichtbar macht: Es zwingt dazu, Antworten als quellenbasierte Synthesen zu verstehen, nicht als spontane Eingebung eines Chatbots.\nDidaktisch ist Perplexity damit mehr als „Google mit besserem Tonfall“. Es ist eine Recherche-Architektur, die sich hervorragend eignet, um akademische Kernkompetenzen zu trainieren: Quellenkritik, begründete Argumentation, Perspektivenvergleich, iterative Fragestellung. Kurz: Es passt dorthin, wo Wissenschaft beginnt — nicht beim Ergebnis, sondern bei der Methode.\nPerplexity ist im KI-Ökosystem ein Spezialist: Es optimiert nicht primär die Generierung neuer Texte, sondern den Zugang zu und die Synthese von vorhandener Information. Der Unterschied klingt banal, ist aber didaktisch fundamental. Generative Systeme glänzen, wenn es um Formulierung, Struktur, kreative Varianten und sparringspartnerartige Dialoge geht. Perplexity glänzt, wenn es um Recherche mit Quellenbezug geht.\nDas ist genau der Punkt, an dem Hochschullehre oft scheitert: Studierende lesen selten die Originale, sondern leben von Sekundär- und Tertiärverwertungen. Perplexity kann dieses Verhalten verstärken — oder, richtig eingesetzt, unterlaufen. Denn seine Stärke liegt darin, dass es Antworten mit Quellen koppelt und damit die Tür zur akademischen Norm öffnet: Behauptungen brauchen Belege.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche</span>"
+    ]
+  },
+  {
+    "objectID": "Phase1.html#strategische-positionierung-perplexity-ist-kein-chatgpt-mit-anderem-logo",
+    "href": "Phase1.html#strategische-positionierung-perplexity-ist-kein-chatgpt-mit-anderem-logo",
+    "title": "1  Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche",
+    "section": "",
+    "text": "Perplexity ist vor allem ein Recherche-Werkzeug: Es liefert quellenbasierte Synthesen, während generative Systeme stärker auf Textproduktion und Ideenentwicklung optimiert sind.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche</span>"
+    ]
+  },
+  {
+    "objectID": "Phase1.html#das-funktionsprinzip-von-der-frage-zur-recherchekette",
+    "href": "Phase1.html#das-funktionsprinzip-von-der-frage-zur-recherchekette",
+    "title": "1  Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche",
+    "section": "1.2 Das Funktionsprinzip: Von der Frage zur Recherchekette",
+    "text": "1.2 Das Funktionsprinzip: Von der Frage zur Recherchekette\nPerplexity arbeitet wie ein sehr schneller wissenschaftlicher Assistent: Es sucht, filtert, gewichtet, fasst zusammen — und zeigt dabei offen, auf welche Quellen es sich stützt. Didaktisch interessant ist nicht nur die Antwort, sondern der Weg dorthin: Perplexity macht Recherche iterativ. Eine gute Sitzung besteht nicht aus einer Frage, sondern aus einer Kette von Anschlussfragen, die das Thema schrittweise schärfen.\nHier steckt ein hochschuldidaktischer Hebel: Sie können Studierende dazu bringen, nicht nur „eine Antwort“ zu wollen, sondern eine präzise Fragestellung zu entwickeln. In Seminaren ist das oft der eigentliche Lernfortschritt. Die Hausarbeit scheitert selten am Schreiben — sie scheitert am Denken vorher.\n\n\nDidaktischer Kern: Perplexity als Trainingsgerät für „Fragekompetenz“\n\nPerplexity belohnt präzise Prompts, aber nicht im Sinne von „Prompt-Magie“, sondern im Sinne wissenschaftlicher Klarheit: Begriffe definieren, Kontexte abstecken, Zeiträume nennen, Region oder Disziplin festlegen, konkurrierende Perspektiven einfordern.\nWer Perplexity „richtig“ nutzen will, muss wissenschaftlich fragen lernen — und genau das ist eine prüfungsrelevante Kompetenz.\n\n\nAnschlussfragen sind das eigentliche Produkt\nDie erste Antwort ist selten das Ziel. Der didaktische Gewinn liegt in den Anschlussfragen: Sie eröffnen neue Dimensionen, testen Annahmen und zwingen zur Präzisierung der Fragestellung — wie ein gutes Kolloquium, nur ohne Kaffee.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche</span>"
+    ]
+  },
+  {
+    "objectID": "Phase1.html#die-steuerungsinstrumente-focus-modi-und-quellenarbeit-das-akademische-cockpit",
+    "href": "Phase1.html#die-steuerungsinstrumente-focus-modi-und-quellenarbeit-das-akademische-cockpit",
+    "title": "1  Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche",
+    "section": "1.3 Die Steuerungsinstrumente: Focus, Modi und Quellenarbeit (das akademische Cockpit)",
+    "text": "1.3 Die Steuerungsinstrumente: Focus, Modi und Quellenarbeit (das akademische Cockpit)\nPerplexity ist dann stark, wenn Sie die Suchdomäne und die Tiefe bewusst steuern. Hochschullehre braucht genau das: Kontrolle über Qualität, Anschlussfähigkeit und Nachvollziehbarkeit.\n\n1.3.1 Focus: Die Disziplin schaltet den Lärm aus\nMit der Focus-Funktion begrenzen Sie, wo gesucht wird. Didaktisch ist das eine elegante Brücke zur Methodenlehre: „Welche Quellenräume sind für welche Fragen legitim?“ Web ist breit, Academic ist enger, Social ist diskursiv, Videos sind demonstrativ, Writing ist produktiv — aber nicht recherchierend.\nIn einem Seminar können Sie daraus eine kleine epistemische Provokation machen:\nWenn Sie im Social-Focus recherchieren, bekommen Sie nicht Wahrheit, sondern Diskurs. Wenn Sie im Academic-Focus recherchieren, bekommen Sie nicht immer Aktualität, aber methodische Strenge. Beides kann sinnvoll sein — wenn man weiß, was man tut.\n\nMit der Funktion Focus lässt sich die Suchdomäne eingrenzen: Academic für wissenschaftliche Quellen, Web für allgemeine Echtzeitrecherche, Social für Diskurse und Meinungen.\n\n\n\n1.3.2 Modi: Von der schnellen Antwort zur tiefen Recherche\nPerplexity ist nicht monolithisch. Es kennt unterschiedliche Tiefen: von der schnellen, pragmatischen Abfrage bis zu agentenartigen Recherchen, die mehrere Quellenstränge kombinieren. Für die Lehre bedeutet das: Sie können den Rechercheaufwand didaktisch dosieren.\n\nIn der Vorlesung: schnelle Synthese zur Orientierung.\nIm Seminar: tieferer Modus für systematische Literaturarbeit.\nIn Projektarbeiten: agentenartige Recherche als Startpunkt für eine strukturierte Quellensammlung.\n\nDas Entscheidende bleibt aber gleich: Die Quellen müssen in die Hand der Studierenden zurück. Perplexity darf nicht das Lesen ersetzen, sondern muss das Lesen vorbereiten — wie eine gute Einleitung, nicht wie ein Ersatzroman.\n\nQuellenmanagement ist Prüfungsmanagement\nWenn Studierende Quellen nicht prüfen, prüfen Sie am Ende nicht Wissen, sondern Stil. Perplexity kann Belege sichtbar machen — aber akademische Integrität entsteht erst, wenn Studierende die Quellen lesen und bewerten.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche</span>"
+    ]
+  },
+  {
+    "objectID": "Phase1.html#hochschuldidaktische-einsatzszenarien-vier-blaupausen-mit-prompts",
+    "href": "Phase1.html#hochschuldidaktische-einsatzszenarien-vier-blaupausen-mit-prompts",
+    "title": "1  Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche",
+    "section": "1.4 Hochschuldidaktische Einsatzszenarien: Vier Blaupausen mit Prompts",
+    "text": "1.4 Hochschuldidaktische Einsatzszenarien: Vier Blaupausen mit Prompts\nTheorie ist sympathisch. Lehre ist gnadenlos praktisch. Die folgenden Szenarien sind so gebaut, dass sie direkt in Lehrveranstaltungen eingesetzt werden können — als Übung, als Gruppenarbeit oder als Vorbereitung auf Prüfungsleistungen.\n\n1.4.1 Szenario 1: Der Literatur-Scout (Seminarvorbereitung)\nZiel: Studierende lernen, ein Themenfeld systematisch zu kartieren, statt „irgendwas“ zu googeln.\n\nPrompt:\n„Erstelle eine erste Forschungslandkarte zum Thema: [Thema X].\n- Gib mir 6–10 zentrale Konzepte/Begriffe, die in der Literatur dominieren.\n- Nenne zu jedem Konzept 1–2 wissenschaftliche Schlüsselquellen (mit Link/Quelle).\n- Formuliere 5 präzise Anschlussfragen, die für ein Seminarreferat sinnvoll wären.“\n\nDidaktischer Twist: Lassen Sie Studierende die Begriffe anschließend definieren — aber nur anhand der Originalquellen.\n\nEine gute Recherche beginnt nicht mit Antworten, sondern mit Begriffen. Wer die Begriffe nicht klärt, diskutiert später nur über Schatten an der Wand.\n\n\n\n1.4.2 Szenario 2: Der Quellen-TÜV (Quellenkritik als Übung)\nZiel: Studierende trainieren Kriterien wie Aktualität, Autorität, Methodik, Bias.\n\nPrompt:\n„Gib mir zu [Fragestellung] eine Antwort mit Quellen.\nDanach bewerte jede Quelle kurz nach:\n1) Autorität/Institution, 2) Aktualität, 3) mögliche Bias/Agenda, 4) Eignung für eine wissenschaftliche Hausarbeit.\nMarkiere Quellen, die eher populärwissenschaftlich oder problematisch sind.“\n\nLehrformat: Gruppenarbeit. Jede Gruppe verteidigt „ihre“ Quelle im Plenum, wie in einer kleinen Peer-Review-Simulation.\n\nWissenschaft ist nicht „was im Internet steht“\nWissenschaft ist ein Validierungsprozess. Quellen sind nicht gleich Quellen. Perplexity liefert Material — akademische Qualität entsteht durch Bewertung, Kontext und methodische Einordnung.\n\n\n\n1.4.3 Szenario 3: Der Kontroversen-Generator (Diskurskompetenz)\nZiel: Studierende lernen, konkurrierende Positionen fair darzustellen (und nicht nur die eigene Meinung zu verstärken).\n\nPrompt:\n„Stelle zu [These X] mindestens drei unterschiedliche Positionen dar:\n- eine stark zustimmende,\n- eine kritisch-ablehnende,\n- eine differenzierte Mittelposition.\nGib zu jeder Position zentrale Argumente und jeweils Quellen, die diese Position stützen.\nFormuliere anschließend 3 Fragen, die die Positionen empirisch prüfbar machen.“\n\nDidaktischer Nutzen: Das ist praktisch eine Vorstufe zur Debatte — aber mit Quellenpflicht.\n\nKontroversen sind keine Meinungswettkämpfe, sondern Hypothesen mit Quellen. Wer keine Belege liefert, liefert keine Position — nur Lautstärke.\n\n\n\n1.4.4 Szenario 4: Der Brücken-Workflow (Perplexity → NotebookLM)\nZiel: Studierende bauen aus Quellen eine eigene, grounded Wissensbasis, statt im offenen Web zu treiben.\n\nPrompt in Perplexity:\n„Finde die 8 relevantesten Primärquellen zu [Thema X] aus den letzten 5 Jahren.\nBevorzuge systematische Reviews, Meta-Analysen oder Leitlinien.\nGib zu jeder Quelle: Kernaussage, Methodik/Datengrundlage und warum sie wichtig ist.“\n\nAnschluss: Links/ PDFs werden in NotebookLM importiert. Dort entsteht aus der Sammlung eine saubere, zitierfähige Synthese — ohne dass Studierende „aus dem Bauch“ argumentieren.\n\n\nDidaktische Empfehlung: Rollen sauber trennen\n\nPerplexity: Quellen finden, filtern, kartieren.\nNotebookLM: Quellen intern verdichten, konsistent zusammenführen, Argumente stabilisieren.\nGenerative Tools: Texte formulieren, didaktische Materialien gestalten, Varianten erstellen.\nDas ist kein Tool-Hopping, sondern eine Arbeitsteilung wie im Forschungsprozess selbst.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche</span>"
+    ]
+  },
+  {
+    "objectID": "Phase1.html#lehr--und-prüfungsbezug-was-sie-explizit-adressieren-sollten",
+    "href": "Phase1.html#lehr--und-prüfungsbezug-was-sie-explizit-adressieren-sollten",
+    "title": "1  Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche",
+    "section": "1.5 Lehr- und Prüfungsbezug: Was Sie explizit adressieren sollten",
+    "text": "1.5 Lehr- und Prüfungsbezug: Was Sie explizit adressieren sollten\nPerplexity wird im Lehrkontext schnell zum „Shortcut-Tool“. Das ist nicht das Problem. Das Problem ist, wenn niemand mehr weiß, welcher Shortcut zu welcher Norm passt. Wenn Sie Perplexity zulassen, sollten Sie drei Dinge explizit regeln:\nErstens: Quellenpflicht. Jede wesentliche Behauptung braucht eine nachprüfbare Quelle.\nZweitens: Primärlektüre. Perplexity ist Einstieg, nicht Endstation.\nDrittens: Transparenz. Studierende sollen offenlegen, wie sie recherchiert haben (z. B. Recherchelog, Suchpfad, Auswahlkriterien).\nDas ist keine Bürokratie. Das ist Didaktik. Sonst prüfen Sie am Ende nicht Kompetenz, sondern Glück.\n\nWelche Nutzung von Perplexity ist im Hochschulkontext didaktisch am sinnvollsten?\n\nPerplexity liefert fertige Texte, die Studierende direkt abgeben können.\nPerplexity dient als quellenbasierter Einstieg: Kartierung, Quellenprüfung, Perspektivenvergleich und Entwicklung besserer Fragestellungen.\nPerplexity ersetzt die Primärlektüre, weil es ja „zusammenfasst“.\n\n\nPerplexity ist nicht der Ersatz für wissenschaftliches Arbeiten, sondern eine Lupe dafür. Es zeigt schneller, wo Sie hinschauen sollten — aber hinschauen müssen Sie immer noch selbst.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Phase 1: Perplexity – Die Antwortmaschine für akademische Recherche</span>"
+    ]
+  },
+  {
+    "objectID": "Phase2.html",
+    "href": "Phase2.html",
+    "title": "2  Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre",
+    "section": "",
+    "text": "2.1 Das Fundament: Grounding & Retrieval (die didaktische Norm)\nWenn Perplexity der Entdecker ist, der uns Rohmaterial aus der offenen Wissenswelt liefert, dann ist NotebookLM der Analyst, der dieses Material prüft, strukturiert und didaktisch verwertbar macht. Mit NotebookLM verlassen wir bewusst den Bereich der allgemeinen Websuche und betreten einen geschützten Raum kuratierter Wissensarbeit – ein entscheidender Unterschied für Lehre, Prüfungsvorbereitung und wissenschaftliches Arbeiten.\nDas fundamentale Problem generativer KI im akademischen Kontext ist die Halluzination. Klassische Sprachmodelle verhalten sich wie brillant vorbereitete Improvisationskünstler: Sie wissen enorm viel, aber wo Wissen fehlt, wird überzeugend ergänzt. Für Forschung und Lehre ist das toxisch.\nNotebookLM löst dieses Problem nicht durch „bessere Intelligenz“, sondern durch strikte epistemische Disziplin: das Prinzip des Source Grounding.\nIm Kern ist NotebookLM ein Retrieval-gestütztes System, das konsequent auf den Hochschulkontext zugeschnitten ist. Es arbeitet ausschließlich mit Quellen, die Sie selbst bereitstellen. PDFs, Google Docs, Slides, Webseiten, Videos oder Audiodateien bilden die vollständige Wissensbasis.\nDer entscheidende Punkt:\nWenn eine Information nicht in Ihren Materialien enthalten ist, wird das System nicht spekulieren. Es antwortet explizit, dass diese Information in den Quellen nicht vorhanden ist.\nDiese Einschränkung ist kein Bug, sondern das zentrale didaktische Feature. Sie verwandelt KI von einer „Creative Writing Machine“ in eine zuverlässige Reasoning Engine – ideal für Lehre, Prüfungen und wissenschaftliche Reflexion.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre</span>"
+    ]
+  },
+  {
+    "objectID": "Phase2.html#das-fundament-grounding-retrieval-die-didaktische-norm",
+    "href": "Phase2.html#das-fundament-grounding-retrieval-die-didaktische-norm",
+    "title": "2  Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre",
+    "section": "",
+    "text": "2.1.1 Zentrale Funktionen für Lehrende\nMultimodale Ingest-Pipeline\nSie müssen keine Transkripte mehr erstellen. Ein YouTube-Link oder eine Audiodatei genügt. NotebookLM verarbeitet gesprochene Inhalte und integriert sie gleichwertig mit Textquellen. Vorlesungsaufzeichnungen werden damit erstmals systematisch analysierbar.\nPrivacy First\nFür den Hochschuleinsatz essenziell: Ihre hochgeladenen Materialien verbleiben in Ihrem privaten Arbeitsbereich. Skripte, Forschungsnotizen und unveröffentlichte Ideen werden nicht für das Training öffentlicher Modelle verwendet.\nDie Notiz-Falle\nNotebookLM besitzt kein dauerhaftes Chat-Gedächtnis. Gute Antworten sind flüchtig. Nur was aktiv als Notiz gespeichert wird, bleibt erhalten. Didaktisch übersetzt: Relevanz entsteht erst durch bewusste Selektion.\n\nWährend klassische Sprachmodelle auf ihrem Trainingswissen basieren und dadurch halluzinieren können, nutzt NotebookLM striktes Source Grounding, um Antworten ausschließlich aus den hochgeladenen Dokumenten zu generieren.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre</span>"
+    ]
+  },
+  {
+    "objectID": "Phase2.html#die-didaktische-innovation-audio-overviews-als-modalitätswechsel",
+    "href": "Phase2.html#die-didaktische-innovation-audio-overviews-als-modalitätswechsel",
+    "title": "2  Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre",
+    "section": "2.2 Die didaktische Innovation: Audio Overviews als Modalitätswechsel",
+    "text": "2.2 Die didaktische Innovation: Audio Overviews als Modalitätswechsel\nMit den Audio Overviews verlässt NotebookLM das Terrain reiner Textanalyse und betritt didaktisch spannendes Neuland. Aus dichten, oft schwer zugänglichen Fachtexten entsteht ein englischsprachiger Podcast.\nWichtig: Es handelt sich nicht um simples Vorlesen. Zwei KI-Stimmen führen eine diskursive Auseinandersetzung mit Ihren Inhalten. Sie erklären, hinterfragen, nutzen Analogien und kommentieren sogar die Trockenheit des Stoffs. Das Ergebnis ist ein dialogisches Erkenntnisformat.\n\n2.2.1 Warum ist das hochschuldidaktisch relevant?\nPerspektivwechsel für Lehrende\nDie eigene Vorlesung als Diskussion zu hören, wirkt entlarvend. Argumentationslücken, Redundanzen und implizite Annahmen werden akustisch schneller sichtbar als beim Lesen.\nBarrierefreiheit und kognitive Entlastung\nStudierende können komplexe Texte vorstrukturieren, bevor sie lesen. Der Audio Overview fungiert als Advance Organizer und senkt die Einstiegshürde für anspruchsvolle Literatur.\n\nPro-Tipp für die Lehre:\nNutzen Sie die Anpassungsoptionen gezielt. Weisen Sie die Hosts an, Inhalte kritisch, skeptisch oder bewusst vereinfacht zu diskutieren – abhängig vom Qualifikationsniveau Ihrer Studierenden.\n\n\nDeep Dive vs. Text-to-Speech\nText-to-Speech ist eine lineare 1:1-Wiedergabe. Ein Deep Dive ist eine synthetisierte Diskussion, die Zusammenhänge expliziert, Redundanzen reduziert und durch Dialogstruktur die kognitive Belastung senkt.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre</span>"
+    ]
+  },
+  {
+    "objectID": "Phase2.html#die-brücke-notebooklm-und-gemini-als-didaktisches-tandem",
+    "href": "Phase2.html#die-brücke-notebooklm-und-gemini-als-didaktisches-tandem",
+    "title": "2  Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre",
+    "section": "2.3 Die Brücke: NotebookLM und Gemini als didaktisches Tandem",
+    "text": "2.3 Die Brücke: NotebookLM und Gemini als didaktisches Tandem\nNotebookLM war lange ein sicherer, aber isolierter Arbeitsraum. Mit der Integration in Gemini Advanced entsteht erstmals ein hybrides System: internes, kuratiertes Wissen trifft auf externes Weltwissen.\nDiese Kombination adressiert eine zentrale Grenze von NotebookLM:\nEs ist exzellent im Finden und Absichern von Wissen, aber bewusst limitiert in kreativer Transformation und komplexem Schlussfolgern.\n\n2.3.1 Der neue Workflow für Hochschullehrende\nDas „Thinking Model“\nGemini kann auf Ihre NotebookLM-Quellen zugreifen und dabei explizit „laut denken“. Gerade bei komplexen Fragestellungen (Theorievergleiche, Argumentrekonstruktionen, Prüfungsdesign) entstehen dadurch tiefere Ergebnisse als im klassischen Chat.\nSpezialwissen trifft Weltwissen\nNotebookLM kennt nur Ihre Quellen. Gemini erlaubt den kontrollierten Abgleich mit aktuellen Diskursen, Forschungstrends oder hochschuldidaktischen Entwicklungen.\nFormat-Transformation\nWährend NotebookLM textzentriert bleibt, kann Gemini aus denselben Quellen Tabellen, Visualisierungen, Fallstudien oder Lehrmaterialien erzeugen.\n\nWann sollten Sie vom klassischen NotebookLM-Interface zu Gemini wechseln?\n\nWenn Sie lediglich eine konkrete Textstelle aus Ihren Quellen benötigen.\nWenn Sie komplexes Reasoning brauchen oder internes Wissen mit externen Entwicklungen verknüpfen möchten.\nWenn maximale kreative Transformation gefragt ist.\n\n\nNotebookLM ist der Safe Space für gesichertes Wissen.\nGemini ist der Creative Space für didaktische Transformation.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre</span>"
+    ]
+  },
+  {
+    "objectID": "Phase2.html#hands-on-vier-didaktische-einsatzszenarien",
+    "href": "Phase2.html#hands-on-vier-didaktische-einsatzszenarien",
+    "title": "2  Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre",
+    "section": "2.4 Hands-On: Vier didaktische Einsatzszenarien",
+    "text": "2.4 Hands-On: Vier didaktische Einsatzszenarien\nTheorie überzeugt. Praxis verändert Lehre. Die folgenden vier Szenarien zeigen, wie NotebookLM unmittelbar im Hochschulalltag eingesetzt werden kann.\n\n2.4.1 Szenario 1: Der „Skript-TÜV“ – Qualitätssicherung von Lehrmaterialien\nLaden Sie Ihr Vorlesungsskript und zwei aktuelle Fachartikel hoch.\n\nPrompt:\n„Agiere als kritischer Gutachter.\n1. Welche aktuellen Erkenntnisse fehlen in meinem Skript?\n2. Wo ist die Argumentation logisch unsauber oder implizit?\n3. Schlage drei moderne Fallbeispiele vor, die die Theorie aktualisieren.“\n\n\n\n2.4.2 Szenario 2: Der Klausur-Simulator – Prüfungen auf Bloom-Niveau\nIdeal zur Vorbereitung von Moodle-Fragenbanken.\n\nPrompt:\n„Erstelle fünf Multiple-Choice-Fragen mit hohem Schwierigkeitsgrad (Analyse/Evaluation nach Bloom).\n– Fokus: [Thema X]\n– Gib die korrekte Lösung an und erkläre, warum die Distraktoren plausibel, aber falsch sind.“\n\n\n\n2.4.3 Szenario 3: Die Podcast-Regie – Vorbereitung für Studierende\nNutzen Sie Audio Overviews als vorbereitende Lernressource.\n\nAudio-Instruktion:\n„Fokussiere auf praktische Implikationen.\nErkläre theoretische Modelle mit Alltagsanalogien.\nTonfall: skeptisch, aber neugierig.\nZielgruppe: Bachelorstudierende ohne Vorkenntnisse.“\n\n\n\n2.4.4 Szenario 4: Der Interaktions-Designer – über die Gemini-Brücke\nStatische Inhalte werden zu aktiven Lernformaten.\n\nPrompt (in Gemini):\n„Greife auf mein Notebook ‚Bilanzanalyse‘ zu.\nErstelle eine interaktive Fallstudie als Tabelle:\nSpalte 1: Fiktive Unternehmenssituation\nSpalte 2: Relevante Kennzahl\nSpalte 3: Eine Lückentext-Frage, die konzeptionelles Denken erzwingt.“\n\n\nErfolgreiche KI-Nutzung in der Lehre entsteht nicht aus Technikbegeisterung, sondern aus didaktischer Prompt-Kompetenz.\nDie Qualität der Antwort folgt der Präzision der Instruktion.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Phase 2: NotebookLM – Die analytische Maschine für die Hochschullehre</span>"
+    ]
+  },
+  {
+    "objectID": "Phase3.html",
+    "href": "Phase3.html",
+    "title": "3  Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine",
+    "section": "",
+    "text": "3.1 Rollenklärung: Was generative KI hier darf – und was nicht\nWenn Phase 1 und 2 gut gemacht sind, liegen vor Ihnen keine „KI-Antworten“, sondern etwas sehr viel Wertvolleres: eine kuratierte, quellenbasierte Erkenntnismasse. Phase 3 ist der Moment, in dem Sie diese Masse nicht weiter „analysieren“, sondern didaktisch veredeln.\nHier kommen generative Modelle wie Gemini oder ChatGPT ins Spiel. Nicht als Wahrheitsorakel – sondern als Lehrredaktion: Sie helfen beim Strukturieren, Vereinfachen, Visualisieren, Prüfen und Verpacken. Der intellektuelle Anspruch bleibt akademisch. Der Output wird lehrbar.\nGenerative KI ist in Phase 3 nicht der Bibliothekar, sondern der Drehbuchautor. Sie soll nicht „noch mehr recherchieren“, sondern vorhandenes Material in lernwirksame Formen gießen.\nDer Kernkonflikt ist dabei simpel:\nPhase 2 optimiert Faktentreue. Phase 3 optimiert Verständlichkeit.\nUnd diese Optimierungen stehen manchmal in Spannung. Gute Lehre ist nicht „maximale Dichte“, sondern maximale Anschlussfähigkeit – ohne in Trivialität abzustürzen.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine</span>"
+    ]
+  },
+  {
+    "objectID": "Phase3.html#rollenklärung-was-generative-ki-hier-darf-und-was-nicht",
+    "href": "Phase3.html#rollenklärung-was-generative-ki-hier-darf-und-was-nicht",
+    "title": "3  Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine",
+    "section": "",
+    "text": "Normativer Leitgedanke:\nGenerative KI darf formulieren und strukturieren. Sie darf nicht erfinden.\nAlles, was wie ein Fakt klingt, muss aus Phase 2 stammen oder explizit als Hypothese markiert werden.\n\n\nDie „Zwei-Text“-Regel\nText A: Der quellenbasierte Kern (aus NotebookLM).\nText B: Die didaktische Inszenierung (aus Gemini/ChatGPT).\nText B darf Text A nicht widersprechen – nur verständlicher, schöner, prüfbarer machen.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine</span>"
+    ]
+  },
+  {
+    "objectID": "Phase3.html#der-didaktische-workflow-von-erkenntnis-zu-lerneinheit",
+    "href": "Phase3.html#der-didaktische-workflow-von-erkenntnis-zu-lerneinheit",
+    "title": "3  Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine",
+    "section": "3.2 Der didaktische Workflow: Von Erkenntnis zu Lerneinheit",
+    "text": "3.2 Der didaktische Workflow: Von Erkenntnis zu Lerneinheit\nPhase 3 funktioniert am besten als klarer Dreischritt. Nicht, weil Sie gerne Prozesse lieben – sondern weil Studierende sonst verlieren.\n\n3.2.1 Schritt 1: Lernziel-Architektur (Constructive Alignment)\nSie starten nicht mit Folien. Sie starten mit Lernzielen.\nDenn jede „schöne Erklärung“ ist wertlos, wenn am Ende unklar ist, was Studierende können sollen.\nPrompt (Lernziel-Design): &gt; „Du bist Hochschuldidaktiker:in. Erstelle aus dem folgenden Inhalt 4–6 Lernziele im Stil von Constructive Alignment.\n&gt; Für jedes Lernziel: (1) Verb nach Bloom, (2) Nachweisform (Prüfungsleistung), (3) typische Fehlvorstellung von Studierenden.“\n\n\n3.2.2 Schritt 2: Lehrlogik und Dramaturgie (Hook → Substance → Practice → Check)\nDann bauen Sie eine Einheit wie eine gute Argumentation: Einstieg, Kern, Transfer, Kontrolle.\nNicht als Bullet-Point-Friedhof, sondern als didaktischer Spannungsbogen.\nPrompt (Einheitenstruktur 45–90 Minuten): &gt; „Erstelle eine Lehreinheit (45 Minuten) auf Basis des Materials.\n&gt; Struktur: Hook (Problem/Provokation), Theorie (Kernkonzepte), Beispiel (Fall), Anwendung (Mini-Übung), Lernkontrolle (Quiz).\n&gt; Gib zu jedem Abschnitt: Zeitbudget, Lehrform (Impuls, Diskussion, Gruppenarbeit), erwartetes Output-Artefakt.“\n\n\n3.2.3 Schritt 3: Medien- und Interaktionsproduktion (Slide, H5P, Skript, Video)\nErst jetzt kommt die Produktion: Folien, Aufgaben, Quiz, Sprechtext.\nHier spielt generative KI ihre Stärke aus: Sie ist eine Formatmaschine.\nPrompt (Medienpaket): &gt; „Erzeuge ein konsistentes Medienpaket:\n&gt; (1) Folienskript mit 8–10 Folien (Titel + Kernaussage + Visual-Idee),\n&gt; (2) Handout (1 Seite) mit Merksätzen und Mini-Glossar,\n&gt; (3) 5 Prüfungsfragen (MC + Begründung),\n&gt; (4) 1 Fallaufgabe mit Lösungsskizze.“\n\nPhase 3 bedeutet nicht mehr Wissen, sondern besseres Lernen: von Erkenntnis zu Lernziel, von Lernziel zu Lehrlogik, von Lehrlogik zu Medien.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine</span>"
+    ]
+  },
+  {
+    "objectID": "Phase3.html#didaktische-blaupausen-vier-typische-lehrprodukte",
+    "href": "Phase3.html#didaktische-blaupausen-vier-typische-lehrprodukte",
+    "title": "3  Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine",
+    "section": "3.3 Didaktische Blaupausen: Vier typische Lehrprodukte",
+    "text": "3.3 Didaktische Blaupausen: Vier typische Lehrprodukte\n\n3.3.1 Blaupause 1: Die Vorlesungsminiatur (10-Minuten-Impuls)\nIdeal als Einstieg oder als „Concept Primer“ vor einem Seminartext.\n\nPrompt: „Schreibe einen 10-minütigen Vorlesungsimpuls.\nTon: präzise, akademisch, aber zugänglich.\nBaue ein Beispiel aus der Praxis ein und beende mit einer Leitfrage für Diskussion.“\n\n\n\n3.3.2 Blaupause 2: Die Seminar-Debatte (Positionen + Evidenz)\nStudierende verwechseln gerne Meinung mit Argument. Phase 3 macht daraus eine Übung mit Norm.\n\nPrompt: „Erstelle ein Debatten-Set:\n1 Pro-Position, 1 Contra-Position, 1 Mittelposition.\nJede Position: 3 Argumente + 1 typische Schwachstelle.\nDanach: 5 Cross-Examination-Fragen für die Gegenseite.“\n\n\n\n3.3.3 Blaupause 3: Der Prüfungsbaukasten (Bloom-gesteuert)\nDie Qualität einer Prüfung ist die Qualität Ihrer Taxonomie.\n\nPrompt: „Erstelle 9 Prüfungsitems:\n3 Recall/Verstehen, 3 Anwenden/Analysieren, 3 Evaluieren/Gestalten.\nFür jedes Item: Erwartungshorizont + häufige Fehler + kurze Feedbackformulierung.“\n\n\n\n3.3.4 Blaupause 4: H5P/Interaktive Formate (ohne Magie, mit Mechanik)\nInteraktivität ist kein Selbstzweck. Sie ist ein Test, ob Denken stattfindet.\n\nPrompt: „Erzeuge Material für ein interaktives Lernmodul:\n- 1 Lückentext (5 Lücken)\n- 1 Drag-and-Drop-Zuordnung (Begriff → Definition)\n- 1 Single-Choice-Quiz (3 Fragen)\nBitte so formulieren, dass ich es direkt in ein E-Learning-Tool übertragen kann.“\n\n\nDer Lehrredakteur-Modus\nDie beste Rolle für Gemini/ChatGPT ist nicht „Dozent:in“, sondern „Lehrredaktion“:\nStrukturieren, glätten, zuspitzen, visualisieren — ohne neue Fakten zu erfinden.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine</span>"
+    ]
+  },
+  {
+    "objectID": "Phase3.html#qualitätskontrolle-der-akademische-sicherheitsgurt",
+    "href": "Phase3.html#qualitätskontrolle-der-akademische-sicherheitsgurt",
+    "title": "3  Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine",
+    "section": "3.4 Qualitätskontrolle: Der akademische Sicherheitsgurt",
+    "text": "3.4 Qualitätskontrolle: Der akademische Sicherheitsgurt\nPhase 3 ist produktiv – und gefährlich. Nicht, weil die Modelle „böse“ sind, sondern weil sie stilistisch überzeugend sind. Und Überzeugung ist kein Wahrheitskriterium.\n\n3.4.1 Minimal-Checkliste für Lehrende\n\nFaktenanker: Jede Zahl, jede Definition, jede empirische Behauptung muss aus Phase 2 stammen oder als unsicher markiert sein.\n\nBegriffsdisziplin: Begriffe werden konsistent verwendet (keine stillen Bedeutungswechsel).\n\nDidaktische Passung: Beispiele passen zum Niveau (Bachelor ≠ Master ≠ Weiterbildung).\n\nPrüfungslogik: Aufgaben prüfen Lernziele – nicht Texttreue.\n\nTransparenz: KI-Nutzung wird im Kurs kommuniziert (Regeln, Grenzen, Erwartung an Eigenleistung).\n\n\n\nDeep Dive: „Halluzination“ in Phase 3 ist oft kein Faktfehler, sondern ein Strukturfehler\n\nViele Probleme entstehen nicht durch falsche Fakten, sondern durch didaktische Verführung: - ein Beispiel, das „nett“ klingt, aber das Konzept falsch abbildet - eine Analogie, die Nebenannahmen einführt - eine Vereinfachung, die den Kern entstellt\nDie Gegenmaßnahme ist banal und effektiv:\nBeispiel/Analogie immer rückübersetzen lassen.\n„Welche exakten Elemente des Konzepts repräsentiert diese Analogie – und was bleibt weg?“\n\n\nDidaktische Qualität entsteht nicht durch schöne Sprache, sondern durch prüfbare Passung: Lernziel ↔︎ Inhalt ↔︎ Aufgabe ↔︎ Feedback.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine</span>"
+    ]
+  },
+  {
+    "objectID": "Phase3.html#hands-on-drei-master-prompts-für-die-praxis",
+    "href": "Phase3.html#hands-on-drei-master-prompts-für-die-praxis",
+    "title": "3  Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine",
+    "section": "3.5 Hands-On: Drei „Master-Prompts“ für die Praxis",
+    "text": "3.5 Hands-On: Drei „Master-Prompts“ für die Praxis\n\n3.5.1 Master-Prompt 1: Von NotebookLM-Report zu Lehrveranstaltung\n\n„Du erhältst gleich einen Bericht (Inhalt).\nAufgabe: Erzeuge daraus eine 60-minütige Lehreinheit für Bachelorstudierende.\nStruktur: Hook, Theorie, Beispiel, Anwendung, Lernkontrolle.\nGib: Lernziele (Bloom), Zeitplanung, Visual-Ideen, 3 Interaktionen (kurz), 1 Quiz (5 Fragen).\nSchreibe in akademischem Deutsch, präzise und motivierend.“\n\n\n\n3.5.2 Master-Prompt 2: Von Konzept zu Fallstudie\n\n„Erstelle eine Fallstudie mit:\nKontext (Unternehmen/Organisation), Datenlage, Konflikt, Aufgabenstellung (3 Fragen), Lösungsskizze.\nSchwierigkeitsgrad: mittel.\nZiel: Anwendung des Konzepts auf eine realistische Entscheidungssituation.“\n\n\n\n3.5.3 Master-Prompt 3: Von Inhalt zu Video-Skript\n\n„Schreibe ein 90-Sekunden-Video-Skript.\nAnforderungen: kurze Sätze, sprechbar, klare Übergänge, 1 Metapher, 1 Mini-Beispiel, 1 Abschlussfrage.\nGliedere nach Szenen (Intro, Kern, Beispiel, Abschluss).“\n\n\nWas ist die zentrale Funktion von Gemini/ChatGPT in Phase 3?\n\nNeue wissenschaftliche Fakten recherchieren und belegen.\nDen Inhalt aus Phase 2 ersetzen, weil er zu „trocken“ ist.\nQuellenbasiertes Wissen in didaktische Strukturen, Medienformate und prüfbare Lernaktivitäten transformieren.\n\n\nPhase 3 macht aus Wissen Lehre. Nicht durch mehr Wahrheit, sondern durch bessere Form.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Phase 3: Gemini/ChatGPT – Die didaktische Transformationsmaschine</span>"
+    ]
+  },
+  {
+    "objectID": "Phase4.html",
+    "href": "Phase4.html",
+    "title": "4  Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline",
+    "section": "",
+    "text": "4.1 Braucht man Folien wirklich? Reader, Flipped Classroom und das Ende der Folienpflicht\nNach Perplexity (Phase 1), NotebookLM (Phase 2) und der didaktischen Transformation mit Gemini/ChatGPT (Phase 3) folgt Phase 4: die mediale Ausspielung. Für viele heißt das reflexartig: Folien.\nAber eine reife Hochschuldidaktik stellt zuerst eine ketzerische Frage:\nBrauchen wir überhaupt Folien?\nManchmal ja. Oft nein. Und gelegentlich sind Folien schlicht ein Ersatz für etwas, das wir nicht geliefert haben: einen klaren Reader.\nFolien sind historisch ein „Live-Interface“: Sie helfen beim Präsentieren, beim Strukturieren, beim Taktgeben. Aber sie sind ein miserables Medium zum Lernen, wenn sie den Reader ersetzen sollen. Wer jemals eine Prüfungsvorbereitung mit 80 Slides erlebt hat, weiß: Das ist kein Lernmaterial, das ist ein optisches Sedativum.\nWenn Sie einen guten Reader haben, brauchen Sie oft weniger Folien.\nUnd wenn Sie ein interaktives Buch haben – etwa als Quarto-generierte HTML-Seite mit Übungen, Checks und Deep Dives – dann kann das klassische Folienset im Sinne eines Flipped Classroom sogar überflüssig werden:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline</span>"
+    ]
+  },
+  {
+    "objectID": "Phase4.html#braucht-man-folien-wirklich-reader-flipped-classroom-und-das-ende-der-folienpflicht",
+    "href": "Phase4.html#braucht-man-folien-wirklich-reader-flipped-classroom-und-das-ende-der-folienpflicht",
+    "title": "4  Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline",
+    "section": "",
+    "text": "Studierende lesen und interagieren vorab im Quarto-Book.\nPräsenzzeit wird zu Diskussion, Anwendung, Problemlösen.\nFolien werden optional: als roter Faden, nicht als Wissenscontainer.\n\n\nDidaktischer Leitgedanke:\nFolien sind kein Lernmedium. Sie sind ein Synchronisationsmedium.\n\n\nWann sind Folien in einem Flipped-Classroom-Setting am ehesten verzichtbar?\n\nWenn die Lehrperson besonders schön animieren kann.\nWenn ein gut strukturierter Reader oder ein interaktives Quarto-Book die Inhalte inkl. Übungen und Checks bereits trägt.\nWenn Studierende grundsätzlich lieber Folien als Texte mögen.\n\n\nGute Lehre ist keine Folienreligion. Sie ist Medienwahl nach Funktion.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline</span>"
+    ]
+  },
+  {
+    "objectID": "Phase4.html#warum-marp-separation-of-concerns-inhalt-hier-design-dort",
+    "href": "Phase4.html#warum-marp-separation-of-concerns-inhalt-hier-design-dort",
+    "title": "4  Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline",
+    "section": "4.2 Warum MARP? Separation of Concerns – Inhalt hier, Design dort",
+    "text": "4.2 Warum MARP? Separation of Concerns – Inhalt hier, Design dort\nMARP erzeugt Folien aus Markdown. Klingt technisch, ist aber pädagogisch klug:\nMarkdown zwingt Sie dazu, den Inhalt sauber zu formulieren, bevor Sie sich im Layout verlieren. Das ist die berühmte Separation of Concerns:\n\nContent: Was soll gelernt werden? Was ist die Argumentation? Was ist das Beispiel?\nForm: Wie sieht es aus? Welche Typografie, Farben, CI, Layout?\n\nPowerPoint vermischt beides in einem Dokument. Das fühlt sich bequem an, ist aber didaktisch gefährlich: Man optimiert Layout, bevor man Klarheit optimiert. MARP dreht das um. Erst Denken, dann Design.\n\nSeparation of Concerns (didaktisch übersetzt)\nWenn Inhalt und Form getrennt sind, wird das Denken sauberer.\nMARP verhindert, dass man „Designentscheidungen“ trifft, um „Inhaltsprobleme“ zu kaschieren.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline</span>"
+    ]
+  },
+  {
+    "objectID": "Phase4.html#markdown-grundlagen-die-minimalen-bausteine-die-sie-brauchen",
+    "href": "Phase4.html#markdown-grundlagen-die-minimalen-bausteine-die-sie-brauchen",
+    "title": "4  Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline",
+    "section": "4.3 Markdown-Grundlagen: Die minimalen Bausteine, die Sie brauchen",
+    "text": "4.3 Markdown-Grundlagen: Die minimalen Bausteine, die Sie brauchen\nMarkdown ist eine einfache Auszeichnungssprache. Sie markieren Struktur, nicht Layout. Das ist keine Einschränkung – das ist Befreiung.\nDie wichtigsten Elemente für Folien:\n\nÜberschriften: #, ##\nHervorhebung: **fett**, *kursiv*\nListen: - Punkt\nCode: …\nFolientrenner in MARP: ---\n\n\nMerksatz:\nMarkdown ist der Stoffwechsel zwischen Mensch und Maschine: klar genug für Menschen, strukturiert genug für Tools.\n\n\nMARP-Folien werden in einer .md-Datei geschrieben. Neue Folien entstehen durch den Trenner ---. Damit trennen wir Inhalt von Layout und bleiben versionierbar.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline</span>"
+    ]
+  },
+  {
+    "objectID": "Phase4.html#marp-in-vs-code-der-editor-als-folienfabrik",
+    "href": "Phase4.html#marp-in-vs-code-der-editor-als-folienfabrik",
+    "title": "4  Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline",
+    "section": "4.4 MARP in VS Code: Der „Editor als Folienfabrik“",
+    "text": "4.4 MARP in VS Code: Der „Editor als Folienfabrik“\nMARP funktioniert am angenehmsten in Visual Studio Code – über eine Extension, die Preview, Export und Theme-Handling integriert. Das ist didaktisch relevant, weil es den Workflow niedrigschwellig macht: Lehrende arbeiten im selben Dokument, das später exportiert wird. Keine Medienbrüche, keine Copy-Paste-Hölle.\n\n4.4.1 Installation der MARP Extension\n\nVS Code öffnen\n\nExtensions (Seitenleiste)\n\nNach “Marp for VS Code” suchen\n\nInstallieren und aktivieren\n\nDanach können Sie Markdown-Dateien direkt als Folien previewen und exportieren.\n\n\n4.4.2 Der YAML-Header: Das Steuerpult ganz oben\nJede MARP-Datei beginnt mit einem Header, der Konfiguration und Theme setzt:\n---\nmarp: true\npaginate: true\ntheme: thws-pr\n---\n\n\nDeep Dive: Warum der Header didaktisch wichtig ist\n\nDer Header ist die Stelle, an der Sie Regeln definieren, nicht Folien „malen“. Das fördert Konsistenz: gleiche Optik, gleiche Fußzeilen, gleiche Typografie – ohne dass jemand in der Lehrveranstaltung an Layout-Kleinigkeiten herumklickt.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline</span>"
+    ]
+  },
+  {
+    "objectID": "Phase4.html#thws-templates-corporate-design-ohne-schmerzen",
+    "href": "Phase4.html#thws-templates-corporate-design-ohne-schmerzen",
+    "title": "4  Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline",
+    "section": "4.5 THWS-Templates: Corporate Design ohne Schmerzen",
+    "text": "4.5 THWS-Templates: Corporate Design ohne Schmerzen\nDie THWS-Themes und Templates können aus dem GitHub-Repository heruntergeladen werden:\nhttps://github.com/c-kraus/thws\nDidaktisch ist das mehr als „CI-Politur“: Es reduziert die kognitive Last bei der Materialproduktion. Lehrende müssen nicht jedes Semester Folien „neu designen“. Sie schreiben Inhalte, das Template erledigt den Rest.\nPro-Tipp: Legen Sie ein Kurs-Repository an (Git). Ihre Folien sind dann versioniert, nachvollziehbar, kollaborativ bearbeitbar – und damit akademisch „reproduzierbar“.\nWarum Templates mehr sind als Kosmetik\nEin Template ist eine didaktische Infrastruktur: Es standardisiert Form, damit Sie Zeit in Inhalt investieren können. Das ist keine Bürokratie – das ist Professionalität.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline</span>"
+    ]
+  },
+  {
+    "objectID": "Phase4.html#export-html-pdf-optional-pptx-je-nach-lehrszenario",
+    "href": "Phase4.html#export-html-pdf-optional-pptx-je-nach-lehrszenario",
+    "title": "4  Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline",
+    "section": "4.6 Export: HTML, PDF, (optional) PPTX – je nach Lehrszenario",
+    "text": "4.6 Export: HTML, PDF, (optional) PPTX – je nach Lehrszenario\nMARP kann aus VS Code heraus exportieren:\nHTML: Präsentation im Browser (ideal für Live und Moodle-Embedding)\nPDF: stabil, portabel, druckbar (Standard für Verteilung)\nPPTX: (optional): wenn institutionelle Gewohnheiten es verlangen\nWichtig ist die didaktische Entscheidung: PDF ist häufig genug – vor allem, wenn der Reader (Quarto) oder das Interyctive Book (H5P) die eigentliche Lernarbeit trägt.\nIn der idealen Pipeline ist MARP nicht „ein Tool“, sondern der letzte Produktionsschritt, es gießt das Ergebnis in ein reproduzierbares Folienset (Distribution)\nDamit wird Folienproduktion zu etwas, das sie immer hätte sein sollen: eine Ableitung, nicht ein Kunstprojekt.\n\n\nRefernzbeispiel unserer THWS CI in Marp\n\nDie hier abrufbare Datei enthält:\n\nÜberblick und Zielsetzung\nMarkdown-Grundlag en\nMARP in VS Code (Extension + YAML-Header)\nExportformate\nTHWS-Themes und Einsatzlogik\n\nTypischer Workflow (NotebookLM → ChatGPT → MARP)\nNutzen Sie ihn als Template, nicht als Dogma: Inhalte müssen zur Lehrlogik passen, nicht zur Folienästhetik.\n\n\nWas ist der didaktische Kernvorteil von MARP gegenüber klassischer Folienarbeit?\n\nMehr Animationen und grafische Freiheit.\nTrennung von Inhalt und Form: Markdown erzwingt Klarheit, Templates sichern Konsistenz.\nStudierende lernen schneller, weil Folien automatisch schöner aussehen.\n\n\nMARP ist kein Design-Upgrade. Es ist ein Denk-Upgrade.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phase 4: MARP – Folien aus Markdown als didaktische Produktionspipeline</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html",
+    "href": "Phase5.html",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "",
+    "text": "5.1 Warum überhaupt Videos? Der didaktische Nutzen jenseits von „Erklärfilm“\nNach Recherche (Phase 1), Grounding (Phase 2), didaktischer Transformation (Phase 3) und Folienproduktion mit MARP (Phase 4) folgt eine Phase, die oft überschätzt und gleichzeitig falsch eingesetzt wird: Video.\nVideos sind kein Ersatz für Lehre.\nAber sie sind ein hervorragender didaktischer Verstärker – wenn man sie richtig einsetzt.\nIn der Hochschullehre haben Videos drei legitime Rollen:\nWas Videos nicht gut können: - komplexe Argumentationsketten entwickeln - tiefes Lesen ersetzen - Diskussion simulieren",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#warum-überhaupt-videos-der-didaktische-nutzen-jenseits-von-erklärfilm",
+    "href": "Phase5.html#warum-überhaupt-videos-der-didaktische-nutzen-jenseits-von-erklärfilm",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "",
+    "text": "Orientierung – Einstieg, Überblick, Erwartungsklärung\n\nEntlastung – Auslagerung repetitiver Erklärungen (Formeln, Rechenwege, Definitionen)\n\nAsynchronität – Lernen unabhängig von Zeit und Ort ermöglichen\n\n\n\nDidaktischer Leitsatz:\nVideos sind ideal für Sprechen.\nDenken passiert danach – im Text, in Aufgaben, im Seminar.\n\n\nWann sind Videos in der Lehre besonders sinnvoll?\n\nWenn Inhalte besonders komplex sind und möglichst lang erklärt werden müssen.\nWenn kurze, klar umrissene Erklärungen oder Lösungen asynchron verfügbar sein sollen.\nWenn Studierende lieber schauen als lesen.\n\n\nVideos sind keine Bequemlichkeitslösung. Sie sind ein Präzisionswerkzeug.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#heygen-was-das-tool-leistet-und-warum-es-passt",
+    "href": "Phase5.html#heygen-was-das-tool-leistet-und-warum-es-passt",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "5.2 HeyGen: Was das Tool leistet – und warum es passt",
+    "text": "5.2 HeyGen: Was das Tool leistet – und warum es passt\nHeyGen ist eine KI-basierte Video-Plattform zur Erstellung kurzer, professioneller Lehrvideos mit Avataren oder synthetischen Sprecherstimmen.\nDidaktisch entscheidend ist nicht der Avatar, sondern der Workflow:\n\nText → Stimme → Video\n\nLehrende liefern ein Sprechskript, HeyGen erzeugt daraus ein Video, das sich problemlos in Moodle, H5P, MARP-HTML oder Quarto-Seiten einbetten lässt.\nTypische Einsatzszenarien: - Einführung in ein Kapitel („Was erwartet Sie diese Woche?“) - Erklärung eines Rechenwegs oder einer Formel - Musterlösung zu einer Aufgabe - Zusammenfassung vor einer Prüfung\n\nWichtig:\nHeyGen ersetzt nicht die Lehrperson.\nEs skaliert ihre Stimme.\n\n\nDer didaktische Sweet Spot von HeyGen\nKurz, fokussiert, sprechbar.\n1–3 Minuten sind kein technisches Limit, sondern ein pädagogisches.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#videos-marp-h5pquarto-das-zusammenspiel",
+    "href": "Phase5.html#videos-marp-h5pquarto-das-zusammenspiel",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "5.3 Videos + MARP + H5P/Quarto: Das Zusammenspiel",
+    "text": "5.3 Videos + MARP + H5P/Quarto: Das Zusammenspiel\nHeyGen entfaltet seine Wirkung nicht isoliert, sondern im Verbund:\n\nMARP liefert die visuelle Struktur (Folie, Grafik, Formel)\nHeyGen liefert die gesprochene Erklärung\nH5P oder Quarto liefern Interaktion und Lernkontrolle\n\nTypischer Ablauf: 1. MARP-Folien als HTML oder PDF exportieren 2. Eine Folie oder ein Konzept auswählen („Das erkläre ich mündlich“) 3. Sprechskript schreiben 4. Video mit HeyGen erzeugen 5. Video einbetten (Moodle, H5P, Quarto)\nDamit wird Video nicht zum Selbstzweck, sondern zu einem Baustein im Lernprozess.\n\nEin gutes Lehrvideo steht nie allein: Es ist eingebettet zwischen Lesen, Nachdenken und Anwenden.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#die-kunst-des-sprechskripts-schreiben-für-ohren-nicht-für-augen",
+    "href": "Phase5.html#die-kunst-des-sprechskripts-schreiben-für-ohren-nicht-für-augen",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "5.4 Die Kunst des Sprechskripts: Schreiben für Ohren, nicht für Augen",
+    "text": "5.4 Die Kunst des Sprechskripts: Schreiben für Ohren, nicht für Augen\nDer größte Fehler bei Lehrvideos ist trivial – und allgegenwärtig:\nMan liest einen Text vor, der für das Lesen geschrieben wurde.\nEin gutes Sprechskript folgt anderen Regeln.\n\n5.4.1 Zentrale Regeln für Sprechtexte\n\nKurze Sätze. Ein Gedanke pro Satz.\nZahlen ausschreiben. „Zehn Prozent“, nicht „10 %“.\nFormeln übersetzen.\nSo: „K0 mal eins plus i hoch n“.\nOder: „Ausgangskapital mal eins plus Zinssatz, potenziert mit der Laufzeit.“\nPausen markieren. Absätze, - oder * als Denkpausen.\nDirekte Ansprache. „Schauen wir uns jetzt an …“\n\n\nMerksatz:\nEin gutes Sprechskript klingt nicht wie ein Buch.\nEs klingt wie ein kluger Mensch, der nachdenkt, während er spricht.\n\n\nSchreiben ≠ Sprechen\nWas visuell klar ist, kann auditiv überfordern.\nSprechtexte müssen redundanter, rhythmischer und langsamer sein.\n\n\n\n5.4.2 Typische Länge\n\n1 Minute ≈ 130–160 Wörter\nIdeal: 1–3 Minuten pro Clip\nLieber drei kurze Videos als ein „episches“ Erklärstück",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#e.-workflow-von-der-idee-zum-eingebetteten-video",
+    "href": "Phase5.html#e.-workflow-von-der-idee-zum-eingebetteten-video",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "5.5 E. Workflow: Von der Idee zum eingebetteten Video",
+    "text": "5.5 E. Workflow: Von der Idee zum eingebetteten Video\nPragmatischer Standard-Workflow:\n\nInhalt festlegen\nWas genau soll erklärt werden – und was bewusst nicht?\nSkript schreiben (z. B. mit ChatGPT im „Sprechtext-Modus“)\n\nHeyGen öffnen: https://www.heygen.com\n\nAvatar und Stimme wählen\nRuhiges Tempo, neutrale Betonung\nRendern und exportieren\nMP4 oder Einbettungscode\nIntegration\nMoodle, H5P, MARP-HTML oder Quarto\n\nFür die Hochschullehre genügt in der Regel der Standard-Account.\n\nEin Lehrvideo beginnt nicht mit Technik, sondern mit der Frage: Was würde ich einer einzelnen Person jetzt mündlich erklären?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#transparenz-und-akzeptanz-die-ki-stimme-ist-kein-makel",
+    "href": "Phase5.html#transparenz-und-akzeptanz-die-ki-stimme-ist-kein-makel",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "5.6 Transparenz und Akzeptanz: Die KI-Stimme ist kein Makel",
+    "text": "5.6 Transparenz und Akzeptanz: Die KI-Stimme ist kein Makel\nEin häufig geäußerter Vorbehalt betrifft die „künstliche Stimme“.\nDidaktisch ist das Problem kleiner, als oft angenommen:\n\nStudierende akzeptieren KI-Stimmen, wenn der Inhalt klar ist.\nTransparenz ist entscheidend: „Dieses Video wurde mit KI erstellt.“\nAuthentizität entsteht durch Klarheit, nicht durch Perfektion.\n\n\nRealistische Einordnung:\nAuch Vorlesungen sind Performances.\nHeyGen ist nur eine andere Bühne.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#wann-man-kein-video-machen-sollte",
+    "href": "Phase5.html#wann-man-kein-video-machen-sollte",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "5.7 Wann man kein Video machen sollte",
+    "text": "5.7 Wann man kein Video machen sollte\n\nWenn der Inhalt primär argumentativ ist → Text\nWenn Studierende selbst rechnen oder denken sollen → Aufgabe\nWenn Diskussion im Vordergrund steht → Präsenz oder Forum\n\n\nDidaktische Reife zeigt sich darin, auf Videos zu verzichten, wenn sie nichts gewinnen.\n\n\nWas ist die wichtigste didaktische Funktion von HeyGen?\n\nMöglichst realistische Avatare zu erzeugen.\nLange Vorlesungen zu automatisieren.\nKurze, präzise Erklärungen und Lösungen asynchron verfügbar zu machen.\n\n\nVideos sind keine Abkürzung zur Lehre.\nSie sind ein Werkzeug für Klarheit.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase5.html#der-erweiterte-gesamtworkflow-phase-16",
+    "href": "Phase5.html#der-erweiterte-gesamtworkflow-phase-16",
+    "title": "5  Phase 5: HeyGen – Vom Skript zum Lehrvideo",
+    "section": "5.8 Der erweiterte Gesamtworkflow (Phase 1–6)",
+    "text": "5.8 Der erweiterte Gesamtworkflow (Phase 1–6)\n\nPerplexity – Recherche und Perspektiven\n\nNotebookLM – Grounding und Wissensstabilisierung\n\nGemini/ChatGPT – Didaktische Transformation\n\nMARP – Folien aus Markdown\n\nHeyGen – Sprechen dort, wo Text allein nicht reicht\n\nH5P oder Quarto – Interaktive Lernräume\n\nDamit ist der Werkzeugkasten vollständig.\nNicht als Pflichtprogramm – sondern als didaktische Architektur.\n\nGute Lehre entsteht nicht durch mehr Medien.\nSie entsteht durch bessere Entscheidungen.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Phase 5: HeyGen – Vom Skript zum Lehrvideo</span>"
+    ]
+  },
+  {
+    "objectID": "Phase6.html",
+    "href": "Phase6.html",
+    "title": "6  Phase 6: Interaktive Lerninhalte – H5P oder Quarto?",
+    "section": "",
+    "text": "6.1 H5P: Didaktische Leitplanken, geringe Reibung\nNach Recherche (Phase 1), Grounding (Phase 2), didaktischer Transformation (Phase 3) und medialer Ausspielung über Folien (Phase 4) erreichen wir die letzte, aber entscheidende Phase: Interaktive Lerninhalte.\nHier entscheidet sich, ob Studierende nur konsumieren – oder ob sie denken, handeln und überprüfen.\nIn der bisherigen Empfehlung war H5P das bevorzugte Werkzeug. Das ist nach wie vor richtig.\nAber es ist nicht mehr die ganze Wahrheit.\nHeute stehen uns zwei valide, aber grundverschiedene Ansätze zur Verfügung:\nBeide haben ihren Platz. Die Kunst liegt darin, den richtigen Einsatz zu wählen.\nH5P ist das, was man in der Lehre ein „Low-Barrier-Tool“ nennt:\nEs funktioniert direkt in Moodle, benötigt keine Programmierkenntnisse und liefert sofort sichtbare Ergebnisse.\nDidaktisch ist H5P stark dort, wo Struktur, Führung und Lernzielkontrolle gefragt sind.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Phase 6: Interaktive Lerninhalte – H5P oder Quarto?</span>"
+    ]
+  },
+  {
+    "objectID": "Phase6.html#h5p-didaktische-leitplanken-geringe-reibung",
+    "href": "Phase6.html#h5p-didaktische-leitplanken-geringe-reibung",
+    "title": "6  Phase 6: Interaktive Lerninhalte – H5P oder Quarto?",
+    "section": "",
+    "text": "6.1.1 Stärken von H5P im Hochschulkontext\n\nNative Integration in Moodle (inkl. Gradebook)\nKlare Inhaltstypen (Quiz, Interactive Book, Course Presentation)\nGeringe Einstiegshürde für Lehrende\nGeeignet für standardisierte Online-Lehre und Selbstlernphasen\n\nGerade das Interactive Book ist ein robustes Format: Kapitelstruktur, Fortschrittsanzeige, Quiz-Integration – alles „out of the box“.\n\nDidaktischer Vorteil:\nH5P zwingt nicht zum Nachdenken über Technik, sondern über Lernschritte.\n\n\nDie Stärke von H5P\nH5P ist didaktisch restriktiv – und genau deshalb gut für Einsteiger:innen.\nEs verhindert technische Eskalation und hält den Fokus auf Aktivierung und Lernzielkontrolle.\n\n\n\n6.1.2 Grenzen von H5P\nDiese Stärke ist zugleich die Grenze:\n\nBegrenzte Gestaltungsfreiheit\nKaum Trennung von Inhalt, Struktur und Darstellung\nEingeschränkte Versionierung und Wiederverwendbarkeit\nInhalte sind stark an Moodle gebunden\n\nKurz: H5P ist ein sehr gutes didaktisches Werkzeug – aber kein offenes Publikationssystem.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Phase 6: Interaktive Lerninhalte – H5P oder Quarto?</span>"
+    ]
+  },
+  {
+    "objectID": "Phase6.html#quarto-offenheit-wiederverwendbarkeit-und-didaktische-tiefe",
+    "href": "Phase6.html#quarto-offenheit-wiederverwendbarkeit-und-didaktische-tiefe",
+    "title": "6  Phase 6: Interaktive Lerninhalte – H5P oder Quarto?",
+    "section": "6.2 Quarto: Offenheit, Wiederverwendbarkeit und didaktische Tiefe",
+    "text": "6.2 Quarto: Offenheit, Wiederverwendbarkeit und didaktische Tiefe\nQuarto verfolgt einen anderen Ansatz. Es ist kein „LMS-Plugin“, sondern ein Publikationssystem für wissenschaftliche und didaktische Inhalte.\nWer Quarto nutzt, baut keine einzelnen Lernobjekte, sondern Bücher, Skripte, Kurse, Lernwelten.\n\n6.2.1 Warum Quarto didaktisch attraktiv ist\n\nStrikte Trennung von Inhalt (Markdown), Logik (Quarto) und Darstellung (HTML/CSS)\nVersionierbar (Git), reproduzierbar, langfristig wartbar\nInteraktive Elemente (Quizzes, Callouts, Tabs, Accordions, Custom JS)\nIdeal für Flipped Classroom, Reader, digitale Lehrbücher\n\nEin mit Quarto erzeugtes HTML-Book kann das sein, was Folien nie waren:\nder primäre Lernraum.\n\nParadigmenwechsel:\nNicht „Folien + Moodle + Aufgaben“, sondern ein interaktives Lehrbuch, ergänzt durch Präsenz.\n\n\nH5P ist ideal für geführte Interaktion in Moodle.\nQuarto ist ideal für offene, strukturierte Lernräume jenseits einzelner Inhalte.\n\n\n\n6.2.2 Die Kehrseite: Lernkurve\nQuarto ist kein Klickwerkzeug. Es verlangt:\n\nGrundverständnis von Markdown\nBereitschaft, mit Beispielen zu lernen\nAkzeptanz, dass Freiheit initial Zeit kostet\n\nDie gute Nachricht: Das Lernen beschleunigt sich drastisch, wenn man nicht bei Null anfängt.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Phase 6: Interaktive Lerninhalte – H5P oder Quarto?</span>"
+    ]
+  },
+  {
+    "objectID": "Phase6.html#lernen-durch-beispiele-github-als-didaktischer-beschleuniger",
+    "href": "Phase6.html#lernen-durch-beispiele-github-als-didaktischer-beschleuniger",
+    "title": "6  Phase 6: Interaktive Lerninhalte – H5P oder Quarto?",
+    "section": "6.3 Lernen durch Beispiele: GitHub als didaktischer Beschleuniger",
+    "text": "6.3 Lernen durch Beispiele: GitHub als didaktischer Beschleuniger\nDer effizienteste Einstieg in Quarto ist nicht das Lesen von Dokumentation, sondern das Studieren funktionierender Beispiele.\nFür die THWS stehen dafür zwei zentrale Repositories zur Verfügung:\n\nTemplates & Extensions:\nhttps://github.com/c-kraus/thws_quarto\nPrinzip:\nKlonen → Anpassen → Verstehen → Erweitern\n\nHier zeigt sich ein entscheidender Unterschied zu H5P:\nQuarto belohnt Exploration und Variation, nicht Klickroutine.\n\nDidaktik durch Lesen von Code\nQuarto zwingt zur Auseinandersetzung mit Struktur.\nDas ist kein Nachteil – es ist akademische Sozialisation in digitaler Form.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Phase 6: Interaktive Lerninhalte – H5P oder Quarto?</span>"
+    ]
+  },
+  {
+    "objectID": "Phase6.html#entscheidungshilfe-h5p-oder-quarto",
+    "href": "Phase6.html#entscheidungshilfe-h5p-oder-quarto",
+    "title": "6  Phase 6: Interaktive Lerninhalte – H5P oder Quarto?",
+    "section": "6.4 Entscheidungshilfe: H5P oder Quarto?",
+    "text": "6.4 Entscheidungshilfe: H5P oder Quarto?\nDie Wahl ist keine Glaubensfrage, sondern eine Frage des didaktischen Ziels.\n\n6.4.1 Wann H5P die bessere Wahl ist\n\nSie arbeiten ausschließlich in Moodle\nSie wollen schnelle, standardisierte Interaktion\nSie brauchen Fortschritts- und Notentracking\nSie möchten geringe technische Einstiegshürden\n\n\n\n6.4.2 Wann Quarto die bessere Wahl ist\n\nSie denken in Kapiteln, nicht in Einzelelementen\nSie wollen Inhalte langfristig pflegen und weiterentwickeln\nSie setzen auf Flipped Classroom oder Blended Learning\nSie wollen Inhalt, Struktur und Darstellung sauber trennen\n\n\nReife Lehre nutzt beides.\nH5P für gezielte Aktivierung im LMS.\nQuarto für den inhaltlichen Kern und die didaktische Tiefe.\n\n\nWelche Aussage trifft den didaktischen Unterschied am besten?\n\nH5P ist moderner als Quarto, weil es klickbar ist.\nQuarto ersetzt H5P vollständig.\nH5P bietet schnelle, geführte Interaktion – Quarto bietet offene, nachhaltige Lernräume mit höherer Lernkurve.\n\n\nDie Frage ist nicht: Welches Tool ist besser?\nDie Frage ist: Welches Tool passt zu meinem Lehrziel?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Phase 6: Interaktive Lerninhalte – H5P oder Quarto?</span>"
+    ]
+  },
+  {
+    "objectID": "Phase6.html#der-vollständige-workflow-phase-15-in-einem-satz",
+    "href": "Phase6.html#der-vollständige-workflow-phase-15-in-einem-satz",
+    "title": "6  Phase 6: Interaktive Lerninhalte – H5P oder Quarto?",
+    "section": "6.5 Der vollständige Workflow (Phase 1–5 in einem Satz)",
+    "text": "6.5 Der vollständige Workflow (Phase 1–5 in einem Satz)\n\nPerplexity findet und strukturiert externe Quellen.\n\nNotebookLM groundet und stabilisiert Wissen.\n\nGemini/ChatGPT transformiert Wissen in didaktische Formate.\n\nMARP produziert konsistente Folien aus Markdown.\n\nHeyGen erstellt Videos aus Text.\nH5P oder Quarto machen Lernen interaktiv – geführt oder offen.\n\nDamit schließt sich der Kreis: von Recherche zu Erkenntnis, von Erkenntnis zu Lehre, von Lehre zu Lernen.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Phase 6: Interaktive Lerninhalte – H5P oder Quarto?</span>"
+    ]
+  },
+  {
+    "objectID": "Phase6.html#anhang-bisheriger-foliensatz-zu-h5p-referenz",
+    "href": "Phase6.html#anhang-bisheriger-foliensatz-zu-h5p-referenz",
+    "title": "6  Phase 6: Interaktive Lerninhalte – H5P oder Quarto?",
+    "section": "6.6 Anhang: Bisheriger Foliensatz zu H5P (Referenz)",
+    "text": "6.6 Anhang: Bisheriger Foliensatz zu H5P (Referenz)\nAls Vergleich und Einstieg liegt der bestehende, auf H5P basierende Foliensatz vor. Er eignet sich hervorragend, um die Stärken von H5P zu verstehen und bewusst von Quarto abzugrenzen. :contentReferenceoaicite:0\n\n\nAnhang öffnen: „Interaktive Lehre mit H5P“\n\nDer Foliensatz behandelt: - Grundlagen von H5P - Das Interactive Book als Kernformat - Didaktische Einsatzszenarien - Integration in Moodle - Lernzielkontrolle und Tracking\nNutzen Sie ihn als Referenz – nicht als Endpunkt.\n\n\nDie Zukunft der Lehre ist nicht toolgetrieben.\nSie ist architekturgetrieben.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Phase 6: Interaktive Lerninhalte – H5P oder Quarto?</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html",
+    "href": "Abschluss.html",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "",
+    "text": "7.1 Die Essenz in einem Bild (ohne Bild)\nDieses Buch hat einen klaren Anspruch verfolgt: nicht möglichst viele KI-Tools vorzustellen, sondern einen nachvollziehbaren, überprüfbaren Workflow für Hochschullehre zu entwickeln. Einen Workflow, der akademische Standards respektiert, didaktische Qualität ernst nimmt und gleichzeitig realistisch im Hochschulalltag einsetzbar ist.\nWenn Sie die vorherigen Kapitel lesen, wird deutlich:\nEs geht nicht um „KI in der Lehre“, sondern um Lehre mit Struktur – und KI als Beschleuniger dieser Struktur.\nDer Workflow lässt sich auf drei Ebenen verdichten:\nDie entscheidende Erkenntnis ist dabei fast banal – und genau deshalb wirksam:\nNicht jedes Tool ist für jede Phase geeignet. Qualität entsteht durch Arbeitsteilung.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html#die-essenz-in-einem-bild-ohne-bild",
+    "href": "Abschluss.html#die-essenz-in-einem-bild-ohne-bild",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "",
+    "text": "Epistemische Ebene\nWas gilt als Wissen?\n→ Recherche mit Perplexity, Grounding mit NotebookLM\nDidaktische Ebene\nWas sollen Studierende lernen, können, reflektieren?\n→ Transformation mit Gemini/ChatGPT\nMediale Ebene\nWie wird das Lernen zugänglich, überprüfbar, skalierbar?\n→ MARP, Quarto/H5P, HeyGen\n\n\n\n\nAkademische Qualität entsteht dort, wo Recherche, Didaktik und Medien bewusst getrennt – und danach sauber verbunden werden.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html#was-sich-mit-diesem-workflow-ändert-und-was-nicht",
+    "href": "Abschluss.html#was-sich-mit-diesem-workflow-ändert-und-was-nicht",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "7.2 Was sich mit diesem Workflow ändert (und was nicht)",
+    "text": "7.2 Was sich mit diesem Workflow ändert (und was nicht)\nWas sich nicht ändert: - Sie bleiben verantwortlich für Inhalte. - Sie bleiben verantwortlich für Prüfungen. - Sie bleiben verantwortlich für didaktische Entscheidungen.\nWas sich ändert: - Vorbereitung wird reproduzierbar statt einmalig. - Materialien werden weiterentwickelbar statt statisch. - Lehre wird teilbar statt isoliert.\nDamit kommen wir zum Ausblick.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html#ausblick-1-versionskontrolle-mit-git-ohne-technikpanik",
+    "href": "Abschluss.html#ausblick-1-versionskontrolle-mit-git-ohne-technikpanik",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "7.3 Ausblick 1: Versionskontrolle mit Git – ohne Technikpanik",
+    "text": "7.3 Ausblick 1: Versionskontrolle mit Git – ohne Technikpanik\nDas Wort „Git“ löst bei vielen Kolleg:innen reflexartig Abwehr aus. Das ist verständlich – und in 90 % der Fälle unnötig.\nMan muss Git nicht verstehen, um es sinnvoll zu nutzen.\nDidaktisch gedacht ist Git nichts anderes als: - eine Versionshistorie („Was war letzte Woche anders?“) - eine Rückgängig-Taste auf Steroiden - eine Dokumentation von Entwicklung\nFür Lehrmaterialien bedeutet das: - Kein „final_final_v3_neu.pdf“ mehr - Änderungen sind nachvollziehbar - Alte Versionen gehen nie verloren\n\nNiedrigschwellige Realität:\nViele nutzen Git bereits – ohne es zu merken.\n(z. B. über GitHub Desktop oder Web-Oberflächen)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html#ausblick-2-automatisiertes-deployment-veröffentlichen-ohne-klickorgien",
+    "href": "Abschluss.html#ausblick-2-automatisiertes-deployment-veröffentlichen-ohne-klickorgien",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "7.4 Ausblick 2: Automatisiertes Deployment – „Veröffentlichen ohne Klickorgien“",
+    "text": "7.4 Ausblick 2: Automatisiertes Deployment – „Veröffentlichen ohne Klickorgien“\nEin häufiges Problem in der Lehre ist nicht das Erstellen von Material, sondern dessen Verteilung: - Wo liegt die aktuelle Version? - Ist das Moodle-Dokument noch korrekt? - Warum sieht die HTML-Seite anders aus als gestern?\nHier kommen automatisierte Abläufe ins Spiel – z. B. über GitHub Actions.\nDer Kern ist einfach erklärt:\n\nWenn sich der Inhalt ändert, aktualisiert sich die Webseite automatisch.\n\nKeine Serverkenntnisse, kein nächtliches Hochladen.\nEin Commit (eine Änderung) genügt – der Rest passiert im Hintergrund.\nFür Kolleg:innen heißt das: - Eine feste URL für ein Skript oder Buch - Immer die aktuelle Version online - Keine manuelle Pflege mehr\nUnd ja: Das klingt technisch.\nIn der Praxis ist es oft weniger Arbeit als Moodle-Updates.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html#ausblick-3-co-creation-mit-kolleginnen-pull-requests-ohne-angst",
+    "href": "Abschluss.html#ausblick-3-co-creation-mit-kolleginnen-pull-requests-ohne-angst",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "7.5 Ausblick 3: Co-Creation mit Kolleg:innen – Pull Requests ohne Angst",
+    "text": "7.5 Ausblick 3: Co-Creation mit Kolleg:innen – Pull Requests ohne Angst\nDer vielleicht größte didaktische Hebel liegt nicht in der Technik, sondern in der Zusammenarbeit.\nStellen Sie sich vor: - Eine Kollegin ergänzt ein Beispiel. - Ein Kollege korrigiert eine Definition. - Studierende schlagen eine verständlichere Erklärung vor.\nAll das ist möglich – über sogenannte Pull Requests.\nDer komplizierte Begriff verbirgt eine einfache Idee:\n\nJemand macht einen Verbesserungsvorschlag,\nSie entscheiden, ob Sie ihn übernehmen.\n\nKein Risiko, kein Überschreiben, keine Versionskonflikte.\nDas Original bleibt geschützt.\nDidaktisch ist das ein Quantensprung: - Lehre wird gemeinsam entwickelt - Materialien wachsen über Semester hinweg - Expertise verteilt sich, statt zu vereinzeln\n\nPull Requests für Nicht-Techniker:innen\nMan kann sich Pull Requests wie „Änderungsvorschläge in Word“ vorstellen – nur transparenter, sauberer und dauerhaft dokumentiert.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html#ausblick-4-wirklich-gutes-oer-nicht-nur-frei-sondern-professionell",
+    "href": "Abschluss.html#ausblick-4-wirklich-gutes-oer-nicht-nur-frei-sondern-professionell",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "7.6 Ausblick 4: Wirklich gutes OER – nicht nur „frei“, sondern professionell",
+    "text": "7.6 Ausblick 4: Wirklich gutes OER – nicht nur „frei“, sondern professionell\nOffene Bildungsressourcen (OER) scheitern selten an der Lizenz.\nSie scheitern an Qualität, Pflege und Auffindbarkeit.\nDer hier vorgestellte Workflow löst genau dieses Problem: - Markdown & Quarto → gut lesbar, gut pflegbar - Git → Versionsgeschichte und Attribution - Automatisches Deployment → stabile Veröffentlichung - Klare Struktur → nachnutzbar für andere\nSo entsteht OER, das: - nicht wie ein Nebenprodukt wirkt - nicht nach einem Semester veraltet ist - und tatsächlich Lust macht, es weiterzuverwenden\n\nOER ist keine Ideologie.\nEs ist professionelle Lehre mit offenem Ausgang.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Abschluss.html#ein-realistisches-schlusswort",
+    "href": "Abschluss.html#ein-realistisches-schlusswort",
+    "title": "7  Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur",
+    "section": "7.7 Ein realistisches Schlusswort",
+    "text": "7.7 Ein realistisches Schlusswort\nNiemand erwartet, dass Sie morgen: - Git-Expert:in werden - Deployments bauen - Pull Requests managen\nDer Einstieg kann klein sein: - Ein Quarto-Reader statt eines PDFs - MARP-Folien statt PowerPoint - Ein kurzes HeyGen-Video statt der zehnten identischen Erklärung\nDer entscheidende Schritt ist nicht technischer Natur, sondern mental:\n\nLehre ist kein Produkt.\nSie ist ein Prozess – und Prozesse kann man gestalten.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Abschluss & Ausblick: Von Werkzeugnutzung zu Lehrarchitektur</span>"
+    ]
+  },
+  {
+    "objectID": "Anhang.html",
+    "href": "Anhang.html",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "",
+    "text": "Das mentale Modell: Der fleißige, aber dumme Assistent\nDieser Anhang ist kein Prompt-Rezeptbuch. Er ist eine Haltungserklärung.\nDenn die Qualität der Arbeit mit KI entscheidet sich nicht an der Frage welches Tool, sondern an der Frage wie man mit ihm spricht.\nViele Enttäuschungen im Umgang mit KI lassen sich auf ein einfaches Missverständnis zurückführen:\nMan behandelt die KI wie eine Suchmaschine – und erwartet die Präzision eines Experten.\nBeides passt nicht zusammen.\nEin hilfreiches Bild ist folgendes:\nDieser Assistent rät nicht, widerspricht nicht, denkt nicht „mit“.\nEr tut genau das, was Sie sagen – inklusive aller Unklarheiten, Widersprüche und impliziten Annahmen.\nDas ist kein Fehler. Das ist das Design.",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "Anhang.html#das-mentale-modell-der-fleißige-aber-dumme-assistent",
+    "href": "Anhang.html#das-mentale-modell-der-fleißige-aber-dumme-assistent",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "",
+    "text": "Stellen Sie sich vor, Sie bekommen einen Assistenten, der: - extrem motiviert ist\n- nie müde wird\n- alles sofort ausführt\n- aber keinerlei Kontextverständnis hat, wenn Sie ihn nicht explizit liefern\n\n\n\n\nWarum „dumme“ Assistenten nützlich sind\nWeil sie gnadenlos ehrlich spiegeln, wie klar (oder unklar) unsere eigenen Anweisungen sind.",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "Anhang.html#prompting-ist-immer-iterativ-wie-zusammenarbeit-mit-menschen",
+    "href": "Anhang.html#prompting-ist-immer-iterativ-wie-zusammenarbeit-mit-menschen",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "Prompting ist immer iterativ – wie Zusammenarbeit mit Menschen",
+    "text": "Prompting ist immer iterativ – wie Zusammenarbeit mit Menschen\nNiemand erwartet von einer Kollegin oder einem Kollegen, dass der erste Entwurf perfekt ist.\nWarum erwarten wir das von KI?\nGutes Prompting ist kein Einmalakt.\nEs ist ein Dialog:\n\nSie geben eine erste Anweisung.\n\nDie KI liefert einen Entwurf.\n\nSie korrigieren, schärfen, widersprechen.\n\nDie KI passt an.\n\nDas ist keine Schwäche des Systems – das ist Zusammenarbeit.\n\nMerksatz:\nDer erste Output ist selten richtig.\nAber er ist fast immer ein guter Startpunkt.\n\n\nPrompting funktioniert wie Zusammenarbeit: Anweisung → Entwurf → Feedback → Verbesserung. Wer Perfektion im ersten Schritt erwartet, arbeitet nicht iterativ.",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "Anhang.html#was-einen-guten-prompt-ausmacht-ohne-magie",
+    "href": "Anhang.html#was-einen-guten-prompt-ausmacht-ohne-magie",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "Was einen guten Prompt ausmacht (ohne Magie)",
+    "text": "Was einen guten Prompt ausmacht (ohne Magie)\nEin guter Prompt ist keine Zauberformel.\nEr beantwortet – explizit – vier einfache Fragen:\n\nRolle: Wer soll die KI sein?\nBeispiel:\n&gt; „Agiere als Hochschuldidaktiker:in.“\n&gt; „Du bist ein erfahrener Redakteur für Lehrmaterialien.“\n\n\nAufgabe: Was soll konkret entstehen?\nNicht: „Erklär mir X.“\nSondern:\n&gt; „Erstelle eine 45-minütige Lehreinheit mit Lernzielen, Beispiel und Lernkontrolle.“\n\n\nRahmen: Für wen, auf welchem Niveau, mit welchen Grenzen?\n\nZielgruppe (Bachelor/Master/Weiterbildung)\nVorwissen\nTon (präzise, zugänglich, kritisch)\nVerbote („keine neuen Fakten erfinden“, „keine Bullet-Point-Wüsten“)\n\n\n\nFormat: Wie soll das Ergebnis aussehen?\n\nFließtext, Tabelle, Skript\nLänge\nStruktur\n\n\nFaustregel:\nJe genauer Sie das Format beschreiben, desto besser wird der Inhalt.\n\n\nPrompt ≠ Frage\nEin Prompt ist eine Arbeitsanweisung, kein Smalltalk.",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "Anhang.html#warum-feedback-oft-wichtiger-ist-als-der-ursprüngliche-prompt",
+    "href": "Anhang.html#warum-feedback-oft-wichtiger-ist-als-der-ursprüngliche-prompt",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "Warum Feedback oft wichtiger ist als der ursprüngliche Prompt",
+    "text": "Warum Feedback oft wichtiger ist als der ursprüngliche Prompt\nViele Nutzer:innen investieren 90 % ihrer Energie in den ersten Prompt – und 10 % ins Feedback.\nErfahrene Anwender:innen machen es genau umgekehrt.\nTypische, wirksame Feedbacks sind: - „Das ist zu oberflächlich – geh eine Ebene tiefer.“ - „Das Beispiel passt nicht zum Niveau.“ - „Bitte expliziter, weniger Metaphern.“ - „Die Struktur ist gut, aber die Reihenfolge ist didaktisch unglücklich.“\nDie KI ist extrem gut darin, bestehenden Text zu verbessern.\nSie ist deutlich schlechter darin, beim ersten Versuch exakt zu treffen.\n\nDidaktische Parallele:\nAuch Studierende lernen mehr durch Feedback als durch perfekte Aufgabenstellungen.\n\n\nDie Qualität des zweiten und dritten Outputs hängt stärker vom Feedback als vom ursprünglichen Prompt ab.",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "Anhang.html#personalisierte-gpts-gems-warum-rahmen-alles-verändern",
+    "href": "Anhang.html#personalisierte-gpts-gems-warum-rahmen-alles-verändern",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "Personalisierte GPTs & Gems: Warum Rahmen alles verändern",
+    "text": "Personalisierte GPTs & Gems: Warum Rahmen alles verändern\nEin großer Hebel liegt in vorab definierten Systemprompts – also personalisierten Assistenten (GPTs oder Gems), die bereits wissen:\n\nin welchem Kontext sie arbeiten\nwelchen Stil sie einhalten sollen\nwelche Regeln gelten\n\nDidaktisch ist das ein enormer Vorteil: - weniger Wiederholungen - konsistenter Output - geringere kognitive Last beim Prompten\nMan könnte auch sagen: &gt; Ein guter Systemprompt ersetzt 50 % der Tipperei.\nSolche Assistenten sind besonders sinnvoll für wiederkehrende Aufgaben: - Skripterstellung - Folienproduktion - Prüfungsfragen - technische Umsetzungen\n\nSystemprompt = Arbeitsvertrag\nEr legt fest, wie „der Assistent tickt“, bevor die eigentliche Arbeit beginnt.",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "Anhang.html#platzhalter-beispiele-für-personalisierte-assistenten",
+    "href": "Anhang.html#platzhalter-beispiele-für-personalisierte-assistenten",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "Platzhalter: Beispiele für personalisierte Assistenten",
+    "text": "Platzhalter: Beispiele für personalisierte Assistenten\nDie folgenden Abschnitte sind bewusst als Platzhalter angelegt.\nHier können konkrete Systemprompts oder Beispiele ergänzt werden.\n\n\nBeispiel: Quarto-Assistent\n\n\n\n1. Identität & Mission\n\nDu bist der Content-Architekt für hybride Vorlesungsskripte von Prof. Dr. Christian Kraus (THWS).\n\nDeine Aufgabe: Transformiere Rohdaten (RAG-Output, Notizen) in druckreifes, interaktives Quarto-Markdown (.qmd).\n\nDas Ziel ist Single Source Publishing: Dein Output muss sowohl als interaktive Moodle-Webseite als auch als statisches PDF-Lehrbuch funktionieren.\n\nDas ist ein sehr wichtiger Punkt. Wenn Sie 50/50 unterrichten, darf der Prompt Sie nicht in ein sprachliches Korsett zwingen.\n\nWir passen den Systemprompt so an, dass er zum \"Bilingualen Chamäleon\" wird. Er soll nicht stur Deutsch sprechen, sondern intelligent erkennen, was gerade gefordert ist, und den \"Gentleman-Tone\" in beiden Sprachen perfekt treffen.\n\n\n\nDeutsch: Niveau \"ZEIT-Feuilleton meets McKinsey\" (wie bisher).\n\nEnglisch: Niveau \"Harvard Business Review\" (Smart Casual, präzise, aktiv).\n\nHier ist das Update für Abschnitt 2 (Generelle Parameter) und Abschnitt 6 (Workflow). Der Rest (Syntax, RAG) bleibt technisch identisch.\n\nDas Update: Systemprompt \"Gentleman Scholar v2.1 (International)\"\n\nErsetzen Sie im vorherigen Prompt den Abschnitt 2 komplett durch diesen Block:\n\n\n\n2. Sprache & Tonalität (The Bilingual Engine)\n\nDu agierst kontextsensitiv in Deutsch oder Englisch.Die Regel: Antworte in der Sprache, in der der User dich promptet, oder die er explizit fordert (z.B. \"Create this chapter in English\").\n\n\n\nModus A: Deutsch (Lehrstuhl-Niveau)\n\nStil: Souverän, präzise, trocken-ironisch. Eine Mischung aus \"McKinsey-Senior-Partner\" und \"Feuilletonist\".\n\nVokabular: Nutze \"Bildungssprache\". Fachbegriffe bleiben Englisch (z.B. \"Accounting\", \"Moral Hazard\"), werden aber grammatikalisch korrekt eingebunden (\"des Moral Hazards\").\n\nNo-Go: Vermeide \"Denglisch-Gewirr\" und hölzernes Beamtendeutsch.\n\nModus B: Englisch (Harvard Business Review Style)\n\nStil: \"Smart Casual Academic\". Eloquent, aber nicht steif. Direkt, aktiv und business-orientiert.\n\nVokabular: Nutze starke Verben (\"This illustrates...\" statt \"This serves to illustrate...\").\n\nNo-Go: Vermeide passiven \"Textbook-Slang\" oder unnötig komplizierte Satzkonstruktionen (kein \"Legalese\").\n\nPersona (\"The Kraus-Style\"):\n\nTonfall: Souverän, präzise, trocken-ironisch. Eine Mischung aus \"McKinsey-Senior-Partner\" und \"Feuilletonist\".\n\nAnti-Bullet-Point: Du hasst Stichpunktwüsten. Du schreibst elegante, logisch verknüpfte Absätze. Listen (max. 5 Items) nur, wenn es eine echte Aufzählung ist.\n\nStruktur vor Deko: Ästhetik entsteht durch gedankliche Schärfe, nicht durch Adjektive.\n\n3. RAG & Clean-Up Protokoll (PRIORITÄT 1)\n\nBevor du den Inhalt strukturierst, säubere den Inputtext aggressiv von Artefakten:\n\nEntferne alle Quellen-Marker: Lösche Dinge wie [12], 【4†source】, (Meier 2020). Wir schreiben ein Lehrbuch, keine Seminararbeit.\n\nEntferne Meta-Kommentare: Lösche Sätze wie \"Hier ist eine Zusammenfassung\", \"Basierend auf den Dokumenten\". Steig direkt ins Thema ein.\n\nFiltere Halluzinationen: Wenn der Input widersprüchlich ist, bleib bei der gesetzlichen Norm (HGB/IFRS).\n\n4. Die \"Trinity of Depth\" (Inhaltliche Struktur)\n\nJedes Kapitel verwebt drei Dimensionen:\n\nDie Theorie: Das abstrakte Modell (z.B. Prinzipal-Agenten-Theorie).\n\nDie Norm: Der harte Anker (HGB, IFRS, StGB). Nenne Paragrafen präzise.\n\nDie Praxis: Ein realer Business-Case (Wirecard, Enron, VW), der die Theorie erdet.\n\n5. Syntax & Interaktionen (Das Gentleman-Markup)\n\nNutze ausschließlich diese Div-Container. Diese Klassen triggern Lua-Filter für das PDF-Layout und JS für Moodle.\n\nA. Deep Dives (Exkurse & Details)\n\nFür komplexe Gesetzestexte oder Nerd-Wissen, das den Lesefluss stört.\n\nWichtig: Nutze H4 (####) für den Titel innerhalb der Box.\n\nMarkdown\n\n\n\n::: {.details}\n\n#### Exkurs: § 253 Abs. 3 HGB\n\nHier folgt der Gesetzestext oder die vertiefende Erklärung...\n\n\n\n:::\n\n\n\nB. Fallstudien (Reflection Pattern)\n\nTrennt Problem von Lösung. Zwingt zum Nachdenken.\n\nMarkdown\n\n\n\n::: {.case-study}\n\n#### Fall Müller\n\nHerr Müller hat vergessen, die Rückstellung zu bilden.\n\n\n\n::: {.solution}\n\n**Lösung:** Nach § 249 HGB muss er passivieren.\n\n\n\n:::\n\n:::\n\n\n\nC. Lückentext (Active Recall)\n\nMarkiere die zu lernenden Begriffe kursiv (mit Sternchen).\n\nMarkdown\n\n\n\n::: {.drag-exercise}\n\nDie Bilanz ist eine *Zeitpunktrechnung*, die GuV ist eine *Zeitraumrechnung*.\n\n:::\n\nD. Quick-Check (Quiz)\n\nListe mit Checkbox-Logik. Markiere die richtige Antwort fett.\n\nMarkdown\n\n\n\n::: {.quick-check}\n\nWelches Prinzip dominiert im HGB?- Fair Value- **Vorsichtsprinzip**- Matching Principle\n\n:::\n\nE. Flip-Cards (Definitionen)\n\nFür Kernbegriffe. Titel ist Vorderseite, Inhalt ist Rückseite.\n\nMarkdown\n\n\n\n::: {.flip-card}\n\n#### Rückstellung\n\nEine Verbindlichkeit, die dem Grunde oder der Höhe nach ungewiss ist.\n\n\n\n:::\n\n\n\nF. Videos\n\nMüssen in einen Wrapper, damit sie im PDF als Box erscheinen.\n\nMarkdown\n\n\n\n::: {.video}\n\n\n\n:::\n\n\n\n6. Layout-Regeln\n\nÜberschriften: Starte bei H1 (#) für den Titel, dann H2 (##). Keine Nummerierung im Markdown (macht Quarto automatisch).\n\nZitate: Nutze Blockquotes (&gt;) für Merksätze oder Zitate.\n\nKeine Conclusion: Beende das Kapitel nicht mit \"Zusammenfassend lässt sich sagen...\". Beende es mit einem starken Gedanken oder einem Quick-Check.\n\n\n\n\nBeispiel: MARP-Assistent\n\n# Identität & Kontext\n\nDu bist der persönliche Presentation-Architect für die Offline-Lehre von Prof. Dr. xyz an der THWS.\n\nDeine Aufgabe ist es, komplexe Fachtexte in exzellente, vorlesungsbegleitende Folien im MARP-Format zu verwandeln.\n\n\n\n# Deine Persona\n\nDu bist ein pragmatischer Didaktiker. Du weißt, dass Folien den Vortrag stützen, nicht ersetzen.\n\n- Stil: Smart Casual, akademisch präzise, aber visuell aufgeräumt.\n\n- Fokus: Reduktion auf das Wesentliche (Cognitive Load Management).\n\n- Sprache: Englisch (Academic English), außer anders gefordert.\n\n\n\n# Deine Wissensbasis (CRITICAL)\n\nDu hast Zugriff auf zwei essentielle Dateien in deinem Knowledge-Base:\n\n1. \"marp_instructions.md\": Hier steht die exakte Syntax, der Header und die CSS-Klassen, die du zwingend nutzen musst.\n\n2. \"marp_showcase.md\": Dies ist dein \"Gold Standard\". Orientiere dich für Layout und Struktur strikt an diesem Beispiel.\n\n\n\n# Dein Workflow\n\nAnalysiere den Input und erstelle die Präsentation nach diesem Muster:\n\n\n\n1. Header: Nutze exakt den YAML-Block aus den Instructions.\n\n2. Folie 1 (Titelseite): Nutze die Klasse 'titlepage'.\n\n3. Folie 2 (Struktur): Agenda & Lernziele. Nutze die Klasse 'structural'.\n\n4. Content:\n\n   - Zerlege den Text in sinnvolle Folien.\n\n     - Nutze Standard-Folien (weiß) nur für Listen oder Definitionen.\n\n   - Nutze Bilder (Unsplash) dort, wo sie Verständnis fördern oder Spannung erzeugen (Hooks).\n\n5. Interaktion:\n\n   - Füge alle 3-5 Folien eine Interaktion ein (Quick Check, Diskussion).\n\n   - Nutze dafür die Klasse 'structural' oder 'center' als visuellen Trenner.\n\n\n\n# Absolute Regeln\n\n- Erfinde keine eigenen CSS-Klassen. Nutze nur die aus der 'marp_instructions.md'.\n\n- Schreibe niemals \"Lorem Ipsum\".\n\n- Achte darauf, dass Folie 1 und 2 immer vorhanden sind.\n\n\n\nBeispiel: HTMLBuilder\n\nName: HTML Builder\n\nRole: Senior Creative Frontend Developer for Academic Visualization.Context: You create high-end, standalone HTML/JS widgets to be embedded via IFRAME in lecture notes.Constraint: The output is for Web (HTML) ONLY. Do not worry about PDF compatibility.Output Mode: Raw HTML Code ONLY. No markdown wrappers, no conversational filler.\n\n  \n\n1. YOUR MISSION\n\nGenerate a single, robust, standalone HTML file (&lt;!DOCTYPE html&gt;...).\n\n  \n\nZero Limitations: Use Canvas API, SVG animations, Physics engines, complex DOM manipulation, or Drag & Drop.\n\nGoal: Maximum didactic impact. Make it feel like a premium educational app.\n\n2. DESIGN SYSTEM (Strict THWS)\n\nPrimary Color: #ff6a00 (THWS Orange) - Use for buttons, active states, sliders, highlights, strokes.\n\nText Color: #333333 (Dark Grey).\n\nBackground: #ffffff (White).\n\nFont: font-family: 'Inter', -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n\nStyle: Clean, modern, academic. Use subtle shadows and rounded corners.\n\n3. CODING REQUIREMENTS (Iframe Optimized)\n\nSingle File: CSS (&lt;style&gt;), HTML, and JS (&lt;script&gt;) must be in one file.\n\nLayout:\n\nbody { margin: 0; padding: 20px; box-sizing: border-box; font-family: sans-serif; }\n\nVertical Fit: Design the UI to fit comfortably within 600px height so it doesn't require scrolling in the iframe.\n\nContainer: Wrap the content in a styled card:\n\nborder-left: 5px solid #ff6a00;\n\nbackground: #fff;\n\npadding: 20px;\n\nborder-radius: 8px;\n\nbox-shadow: 0 4px 12px rgba(0,0,0,0.05);\n\nborder: 1px solid #eee;\n\nLogic: Vanilla JS inside &lt;script&gt;. No external libraries (unless CDN is absolutely necessary).\n\n4. OUTPUT FORMAT (CRITICAL)\n\nNO CHAT: Do not write \"Here is the code\" or \"I split this into parts\".\n\nONE BLOCK: Output the entire HTML content inside a SINGLE Markdown code block:\n\n  \n\n```html\n\n&lt;!DOCTYPE html&gt;\n\n...\n\n&lt;/html&gt;\n\n\n\nNO INTERRUPTIONS: Do not close the code block until the &lt;/html&gt; tag is reached.\n\nLanguage: UI Labels/Variables = English. Explanatory Text = User's Language.\n\nExample Output:\n\nHTML\n\n  \n\n&lt;!DOCTYPE html&gt;&lt;html lang=\"en\"&gt;&lt;head&gt;\n\n&lt;meta charset=\"UTF-8\"&gt;\n\n&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n\n&lt;style&gt;\n\nbody { margin: 0; padding: 20px; font-family: 'Inter', sans-serif; box-sizing: border-box; }\n\n.thws-card {\n\nborder-left: 5px solid #ff6a00;\n\nbackground: #ffffff;\n\npadding: 25px;\n\nborder-radius: 8px;\n\nbox-shadow: 0 4px 12px rgba(0,0,0,0.05);\n\nborder: 1px solid #eee;\n\nmax-width: 800px; margin: 0 auto; /* Center in iframe */\n\n}\n\nh3 { margin-top: 0; color: #333; font-weight: 700; }\n\ncanvas { border: 1px solid #eee; border-radius: 4px; width: 100%; height: 300px; background: #fafafa; cursor: crosshair; }\n\n.controls { display: flex; gap: 10px; margin-top: 15px; }\n\nbutton {\n\nbackground: #ff6a00; color: white; border: none; padding: 10px 20px;\n\nborder-radius: 4px; cursor: pointer; font-weight: 600; transition: opacity 0.2s;\n\n}\n\nbutton:hover { opacity: 0.9; }\n\n&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=\"thws-card\"&gt;\n\n&lt;h3&gt;Neural Activation Function&lt;/h3&gt;\n\n&lt;p style=\"color: #666; font-size: 0.9rem;\"&gt;Click on the canvas to stimulate the neuron.&lt;/p&gt;\n\n&lt;canvas id=\"neuronCanvas\"&gt;&lt;/canvas&gt;\n\n&lt;div class=\"controls\"&gt;\n\n&lt;button onclick=\"reset()\"&gt;Reset Signal&lt;/button&gt;\n\n&lt;div style=\"flex-grow:1; text-align:right; font-weight:bold; color:#ff6a00;\" id=\"status\"&gt;Resting&lt;/div&gt;\n\n&lt;/div&gt;\n\n  \n\n&lt;script&gt;\n\nconst canvas = document.getElementById('neuronCanvas');\n\n// Logic...\n\n&lt;/script&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;\n\n\n\nBeispiel: Moodle-Fragen-Generator\n\n### ROLLE & ZIEL\n\nDu bist der \"Universal Moodle XML Architect\" für Prof. Kraus. Deine Aufgabe: Transformation von Accounting-Konzepten in valides Moodle-XML.\n\n  \n\n### OUTPUT FORMAT (CRITICAL)\n\n1.  **Code Block Only:** Der gesamte Output MUSS zwingend in einem Markdown Code-Block stehen: ```xml ... ```.\n\n2.  **Kein Geschwafel:** Keine Einleitung, kein \"Here is your code\". Nur der Block.\n\n  \n\n### SPRACHE & KONTEXT\n\n* **Default Language:** Englisch. Erstelle alle Fragetexte, Antworten und Feedbacks auf Englisch, auch wenn der Input deutsch ist (außer der User fordert explizit Deutsch).\n\n* **Terminologie:** Nutze präzise Fachbegriffe (IFRS/US GAAP terminology, e.g., \"Inventory\" instead of \"Stock\", \"Accounts Payable\" instead of \"Debts\").\n\n  \n\n### ENTSCHEIDUNGSLOGIK (WELCHER TYP?)\n\n1.  Definitions/Matching -&gt; **Matching**.\n\n2.  Calculation/Numbers -&gt; **Numerical**.\n\n3.  True/False statements -&gt; **TrueFalse**.\n\n4.  Journal entries/Fill-in-the-blanks -&gt; **Cloze**.\n\n5.  Discussion/Reflections -&gt; **Essay**.\n\n6.  Else -&gt; **Multichoice**.\n\n  \n\n### XML SYNTAX REGELN (STRIKT)\n\n1.  **Root:** Start `&lt;quiz&gt;`, Ende `&lt;/quiz&gt;`.\n\n2.  **CDATA:** Alle Texte (`&lt;text&gt;`) müssen in `&lt;![CDATA[ ... ]]&gt;` stehen.\n\n3.  **Shuffle:** `&lt;shuffleanswers&gt;1&lt;/shuffleanswers&gt;` (außer Essay/TrueFalse).\n\n4.  **Feedback:** Generiere IMMER didaktisches Feedback (`&lt;feedback&gt;`) für jede Antwortoption.\n\n5.  **Formeln:** Nutze LaTeX `\\( ... \\)` innerhalb des CDATA Blocks.\n\n  \n\n### STRUKTUR-TEMPLATES\n\n  \n\n**TYP: MULTICHOICE**\n\n&lt;question type=\"multichoice\"&gt;\n\n  &lt;name&gt;&lt;text&gt;Topic - Concept&lt;/text&gt;&lt;/name&gt;\n\n  &lt;questiontext format=\"html\"&gt;&lt;text&gt;&lt;![CDATA[&lt;p&gt;Question in English...&lt;/p&gt;]]&gt;&lt;/text&gt;&lt;/questiontext&gt;\n\n  &lt;answer fraction=\"100\" format=\"html\"&gt;\n\n    &lt;text&gt;&lt;![CDATA[Correct Answer]]&gt;&lt;/text&gt;\n\n    &lt;feedback&gt;&lt;text&gt;&lt;![CDATA[Explanation why correct.]]&gt;&lt;/text&gt;&lt;/feedback&gt;\n\n  &lt;/answer&gt;\n\n  &lt;answer fraction=\"0\" format=\"html\"&gt;\n\n    &lt;text&gt;&lt;![CDATA[Wrong Answer]]&gt;&lt;/text&gt;\n\n    &lt;feedback&gt;&lt;text&gt;&lt;![CDATA[Explanation why wrong.]]&gt;&lt;/text&gt;&lt;/feedback&gt;\n\n  &lt;/answer&gt;\n\n&lt;/question&gt;\n\n  \n\n**TYP: MATCHING**\n\n&lt;question type=\"matching\"&gt;\n\n  &lt;subquestion format=\"html\"&gt;\n\n    &lt;text&gt;&lt;![CDATA[Term A]]&gt;&lt;/text&gt;\n\n    &lt;answer&gt;&lt;text&gt;&lt;![CDATA[Definition A]]&gt;&lt;/text&gt;&lt;/answer&gt;\n\n  &lt;/subquestion&gt;\n\n&lt;/question&gt;\n\n  \n\n**TYP: NUMERICAL**\n\n&lt;question type=\"numerical\"&gt;\n\n  &lt;answer fraction=\"100\"&gt;\n\n    &lt;text&gt;1000&lt;/text&gt;\n\n    &lt;tolerance&gt;0&lt;/tolerance&gt;\n\n  &lt;/answer&gt;\n\n&lt;/question&gt;\n\n  \n\n**TYP: CLOZE**\n\n&lt;question type=\"cloze\"&gt;\n\n  &lt;questiontext format=\"html\"&gt;\n\n    &lt;text&gt;&lt;![CDATA[Debit {1:SHORTANSWER:=Cash} Credit {1:SHORTANSWER:=Revenue}]]&gt;&lt;/text&gt;\n\n  &lt;/questiontext&gt;\n\n&lt;/question&gt;\n\n  \n\n**TYP: ESSAY (WITH GRADING KEY)**\n\n&lt;question type=\"essay\"&gt;\n\n  &lt;name&gt;&lt;text&gt;Topic - Aspect&lt;/text&gt;&lt;/name&gt;\n\n  &lt;questiontext format=\"html\"&gt;\n\n    &lt;text&gt;&lt;![CDATA[&lt;p&gt;Question for the student...&lt;/p&gt;]]&gt;&lt;/text&gt;\n\n  &lt;/questiontext&gt;\n\n  &lt;graderinfo format=\"html\"&gt;\n\n    &lt;text&gt;&lt;![CDATA[\n\n      &lt;div style=\"background-color:#e6f3ff; border:1px solid #0056b3; padding:10px;\"&gt;\n\n        &lt;p&gt;&lt;strong&gt;Musterlösung / Grading Criteria:&lt;/strong&gt;&lt;/p&gt;\n\n        &lt;ul&gt;\n\n           &lt;li&gt;&lt;strong&gt;Key Concept 1:&lt;/strong&gt; Definition of X (approx. 2 points)&lt;/li&gt;\n\n           &lt;li&gt;&lt;strong&gt;Key Concept 2:&lt;/strong&gt; Application to the case (approx. 3 points)&lt;/li&gt;\n\n           &lt;li&gt;&lt;strong&gt;Critical reflection:&lt;/strong&gt; Mentioning the trade-off between A and B.&lt;/li&gt;\n\n        &lt;/ul&gt;\n\n      &lt;/div&gt;\n\n    ]]&gt;&lt;/text&gt;\n\n  &lt;/graderinfo&gt;\n\n  &lt;responseformat&gt;editor&lt;/responseformat&gt;\n\n  &lt;responserequired&gt;1&lt;/responserequired&gt;\n\n&lt;/question&gt;\n\n  \n\n### LOGIK FÜR CASE STUDIES (FALLSTUDIEN)\n\nWenn der User eine \"Case Study\" oder einen langen Text mit mehreren Fragen verlangt:\n\n  \n\n1.  **Sequenz:** Generiere ZUERST eine `&lt;question type=\"description\"&gt;` mit dem Falltext. Generiere DANACH die spezifischen Fragen (MC, Essay, etc.).\n\n2.  **Naming Convention (CRITICAL):** Nutze ein striktes Nummerierungsschema im `&lt;name&gt;`, damit sie in Moodle sortiert bleiben.\n\n    * Description Name: `[Topic] - 00_Context`\n\n    * Question Names: `[Topic] - Q1_[Aspect]`, `[Topic] - Q2_[Aspect]`\n\n3.  **Template für Description:**\n\n    ```xml\n\n    &lt;question type=\"description\"&gt;\n\n      &lt;name&gt;&lt;text&gt;[Topic] - 00_Context&lt;/text&gt;&lt;/name&gt;\n\n      &lt;questiontext format=\"html\"&gt;\n\n        &lt;text&gt;&lt;![CDATA[\n\n          &lt;div style=\"background-color:#f8f9fa; padding:15px; border-left:5px solid #0f6cbf;\"&gt;\n\n            &lt;h3&gt;Case Study: [Title]&lt;/h3&gt;\n\n            &lt;p&gt;[Full Case Text goes here...]&lt;/p&gt;\n\n            &lt;p&gt;&lt;em&gt;Please answer the following questions based on this text.&lt;/em&gt;&lt;/p&gt;\n\n          &lt;/div&gt;\n\n        ]]&gt;&lt;/text&gt;\n\n      &lt;/questiontext&gt;\n\n      &lt;generalfeedback format=\"html\"&gt;&lt;text&gt;&lt;/text&gt;&lt;/generalfeedback&gt;\n\n      &lt;defaultgrade&gt;0&lt;/defaultgrade&gt;\n\n      &lt;penalty&gt;0&lt;/penalty&gt;\n\n      &lt;hidden&gt;0&lt;/hidden&gt;\n\n    &lt;/question&gt;",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "Anhang.html#ein-realistisches-schlusswort-zum-prompting",
+    "href": "Anhang.html#ein-realistisches-schlusswort-zum-prompting",
+    "title": "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet",
+    "section": "Ein realistisches Schlusswort zum Prompting",
+    "text": "Ein realistisches Schlusswort zum Prompting\nPrompting ist keine neue Disziplin.\nEs ist präzise Kommunikation unter asymmetrischen Bedingungen.\nDie KI: - vergisst nichts - weiß nichts, was Sie nicht liefern oder erlauben - ist geduldig - ist formbar\nJe klarer Sie denken, desto besser wird der Output.\nUnd wenn der Output schlecht ist, liegt das selten an der KI – sondern an unklaren Erwartungen.\n\nLetzter Merksatz:\nGute Prompts ersetzen keine Didaktik.\nAber gute Didaktik zeigt sich in guten Prompts.\n\n\nWas ist der wichtigste Grundsatz beim Prompting?\n\nDen perfekten Prompt einmal formulieren.\nMöglichst viele Details sofort unterbringen.\nPrompting als iterativen Dialog verstehen – mit klaren Rollen, Feedback und schrittweiser Verbesserung.\n\n\nKI ist kein Orakel.\nSie ist ein Spiegel.",
+    "crumbs": [
+      "Anhang",
+      "Prompting als Zusammenarbeit – Wie man sinnvoll mit KI arbeitet"
+    ]
+  },
+  {
+    "objectID": "OneQuart.html",
+    "href": "OneQuart.html",
+    "title": "Leitfaden: Das interaktive Skript mit KI & Quarto",
+    "section": "",
+    "text": "Schritt 1: Technisches Setup (einmalig)\nVon der Idee zur Moodle-Seite in unter 15 Minuten\nZiel dieses Workflows ist es, vorhandene Lehrmaterialien (Word-Skripte, PDF-Folien, Stichpunkte) nicht neu zu schreiben, sondern systematisch in ein interaktives Skript zu transformieren.\nDer Grundgedanke ist einfach:\nDer Mensch liefert den fachlichen Rohstoff – die KI strukturiert – Quarto übernimmt das Rendering.\nDieser Schritt muss pro Rechner nur einmal durchgeführt werden. Danach kann vollständig inhaltlich gearbeitet werden.\nNach diesem Schritt ist Ihr System bereit, interaktive HTML-Skripte zu erzeugen.",
+    "crumbs": [
+      "Anhang",
+      "Leitfaden: Das interaktive Skript mit KI & Quarto"
+    ]
+  },
+  {
+    "objectID": "OneQuart.html#schritt-1-technisches-setup-einmalig",
+    "href": "OneQuart.html#schritt-1-technisches-setup-einmalig",
+    "title": "Leitfaden: Das interaktive Skript mit KI & Quarto",
+    "section": "",
+    "text": "Installieren Sie VS Code und die Quarto CLI.\nInstallieren Sie in VS Code die Erweiterung Quarto.\nLaden Sie die THWS-Vorlagen im VS-Code-Terminal:\n\nquarto add c-kraus/thws_quarto",
+    "crumbs": [
+      "Anhang",
+      "Leitfaden: Das interaktive Skript mit KI & Quarto"
+    ]
+  },
+  {
+    "objectID": "OneQuart.html#schritt-2-content-erstellung-mit-ki-der-kernprozess",
+    "href": "OneQuart.html#schritt-2-content-erstellung-mit-ki-der-kernprozess",
+    "title": "Leitfaden: Das interaktive Skript mit KI & Quarto",
+    "section": "Schritt 2: Content-Erstellung mit KI (der Kernprozess)",
+    "text": "Schritt 2: Content-Erstellung mit KI (der Kernprozess)\nWir schreiben keine Skripte mehr manuell. Wir geben vorhandenes Material vor und lassen es didaktisch strukturiert transformieren.\n\nVorbereitung des Inputs\nGeeignet sind insbesondere:\n\nalte Word- oder PDF-Skripte\nFolieninhalte\nStichpunktartige Notizen\nungeordnete Textsammlungen\n\nPerfekte Form ist nicht erforderlich – Rohmaterial genügt.\n\n\nPrompt-Schablone (Befehl an die KI)\nKopieren Sie den folgenden Prompt oder nutzen Sie den gespeicherten Custom GPT:\n\nTransformiere diese Notizen in ein interaktives Kapitel zum Thema [THEMA]. Sprache: [Deutsch/Englisch]. Nutze die Trinity of Depth (Theorie – Norm – Praxis).\nBaue folgende Interaktionen ein: – eine Flip-Card für die Definition von [BEGRIFF] – einen Lückentext (Drag & Drop) zur Sicherung zentraler Begriffe – einen Quick-Check (Quiz) am Ende des Kapitels\nRohmaterial: [TEXT EINFÜGEN]\n\n\n\nErgebnis\nDie KI erzeugt fertigen Quarto-Markdown-Code inklusive aller Spezial-Container (z. B. ::: {.flip-card}, ::: {.drag-exercise}, ::: {.quick-check}).\nDieser Code muss nicht weiter bearbeitet werden.",
+    "crumbs": [
+      "Anhang",
+      "Leitfaden: Das interaktive Skript mit KI & Quarto"
+    ]
+  },
+  {
+    "objectID": "OneQuart.html#schritt-3-zusammenbau-in-quarto",
+    "href": "OneQuart.html#schritt-3-zusammenbau-in-quarto",
+    "title": "Leitfaden: Das interaktive Skript mit KI & Quarto",
+    "section": "Schritt 3: Zusammenbau in Quarto",
+    "text": "Schritt 3: Zusammenbau in Quarto\n\nLegen Sie in VS Code eine neue Datei an, z. B. 01_mein_thema.qmd.\nFügen Sie den vorgesehenen YAML-Header Ihrer Veranstaltung ganz oben ein.\nKopieren Sie den von der KI erzeugten Markdown-Code direkt darunter.\n\nOptional:\n\nBilder können im Ordner images/ abgelegt und normal verlinkt werden (![Beschreibung](images/bild.png)).",
+    "crumbs": [
+      "Anhang",
+      "Leitfaden: Das interaktive Skript mit KI & Quarto"
+    ]
+  },
+  {
+    "objectID": "OneQuart.html#schritt-4-rendern-bereitstellen",
+    "href": "OneQuart.html#schritt-4-rendern-bereitstellen",
+    "title": "Leitfaden: Das interaktive Skript mit KI & Quarto",
+    "section": "Schritt 4: Rendern & Bereitstellen",
+    "text": "Schritt 4: Rendern & Bereitstellen\nKlicken Sie in VS Code auf Render (oder Ctrl + Shift + K).\n\nRechts erscheint sofort die interaktive Vorschau.\nTesten Sie Lückentexte, Flip-Cards und Quizze direkt im Browser.\n\n\nBereitstellung für Moodle\n\nSelf-Contained-Variante: Wenn im YAML embed-resources: true gesetzt ist, entsteht eine einzelne HTML-Datei. Diese kann direkt in Moodle als Datei hochgeladen werden.\nStandard-Variante: Die HTML-Datei und der zugehörige _files-Ordner werden gemeinsam als ZIP bereitgestellt oder auf einem Webserver (z. B. GitHub Pages) abgelegt.",
+    "crumbs": [
+      "Anhang",
+      "Leitfaden: Das interaktive Skript mit KI & Quarto"
+    ]
+  },
+  {
+    "objectID": "OneQuart.html#didaktische-pro-tipps",
+    "href": "OneQuart.html#didaktische-pro-tipps",
+    "title": "Leitfaden: Das interaktive Skript mit KI & Quarto",
+    "section": "Didaktische Pro-Tipps",
+    "text": "Didaktische Pro-Tipps\nLückentexte (Drag & Drop) Ideal für Begriffspaare und Abgrenzungen (z. B. Soll/Haben, Aktiv/Passiv).\n::: {.drag-exercise}\nDie Bilanz ist eine *Zeitpunktrechnung*, die GuV ist eine *Zeitraumrechnung*.\n:::\nFlip-Cards Geeignet für Definitionen, die sicher beherrscht werden müssen.\n::: {.flip-card}\n#### Rückstellung\nEine Verbindlichkeit, die dem Grunde oder der Höhe nach ungewiss ist.\n:::\nDeep Dives (Details-Boxen) Nutzen Sie ::: {.details}, um komplexe Herleitungen oder Gesetzespassagen auszuklappen. Das hält den Lesefluss schlank und verhindert oberflächliches „Skimming“.\n\n\nDidaktisches Leitmotiv: Wir reduzieren Schreibarbeit – und erhöhen gleichzeitig Struktur, Aktivierung und Lernwirksamkeit.",
+    "crumbs": [
+      "Anhang",
+      "Leitfaden: Das interaktive Skript mit KI & Quarto"
+    ]
+  }
+]
