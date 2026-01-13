@@ -19,26 +19,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      # Setup Quarto
+      # Quarto installieren
       - uses: quarto-dev/quarto-actions/setup@v2
       
-      # Schritt A: Rendern
-      # Da Ihre Extensions jetzt (hoffentlich) eingecheckt sind,
-      # fragt er hier nicht mehr nach und der Timeout verschwindet.
-      - name: Render Quarto Project
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          to: moodle-html
+      # Debug: Zeig uns, welche Extensions du siehst
+      - name: List Extensions
+        run: quarto list extensions
 
-      # Schritt B: Hack für GitHub Pages
-      # Moodle-HTML erzeugt oft keine index.html. Wir kopieren das Ergebnis einfach.
-      # Wir nehmen die erste HTML-Datei im Output-Dir und machen sie zur index.html
-      - name: Fix Index File
+      # Rendern (Manuell, um Prompts zu sehen/vermeiden)
+      # Wir nutzen ' || true', damit der Prozess nicht sofort stirbt, wenn er meckert
+      - name: Render Project
         run: |
-          cd _site
-          # Falls index.html fehlt, kopiere die Hauptdatei
-          if [ ! -f index.html ]; then
-            cp *.html index.html || echo "No HTML found to copy"
+          quarto render --to html
+          quarto render --to moodle-html
+
+      # Fix für GitHub Pages (Index-Datei sicherstellen)
+      - name: Prepare Site
+        run: |
+          mkdir -p _site
+          # Falls moodle-html keine index.html im _site Ordner erzeugt hat:
+          if [ ! -f _site/index.html ]; then
+             echo "Kopiere HTML Dateien..."
+             cp *.html _site/ 2>/dev/null || true
+             # Falls immer noch nichts da ist, nimm die erste gefundene HTML
+             mv _site/*.html _site/index.html 2>/dev/null || true
           fi
 
       - uses: actions/configure-pages@v5
