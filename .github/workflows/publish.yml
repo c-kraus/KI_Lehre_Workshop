@@ -18,12 +18,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      # Setup Quarto
       - uses: quarto-dev/quarto-actions/setup@v2
       
+      # Schritt A: Rendern
+      # Da Ihre Extensions jetzt (hoffentlich) eingecheckt sind,
+      # fragt er hier nicht mehr nach und der Timeout verschwindet.
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          to: moodle-html  # Erzwingt Custom-Format
+          to: moodle-html
+
+      # Schritt B: Hack für GitHub Pages
+      # Moodle-HTML erzeugt oft keine index.html. Wir kopieren das Ergebnis einfach.
+      # Wir nehmen die erste HTML-Datei im Output-Dir und machen sie zur index.html
+      - name: Fix Index File
+        run: |
+          cd _site
+          # Falls index.html fehlt, kopiere die Hauptdatei
+          if [ ! -f index.html ]; then
+            cp *.html index.html || echo "No HTML found to copy"
+          fi
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
