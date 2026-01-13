@@ -1,0 +1,262 @@
+# Leitfaden: Das interaktive Skript mit KI & Quarto {.unnumbered}
+
+*Von der Idee zur Moodle-Seite in unter 15 Minuten*
+
+Ziel dieses Workflows ist es, vorhandene Lehrmaterialien (Word-Skripte, PDF-Folien, Stichpunkte) **nicht neu zu schreiben**, sondern systematisch in ein **interaktives Skript** zu transformieren.
+
+Der Grundgedanke ist einfach:  
+Der Mensch liefert den fachlichen Rohstoff – die KI strukturiert – Quarto übernimmt das Rendering.
+
+---
+
+## Schritt 1: Technisches Setup (einmalig)
+
+Dieser Schritt muss pro Rechner nur einmal durchgeführt werden. Danach kann vollständig inhaltlich gearbeitet werden.
+
+1. Installieren Sie **VS Code** und die **Quarto CLI**.
+2. Installieren Sie in VS Code die Erweiterung **Quarto**.
+3. Laden Sie die THWS-Vorlagen im VS-Code-Terminal:
+
+```bash
+quarto add c-kraus/thws_quarto
+```
+
+Nach diesem Schritt ist Ihr System bereit, interaktive HTML-Skripte zu erzeugen.
+
+---
+
+## Schritt 2: Content-Erstellung mit KI (der Kernprozess)
+
+Wir schreiben keine Skripte mehr manuell.
+Wir geben vorhandenes Material vor und lassen es **didaktisch strukturiert transformieren**.
+
+### Vorbereitung des Inputs
+
+Geeignet sind insbesondere:
+
+* alte Word- oder PDF-Skripte
+* Folieninhalte
+* Stichpunktartige Notizen
+* ungeordnete Textsammlungen
+
+Perfekte Form ist **nicht** erforderlich – Rohmaterial genügt.
+
+### Prompt-Schablone (Befehl an die KI)
+
+Kopieren Sie den folgenden Prompt oder nutzen Sie den gespeicherten Custom GPT:
+
+> Transformiere diese Notizen in ein interaktives Kapitel zum Thema **[THEMA]**.
+> Sprache: **[Deutsch/Englisch]**.
+> Nutze die *Trinity of Depth* (Theorie – Norm – Praxis).
+>
+> Baue folgende Interaktionen ein:
+> – eine Flip-Card für die Definition von **[BEGRIFF]**
+> – einen Lückentext (Drag & Drop) zur Sicherung zentraler Begriffe
+> – einen Quick-Check (Quiz) am Ende des Kapitels
+>
+> **Rohmaterial:**
+> [TEXT EINFÜGEN]
+
+### Ergebnis
+
+Die KI erzeugt **fertigen Quarto-Markdown-Code** inklusive aller Spezial-Container
+(z. B. `::: {.flip-card}`, `::: {.drag-exercise}`, `::: {.quick-check}`).
+
+Dieser Code muss **nicht** weiter bearbeitet werden.
+
+---
+
+## Schritt 3: Zusammenbau in Quarto
+
+1. Legen Sie in VS Code eine neue Datei an, z. B. `01_mein_thema.qmd`.
+2. Fügen Sie den vorgesehenen YAML-Header Ihrer Veranstaltung ganz oben ein.
+3. Kopieren Sie den von der KI erzeugten Markdown-Code direkt darunter.
+
+Optional:
+
+* Bilder können im Ordner `images/` abgelegt und normal verlinkt werden
+  (`![Beschreibung](images/bild.png)`).
+
+---
+
+## Schritt 4: Rendern & Bereitstellen
+
+Klicken Sie in VS Code auf **Render** (oder `Ctrl + Shift + K`).
+
+* Rechts erscheint sofort die interaktive Vorschau.
+* Testen Sie Lückentexte, Flip-Cards und Quizze direkt im Browser.
+
+### Bereitstellung für Moodle
+
+* **Self-Contained-Variante:**
+  Wenn im YAML `embed-resources: true` gesetzt ist, entsteht eine einzelne HTML-Datei.
+  Diese kann direkt in Moodle als *Datei* hochgeladen werden.
+
+* **Standard-Variante:**
+  Die HTML-Datei und der zugehörige `_files`-Ordner werden gemeinsam als ZIP bereitgestellt
+  oder auf einem Webserver (z. B. GitHub Pages) abgelegt.
+
+---
+
+## Didaktische Pro-Tipps
+
+**Lückentexte (Drag & Drop)**
+Ideal für Begriffspaare und Abgrenzungen (z. B. Soll/Haben, Aktiv/Passiv).
+
+```markdown
+::: {.drag-exercise}
+Die Bilanz ist eine *Zeitpunktrechnung*, die GuV ist eine *Zeitraumrechnung*.
+:::
+```
+
+**Flip-Cards**
+Geeignet für Definitionen, die sicher beherrscht werden müssen.
+
+```markdown
+::: {.flip-card}
+#### Rückstellung
+Eine Verbindlichkeit, die dem Grunde oder der Höhe nach ungewiss ist.
+:::
+```
+
+**Deep Dives (Details-Boxen)**
+Nutzen Sie `::: {.details}`, um komplexe Herleitungen oder Gesetzespassagen auszuklappen.
+Das hält den Lesefluss schlank und verhindert oberflächliches „Skimming“.
+
+---
+
+> Didaktisches Leitmotiv:
+> *Wir reduzieren Schreibarbeit – und erhöhen gleichzeitig Struktur, Aktivierung und Lernwirksamkeit.*
+
+
+# FAQ – Interaktive Skripte mit KI & Quarto {.unnumbered}
+
+::: {.details}
+#### „Ich bin kein Technikmensch – ist das nicht zu kompliziert für mich?“
+
+Nein. Der technische Teil ist bewusst auf ein Minimum reduziert und **einmalig**. Im laufenden Betrieb arbeiten Sie im Wesentlichen mit Kopieren & Einfügen, einer klaren Prompt-Schablone und einem Klick auf „Render“.
+
+Sie müssen weder programmieren noch Quarto „verstehen“. Die Technik ist Infrastruktur – nicht Ihr Arbeitsgegenstand.
+
+:::
+
+::: {.details}
+#### „Muss ich jetzt lernen, Prompts zu schreiben?“
+
+Nein. Sie verwenden eine **feste Prompt-Schablone**. In der Praxis ändern Sie nur Thema, einzelne Begriffe und ggf. die Sprache. Die didaktische Struktur (Theorie – Norm – Praxis) ist im Prompt bereits eingebaut.
+
+:::
+
+::: {.details}
+#### „Wie viel Zeit kostet mich das realistisch?“
+
+Nach dem einmaligen Setup sind **unter 15 Minuten** realistisch:
+
+- wenige Minuten für Input & Prompt  
+- ein kurzer Render-Lauf  
+- ein schneller Qualitätscheck (wie bei jedem Skript)
+
+Wichtig: Der Zeitgewinn entsteht, weil Sie vorhandenes Material **transformieren** statt neu zu schreiben.
+
+:::
+
+::: {.details}
+#### „Sind die Inhalte fachlich zuverlässig?“
+
+Die KI strukturiert Ihren Input – sie ist kein Ersatz für fachliche Verantwortung. Sie behalten die Kontrolle über Inhalt, Beispiele und Normbezüge.
+
+Empfehlung: Nach dem Rendern einmal kurz prüfen, ob zentrale Aussagen, Definitionen und (falls vorhanden) Normverweise korrekt sitzen.
+
+:::
+
+::: {.details}
+#### „Ersetzt die KI meine Lehre?“
+
+Nein. Die KI ersetzt **Schreibarbeit**, nicht didaktische Entscheidungen.
+
+Sie entscheiden weiterhin, was zentral ist, was vertieft wird und wo Studierende aktiv werden sollen. Die KI übernimmt die handwerkliche Umsetzung (Struktur, Formate, Interaktionen).
+
+:::
+
+::: {.details}
+#### „Was ist der didaktische Mehrwert gegenüber PDF oder Folien?“
+
+Der Mehrwert liegt in **Aktivierung und Struktur**:
+
+- Lückentexte erzwingen präzise Begriffsarbeit  
+- Flip-Cards fördern aktives Wiederholen  
+- Quick-Checks sichern Verständnis unmittelbar  
+
+Damit wird das Skript vom Lesetext zum Lerninstrument – ohne dass Sie mehr schreiben müssen.
+
+:::
+
+::: {.details}
+#### „Muss ich alles interaktiv machen?“
+
+Nein. Interaktivität wird **gezielt** eingesetzt, nicht flächendeckend:
+
+- Definitionen → Flip-Cards  
+- Abgrenzungen/Begriffspaare → Lückentexte  
+- Kapitelabschluss → Quick-Check  
+
+Der Fließtext bleibt ruhig und lesbar. Interaktionen sind Akzente, keine Dauerbeschallung.
+
+:::
+
+::: {.details}
+#### „Was passiert, wenn ich nichts ändere und alles so lasse, wie die KI es ausgibt?“
+
+Das ist ausdrücklich erlaubt – und oft sinnvoll. Der Workflow ist darauf ausgelegt, brauchbare Default-Ergebnisse zu liefern.
+
+Feintuning ist optional: Sie investieren nur dort Zeit, wo es didaktisch wirklich lohnt.
+
+:::
+
+::: {.details}
+#### „Kann ich mein bestehendes Material weiterverwenden?“
+
+Ja – genau dafür ist der Workflow gedacht. Geeignet sind u. a.:
+
+- alte Word-Skripte  
+- PDF-Folien  
+- kommentierte Stichpunkte  
+- Textsammlungen aus mehreren Quellen  
+
+Perfekte Form ist nicht nötig. Rohmaterial genügt.
+
+:::
+
+::: {.details}
+#### „Funktioniert das auch auf Englisch?“
+
+Ja. Die Sprache wird im Prompt gesteuert. Fachbegriffe dürfen Englisch bleiben, während Satzbau und Ton konsistent in der gewählten Sprache ausgegeben werden.
+
+:::
+
+::: {.details}
+#### „Was mache ich, wenn etwas technisch nicht funktioniert?“
+
+In der Praxis lösen sich die meisten Fälle sehr banal:
+
+- Rendern erneut ausführen  
+- Datei neu laden  
+- Output unverändert lassen (nicht „kaputt-editieren“)  
+
+Wenn es danach immer noch klemmt, gilt: Technik ist ein Infrastrukturthema – kein individuelles Scheitern. Dann wird es einmal sauber gemeinsam behoben.
+
+:::
+
+::: {.details}
+#### Merksatz: Woran erkenne ich, dass es „gut genug“ ist?
+
+Wenn drei Dinge erfüllt sind, funktioniert das System:
+
+1. Der Inhalt ist fachlich korrekt.  
+2. Die Struktur ist klar (Theorie – Norm – Praxis).  
+3. Die Aktivierung sitzt (mindestens eine Interaktion + ein Quick-Check).
+
+Perfektion ist kein Ziel. **Zeitgewinn und Lernwirksamkeit** sind es.
+
+:::
+
