@@ -5,6 +5,11 @@ project:
 
 number-sections: true
 lang: de
+filters:
+  - c-kraus/moodle
+  - c-kraus/reader
+  - c-kraus/handout
+  - c-kraus/tutorial
 book:
   title: "Schneller, schöner, stressfreier Lehren"
   subtitle: "Vom Recherchieren zur interaktiven Vorlesung"
