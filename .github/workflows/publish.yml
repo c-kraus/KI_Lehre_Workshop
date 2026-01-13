@@ -1,8 +1,10 @@
-name: Build Quarto into /docs (branch pages)
+name: Build Quarto into /docs
 
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "docs/**"
   workflow_dispatch:
 
 permissions:
@@ -17,15 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render (moodle-html)
         run: quarto render --to moodle-html
 
-      # Optional: Marker, damit du sofort siehst, ob es der neueste Stand ist
+      - name: Disable Jekyll
+        run: touch docs/.nojekyll
+
       - name: Build stamp
         run: |
           echo "sha=$GITHUB_SHA" > docs/build.txt
@@ -36,5 +38,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs
-          git commit -m "Build docs for Pages (${GITHUB_SHA::7})" || echo "No changes to commit"
+          git commit -m "Build docs (${GITHUB_SHA::7})" || echo "No changes"
           git push
